@@ -36,6 +36,7 @@
         <activity android:name="koreatech.teamproject_propt.LoginActivity" />
         <activity android:name="koreatech.teamproject_propt.SignUpActivity" />
         <activity android:name="koreatech.teamproject_propt.FindActivity" />
+        <activity android:name="koreatech.teamproject_propt.HomeActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"

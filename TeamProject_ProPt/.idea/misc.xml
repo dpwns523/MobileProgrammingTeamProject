@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/activity_home.xml" value="0.12689969604863222" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/app_bar_main.xml" value="0.12689969604863222" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/community_card.xml" value="0.12689969604863222" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/content_main.xml" value="0.12689969604863222" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/exercise_report.xml" value="0.12689969604863222" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/exercise_way.xml" value="0.12689969604863222" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/timer.xml" value="0.12689969604863222" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/user_exercise_spec.xml" value="0.12689969604863222" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/user_spec.xml" value="0.12689969604863222" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/menu/main.xml" value="0.2074074074074074" />
         <entry key="..\:/Users/wonji/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/activity_find.xml" value="0.3302083333333333" />
         <entry key="..\:/Users/wonji/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/activity_login.xml" value="0.315625" />
         <entry key="..\:/Users/wonji/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/activity_main.xml" value="0.3302083333333333" />
