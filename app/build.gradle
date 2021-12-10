@@ -29,3 +29,25 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
 }
+
+buildscript {
+
+    repositories {
+
+        jcenter() // or mavenCentral()
+
+        mavenCentral()
+
+        maven{url "https://maven.google.com"}
+
+        google()
+
+    }
+
+    dependencies {
+
+        classpath 'com.android.tools.build:gradle:3.1.4'
+
+    }
+
+}
