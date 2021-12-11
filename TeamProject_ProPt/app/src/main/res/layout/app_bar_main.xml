@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Home 화면-->
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -31,11 +30,11 @@
         android:layout_gravity="bottom"
         android:background="?android:attr/windowBackground"
         android:foreground="?attr/selectableItemBackground"
-        app:menu="@menu/master_bottom_navigation"
         app:elevation="10dp"
-        app:labelVisibilityMode="labeled"
+        app:itemBackground="@color/bottomNavigationBackground"
         app:itemIconTint="@color/bottom_navigation_color"
         app:itemTextColor="@color/bottom_navigation_color"
-        app:itemBackground="@color/bottomNavigationBackground"/>
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/master_bottom_navigation" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

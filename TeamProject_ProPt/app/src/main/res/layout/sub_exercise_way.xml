@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        android:foreground="?attr/selectableItemBackground"
+        app:elevation="10dp"
+        app:itemBackground="@color/bottomNavigationBackground"
+        app:itemIconTint="@color/bottom_navigation_color"
+        app:itemTextColor="@color/bottom_navigation_color"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/master_bottom_navigation" />
+
+    <androidx.core.widget.NestedScrollView
+        tools:ignore="SpeakableTextPresentCheck"
+        android:layout_width="365dp"
+        android:layout_height="733dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewUser"
+                    style="@style/viewParent.headerText"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="15dp"
+                    android:maxLines="2"
+                    android:text="Pro PT" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileCircleImageView"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/users"
+                    app:civ_border_color="@color/imageBorderColor"
+                    app:civ_border_width="2dp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="228dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    style="@style/viewParent.headerText"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="144dp"
+                    android:layout_marginTop="187dp"
+                    android:text="Title" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="361dp" >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="337dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="116dp"
+                    android:text="팔,다리,등"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/viewParent.headerText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="178dp"
+                    android:text="동작 설명"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/viewParent.headerText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="77dp"
+                    android:text="효과 부위"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="216dp"
+                    android:text="Blank"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="113dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#D53232"
+                    android:text="Youtube 링크"
+                    android:textColor="#F8F8F8"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <!--remove the below layout with recycler view, use card poplar courses as model for design-->
+
+
+            <!--remove the below layout with recycler view, use card poplar courses as model for design-->
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

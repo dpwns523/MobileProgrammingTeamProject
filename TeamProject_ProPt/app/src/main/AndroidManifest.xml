@@ -22,6 +22,10 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".FindActivity" />
         <activity android:name=".HomeActivity"/>
+        //운동방법에 대한 activity
+        <activity android:name=".main_exercise_way"/>
+        //일일운동목표에 대한 activity
+        <activity android:name=".main_exercise_report"/>
     </application>
 
 </manifest>

@@ -2026,12 +2026,14 @@ id animateToStart
 id antiClockwise
 id anticipate
 id arc
+id arm
 id asConfigured
 id async
 id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2049,11 +2051,13 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id button
+id button2
 id buttonFind
 id buttonPanel
 id buttonSignin
 id buttonSignup
 id cache_measures
+id calendarView
 id callMeasure
 id cancel_button
 id card_view
@@ -2065,6 +2069,7 @@ id chain
 id chains
 id checkbox
 id checked
+id chest
 id chip
 id chip1
 id chip2
@@ -2136,6 +2141,8 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id exercise_report
+id exercise_way
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2174,6 +2181,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id immediateStop
 id included
 id info
@@ -2198,6 +2206,7 @@ id line3
 id linear
 id listMode
 id list_item
+id lower_body
 id masked
 id match_constraint
 id match_parent
@@ -2403,6 +2412,10 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
+id textView3
+id textView4
+id textView5
 id textViewFindpassword
 id textViewLogin
 id textViewSignin
@@ -2535,7 +2548,6 @@ layout activity_signup
 layout app_bar_main
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
-layout community_card
 layout content_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2553,8 +2565,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout exercise_report
-layout exercise_way
+layout main_exercise_report
+layout main_exercise_way
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2608,6 +2620,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout sub_exercise_way
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius
@@ -2624,9 +2637,6 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-layout timer
-layout user_exercise_spec
-layout user_spec
 menu activity_main_drawer
 menu example_menu
 menu example_menu2
@@ -3648,8 +3658,14 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+xml community_card
+xml exercise_report
+xml exercise_way
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start
 xml standalone_badge_gravity_top_start
 xml standalone_badge_offset
+xml timer
+xml user_exercise_spec
+xml user_spec

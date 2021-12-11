@@ -139,12 +139,17 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <include layout="@layout/community_card" />
+                <include
+                    layout="@xml/community_card" />
 
-                <include layout="@layout/exercise_way" />
-
-                <include layout="@layout/exercise_report" />
-
+                <include
+                    android:id="@+id/exercise_way"
+                    layout="@xml/exercise_way" />
+                //운동방법에 대한 id 설정
+                <include
+                    android:id="@+id/exercise_report"
+                    layout="@xml/exercise_report" />
+                //일일운동목표에 대한 id 설정
             </LinearLayout>
 
 
@@ -178,11 +183,11 @@
                 android:layout_marginTop="1dp"
                 android:orientation="horizontal">
 
-                <include layout="@layout/timer" />
+                <include layout="@xml/timer" />
 
-                <include layout="@layout/user_exercise_spec" />
+                <include layout="@xml/user_exercise_spec" />
 
-                <include layout="@layout/user_spec" />
+                <include layout="@xml/user_spec" />
 
             </LinearLayout>
 
