@@ -1,16 +1,14 @@
 package koreatech.teamproject_propt;
 
 
-import android.os.Build;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.fragment.app.Fragment;
-import androidx.appcompat.app.AppCompatDelegate;
 import com.google.android.material.navigation.NavigationView;
-import com.google.firebase.database.annotations.NotNull;
 
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -19,17 +17,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private BottomNavigationView bottomNavigationView;
-    private static final int MODE_DARK = 0;
-    private static final int MODE_LIGHT = 1;
 
+    //운동목표같은 리스트 누르면 이동하게끔 받는 변수선언
+    View exercise_way,exercise_report;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -59,8 +55,6 @@ public class HomeActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setDarkMode(getWindow());
-
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -85,6 +79,23 @@ public class HomeActivity extends AppCompatActivity
         bottomNavigationView.setSelectedItemId(R.id.navigationHome);
 
         //handling floating action menu
+
+        //전체메뉴 각각 view에 대한 id값을 받음
+        exercise_way = (View) findViewById(R.id.exercise_way);
+        exercise_report = (View) findViewById(R.id.exercise_report);
+
+        //운동방법에 대한 setOnClickListener
+        exercise_way.setOnClickListener(v -> {
+                    Intent intent = new Intent(HomeActivity.this, main_exercise_way.class);
+                    startActivity(intent);
+                }
+        );
+        //일일운동목표에 대한 setOnClickListener
+        exercise_report.setOnClickListener(v -> {
+                    Intent intent = new Intent(HomeActivity.this, main_exercise_report.class);
+                    startActivity(intent);
+                }
+        );
 
 
     }
@@ -117,12 +128,6 @@ public class HomeActivity extends AppCompatActivity
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_dark_mode) {
-            //code for setting dark mode
-            //true for dark mode, false for day mode, currently toggling on each click
-            DarkModePrefManager darkModePrefManager = new DarkModePrefManager(this);
-            darkModePrefManager.setDarkMode(!darkModePrefManager.isNightMode());
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-            recreate();
 
         }
 
@@ -131,24 +136,6 @@ public class HomeActivity extends AppCompatActivity
         return true;
     }
 
-    //create a seperate class file, if required in multiple activities
-    public void setDarkMode(Window window){
-        if(new DarkModePrefManager(this).isNightMode()){
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-            changeStatusBar(MODE_DARK,window);
-        }else{
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-            changeStatusBar(MODE_LIGHT,window);
-        }
-    }
-    public void changeStatusBar(int mode, Window window){
-        if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.M){
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.setStatusBarColor(this.getResources().getColor(R.color.contentStatusBar));
-            //Light mode
-            if(mode==MODE_LIGHT){
-                window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-            }
-        }
-    }
+
+
 }

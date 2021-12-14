@@ -22,9 +22,16 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".FindActivity" />
         <activity android:name=".HomeActivity"/>
+<<<<<<< HEAD
         <activity android:name=".CommunityActivity"/>
         <activity android:name=".FreeTalkingActivity"/>
         <activity android:name=".TimerActivity"/>
+=======
+        //운동방법에 대한 activity
+        <activity android:name=".main_exercise_way"/>
+        //일일운동목표에 대한 activity
+        <activity android:name=".main_exercise_report"/>
+>>>>>>> 54add3e6866c795a6916b17d39ef1a6ae00c07b0
     </application>
 
 </manifest>

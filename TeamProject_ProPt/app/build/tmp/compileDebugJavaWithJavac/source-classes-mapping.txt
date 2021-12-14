@@ -1,25 +1,41 @@
+<<<<<<< HEAD
 koreatech/teamproject_propt/DarkModePrefManager.java
  koreatech.teamproject_propt.DarkModePrefManager
 koreatech/teamproject_propt/BottomNavigationBehavior.java
  koreatech.teamproject_propt.BottomNavigationBehavior
 koreatech/teamproject_propt/BuildConfig.java
  koreatech.teamproject_propt.BuildConfig
+=======
+>>>>>>> 54add3e6866c795a6916b17d39ef1a6ae00c07b0
 koreatech/teamproject_propt/FindActivity.java
  koreatech.teamproject_propt.FindActivity
  koreatech.teamproject_propt.FindActivity$1
 koreatech/teamproject_propt/LoginActivity.java
  koreatech.teamproject_propt.LoginActivity
  koreatech.teamproject_propt.LoginActivity$1
+koreatech/teamproject_propt/BuildConfig.java
+ koreatech.teamproject_propt.BuildConfig
 koreatech/teamproject_propt/MainActivity.java
  koreatech.teamproject_propt.MainActivity
  koreatech.teamproject_propt.MainActivity$1
 koreatech/teamproject_propt/HomeActivity.java
  koreatech.teamproject_propt.HomeActivity
  koreatech.teamproject_propt.HomeActivity$1
+<<<<<<< HEAD
 koreatech/teamproject_propt/TimerActivity.java
  koreatech.teamproject_propt.TimerActivity
  koreatech.teamproject_propt.TimerActivity$1
  koreatech.teamproject_propt.TimerActivity$TimerStatus
+=======
+koreatech/teamproject_propt/DarkModePrefManager.java
+ koreatech.teamproject_propt.DarkModePrefManager
+koreatech/teamproject_propt/main_exercise_way.java
+ koreatech.teamproject_propt.main_exercise_way
+koreatech/teamproject_propt/BottomNavigationBehavior.java
+ koreatech.teamproject_propt.BottomNavigationBehavior
+>>>>>>> 54add3e6866c795a6916b17d39ef1a6ae00c07b0
 koreatech/teamproject_propt/SignUpActivity.java
  koreatech.teamproject_propt.SignUpActivity
  koreatech.teamproject_propt.SignUpActivity$1
+koreatech/teamproject_propt/main_exercise_report.java
+ koreatech.teamproject_propt.main_exercise_report
