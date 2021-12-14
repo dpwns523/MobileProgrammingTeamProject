@@ -37,9 +37,13 @@
         <activity android:name="koreatech.teamproject_propt.SignUpActivity" />
         <activity android:name="koreatech.teamproject_propt.FindActivity" />
         <activity android:name="koreatech.teamproject_propt.HomeActivity" />
-        //운동방법에 대한 activity
+        <activity android:name="koreatech.teamproject_propt.CommunityActivity" />
+        <activity android:name="koreatech.teamproject_propt.FreeTalkingActivity" />
+        <activity android:name="koreatech.teamproject_propt.TimerActivity" />
+
+        <!-- //운동방법에 대한 activity -->
         <activity android:name="koreatech.teamproject_propt.main_exercise_way" />
-        //일일운동목표에 대한 activity
+        <!-- //일일운동목표에 대한 activity -->
         <activity android:name="koreatech.teamproject_propt.main_exercise_report" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
