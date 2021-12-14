@@ -1867,6 +1867,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable drawable_circle_inner
+drawable drawable_circle_outer
 drawable exercise
 drawable frutorials
 drawable goal
@@ -1875,6 +1877,9 @@ drawable googleg_standard_color_18
 drawable gym
 drawable header_image
 drawable hero
+drawable ic_baseline_loop_24
+drawable ic_baseline_play_circle_filled_24
+drawable ic_baseline_stop_circle_24
 drawable ic_clock_black_24dp
 drawable ic_effort
 drawable ic_home
@@ -2049,6 +2054,8 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id button
+id button2
+id button3
 id buttonFind
 id buttonPanel
 id buttonSignin
@@ -2128,6 +2135,7 @@ id easeInOut
 id easeOut
 id east
 id editTextEmail
+id editTextMinute
 id editTextPassword
 id editTextUserEmail
 id edit_query
@@ -2174,6 +2182,8 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageViewReset
+id imageViewStartStop
 id immediateStop
 id included
 id info
@@ -2304,6 +2314,7 @@ id pin
 id position
 id postLayout
 id profileCircleImageView
+id progressBarCircle
 id progress_circular
 id progress_horizontal
 id radio
@@ -2407,6 +2418,7 @@ id textViewFindpassword
 id textViewLogin
 id textViewSignin
 id textViewSignup
+id textViewTime
 id textViewUser
 id text_input_end_icon
 id text_input_error_icon
@@ -2625,6 +2637,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout timer
+layout timer_main
 layout user_exercise_spec
 layout user_spec
 menu activity_main_drawer
