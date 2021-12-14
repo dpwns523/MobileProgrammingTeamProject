@@ -5,8 +5,7 @@
 2. LoginActivity -> FindActivity or SignUpActivity
 3. HomeActivity\
 -> (운동방법 선택했을경우) 4. main_exercise_way
----
-
+--test
 # 커뮤니티 구성 
 커뮤니티 자체에서 하나씩 아이콘을 누르게 되면, 해당 게시판의 메인으로 이동
 그 이후 글 쓰기 or 리스트뷰를 이용한 리스트를 클릭하면 해당 화면으로 넘어감.
