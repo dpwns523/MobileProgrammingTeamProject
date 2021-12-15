@@ -2096,7 +2096,10 @@ id closest
 id collapseActionView
 id comment_et
 id comment_layout
+<<<<<<< HEAD
 id community_card
+=======
+>>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
 id confirm_button
 id constraint
 id container
