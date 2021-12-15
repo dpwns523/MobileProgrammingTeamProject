@@ -45,4 +45,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-auth'
     implementation 'com.google.firebase:firebase-database'
+
+    // url에서 이미지를 가져오는 picaso 사용하기 위한 dependency(파베)
+    implementation 'com.squareup.picasso:picasso:2.71828'
 }

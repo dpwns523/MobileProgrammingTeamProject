@@ -18,16 +18,21 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+/*
+    로그인 액티비티에서 '신규 회원가입' 텍스트 누를 시 이동하는 회원가입 액티비티
+    - 회원가입
+ */
+
 public class SignUpActivity extends AppCompatActivity implements View.OnClickListener {
 
-    //define view objects
     EditText editTextEmail;
     EditText editTextPassword;
     Button buttonSignup;
     TextView textviewSignin;
     TextView textviewMessage;
     ProgressDialog progressDialog;
-    //define firebase object
+
+    // 인증을 위해 FirebaseAuth 객체 생성
     FirebaseAuth firebaseAuth;
 
     @Override
@@ -35,16 +40,18 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-        //initializig firebase auth object
         firebaseAuth = FirebaseAuth.getInstance();
 
+        // 이미 로그인 인증돼있는 유저가 있을 경우
         if(firebaseAuth.getCurrentUser() != null){
-            //이미 로그인 되었다면 이 액티비티를 종료함
+
+            // 현재 액티비티 종료
             finish();
-            //그리고 profile 액티비티를 연다.
-            startActivity(new Intent(getApplicationContext(), MainActivity.class)); //추가해 줄 ProfileActivity
+
+            // profile 액티비티로 이동
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
         }
-        //initializing views
+
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
         editTextPassword = (EditText) findViewById(R.id.editTextPassword);
         textviewSignin= (TextView) findViewById(R.id.textViewSignin);
@@ -52,17 +59,17 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         buttonSignup = (Button) findViewById(R.id.buttonSignup);
         progressDialog = new ProgressDialog(this);
 
-        //button click event
         buttonSignup.setOnClickListener(this);
         textviewSignin.setOnClickListener(this);
     }
 
-    //Firebse creating a new user
+    // 유저가 로그인하는 firebash 메소드
     private void registerUser(){
-        //사용자가 입력하는 email, password를 가져온다.
+        // 사용자가 textView에 입력한 email, password
         String email = editTextEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
-        //email과 password가 비었는지 아닌지를 체크 한다.
+
+        // email과 password가 비었으면 토스트 메시지 출력
         if(TextUtils.isEmpty(email)){
             Toast.makeText(this, "Email을 입력해 주세요.", Toast.LENGTH_SHORT).show();
             return;
@@ -71,11 +78,11 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
             Toast.makeText(this, "Password를 입력해 주세요.", Toast.LENGTH_SHORT).show();
         }
 
-        //email과 password가 제대로 입력되어 있다면 계속 진행된다.
+        // email과 password가 제대로 입력되어 있다면 계속 진행된다.
         progressDialog.setMessage("등록중입니다. 기다려 주세요...");
         progressDialog.show();
 
-        //creating a new user
+        // 새로운 유저 생성하는 firebase 메소드
         firebaseAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -84,7 +91,8 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
                             finish();
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         } else {
-                            //에러발생시
+
+                            //에러 발생 시 에러 메시지 출력
                             textviewMessage.setText("에러유형\n - 이미 등록된 이메일  \n -암호 최소 6자리 이상 \n - 서버에러");
                             Toast.makeText(SignUpActivity.this, "등록 에러!", Toast.LENGTH_SHORT).show();
                         }
@@ -94,7 +102,6 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
 
     }
 
-    //button click event
     @Override
     public void onClick(View view) {
         if(view == buttonSignup) {
@@ -104,7 +111,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
 
         if(view == textviewSignin) {
             //TODO
-            startActivity(new Intent(this, LoginActivity.class)); //추가해 줄 로그인 액티비티
+            startActivity(new Intent(this, LoginActivity.class));
         }
     }
 

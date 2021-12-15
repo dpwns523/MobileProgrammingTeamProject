@@ -22,26 +22,12 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".FindActivity" />
         <activity android:name=".HomeActivity"/>
-<<<<<<< HEAD
-=======
-
->>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
         <activity android:name=".CommunityActivity"/>
         <activity android:name=".FreeTalkingActivity"/>
         <activity android:name=".TimerActivity"/>
-
-<<<<<<< HEAD
-<!--        //운동방법에 대한 activity-->
         <activity android:name=".main_exercise_way"/>
-<!--        //일일운동목표에 대한 activity-->
         <activity android:name=".main_exercise_report"/>
-=======
-<!--         //운동방법에 대한 activity -->
-        <activity android:name=".main_exercise_way"/>
-<!--         //일일운동목표에 대한 activity -->
-        <activity android:name=".main_exercise_report"/>
-
->>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
-    </application>
+        <activity android:name=".AddPostActivity"/>
+</application>
 
 </manifest>

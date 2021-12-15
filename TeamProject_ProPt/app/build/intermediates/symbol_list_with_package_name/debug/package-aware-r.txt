@@ -2024,6 +2024,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addPostBtn
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2093,13 +2094,13 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
+id cmt_content_tv
+id cmt_date_tv
+id cmt_userid_tv
 id collapseActionView
 id comment_et
 id comment_layout
-<<<<<<< HEAD
 id community_card
-=======
->>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
 id confirm_button
 id constraint
 id container
@@ -2197,6 +2198,20 @@ id horizontal_only
 id icon
 id icon_group
 id icon_only
+id idBtnAddCourse
+id idEdtCourseDescription
+id idEdtCourseImageLink
+id idEdtCourseLink
+id idEdtCourseName
+id idEdtCoursePrice
+id idEdtSuitedFor
+id idPBLoading
+id idTILCourseDescription
+id idTILCourseImageLink
+id idTILCourseLink
+id idTILCourseName
+id idTILCoursePrice
+id idTILCourseSuitedFor
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2227,6 +2242,7 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id listView
 id list_item
@@ -2345,6 +2361,7 @@ id ratio
 id rectangles
 id reg_button
 id relativeLayout
+id relativeLayout2
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2576,6 +2593,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_app
 layout activity_find
 layout activity_home
 layout activity_login
@@ -2584,6 +2602,7 @@ layout activity_signup
 layout app_bar_community_main
 layout app_bar_main
 layout before_after
+layout before_after_comment
 layout before_after_main
 layout before_after_read
 layout before_after_write
@@ -2612,10 +2631,12 @@ layout design_text_input_start_icon
 layout exercise_report
 layout exercise_way
 layout food
+layout food_comment
 layout food_main
 layout food_read
 layout food_write
 layout free_talking
+layout free_talking_comment
 layout free_talking_main
 layout free_talking_read
 layout free_talking_writepage
@@ -2672,6 +2693,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout questions
+layout questions_comment
 layout questions_main
 layout questions_read
 layout questions_write
@@ -2679,6 +2701,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout stimulus_picture
+layout stimulus_picture_comment
 layout stimulus_picture_main
 layout stimulus_picture_read
 layout stimulus_pictures_write
@@ -2702,6 +2725,7 @@ layout text_view_without_line_height
 layout timer
 layout timer_main
 layout tips
+layout tips_comment
 layout tips_main
 layout tips_read
 layout tips_write

@@ -1,9 +1,12 @@
 package koreatech.teamproject_propt;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,6 +18,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class CommunityActivity extends AppCompatActivity {
     private Context mContext = this;
     private static final int ACTIVITY_NUM = 4;
+    private Button addPostBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,5 +31,16 @@ public class CommunityActivity extends AppCompatActivity {
         Menu menu = bottomNavigationView.getMenu();
         MenuItem menuItem = menu.getItem(ACTIVITY_NUM);
         menuItem.setChecked(true);
+
+        // 글 작성하기 버튼에 onClickListener 등록
+        addPostBtn = findViewById(R.id.addPostBtn);
+        addPostBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(CommunityActivity.this, AddPostActivity.class);
+                startActivity(intent);
+            }
+        });
     }
+
 }
