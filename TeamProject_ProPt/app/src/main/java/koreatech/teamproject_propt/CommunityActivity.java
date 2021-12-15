@@ -16,8 +16,14 @@
 
 package koreatech.teamproject_propt;
 
+<<<<<<< HEAD
 import android.content.Intent;
+=======
+import android.content.Context;
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -25,6 +31,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.fragment.app.Fragment;
 import com.google.android.material.navigation.NavigationView;
 
+<<<<<<< HEAD
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -65,10 +72,21 @@ public class CommunityActivity extends AppCompatActivity{
 //            return false;
 //        }
 //    };
+=======
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+/*
+    커뮤니티 게시판 Activity
+    -기능 설명..@
+ */
+public class CommunityActivity extends AppCompatActivity {
+    private Context mContext = this;
+    private static final int ACTIVITY_NUM = 4;
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
 
         setContentView(R.layout.activity_community);
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -140,6 +158,16 @@ public class CommunityActivity extends AppCompatActivity{
 //        );
 
 
+=======
+        setContentView(R.layout.community_main);
+
+        // 하단 네비게이션 바에 대한 액션 처리 객체
+        BottomNavigationView bottomNavigationView = findViewById(R.id.navigation);
+        BottomNavigationViewHelper.enableNavigation(mContext, bottomNavigationView);
+        Menu menu = bottomNavigationView.getMenu();
+        MenuItem menuItem = menu.getItem(ACTIVITY_NUM);
+        menuItem.setChecked(true);
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
     }
 
 //    @Override

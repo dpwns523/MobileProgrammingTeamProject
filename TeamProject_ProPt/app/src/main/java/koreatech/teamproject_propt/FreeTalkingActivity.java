@@ -1,5 +1,6 @@
 package koreatech.teamproject_propt;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -28,8 +29,24 @@ import java.net.URL;
 import java.util.ArrayList;
 
 import javax.net.ssl.HttpsURLConnection;
+=======
+import android.content.Context;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+/*
+    커뮤니티 중 자유게시판 Activity
+    -기능 설명..@
+ */
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
 
 public class FreeTalkingActivity extends AppCompatActivity {
+    private Context mContext = this;
+    private static final int ACTIVITY_NUM = 4;
 
     // 로그에 사용할 TAG 변수
     final private String TAG = getClass().getSimpleName();
@@ -48,6 +65,7 @@ public class FreeTalkingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.activity_freetalking);
 
 // LoginActivity 에서 넘긴 userid 값 받기
@@ -205,5 +223,15 @@ public class FreeTalkingActivity extends AppCompatActivity {
 
             return response;
         }
+=======
+        setContentView(R.layout.free_talking_main);
+
+        // 하단 네비게이션 바에 대한 액션 처리 객체
+        BottomNavigationView bottomNavigationView = findViewById(R.id.navigation);
+        BottomNavigationViewHelper.enableNavigation(mContext, bottomNavigationView);
+        Menu menu = bottomNavigationView.getMenu();
+        MenuItem menuItem = menu.getItem(ACTIVITY_NUM);
+        menuItem.setChecked(true);
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
     }
 }

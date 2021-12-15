@@ -40,6 +40,7 @@
                     app:civ_border_width="2dp" />
 
                 <ImageView
+                    android:id="@+id/serch_icon"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_centerVertical="true"
@@ -140,17 +141,21 @@
                 android:orientation="vertical">
 
                 <include
+<<<<<<< HEAD
                     android:id="@+id/community_card"
+=======
+                    android:id ="@+id/community_card"
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
                     layout="@xml/community_card" />
 
                 <include
-                    android:id="@+id/exercise_way"
+                    android:id ="@+id/exercise_way"
                     layout="@xml/exercise_way" />
-                //운동방법에 대한 id 설정
+<!--                //운동방법에 대한 id 설정-->
                 <include
-                    android:id="@+id/exercise_report"
+                    android:id ="@+id/exercise_report"
                     layout="@xml/exercise_report" />
-                //일일운동목표에 대한 id 설정
+<!--                //일일운동목표에 대한 id 설정-->
             </LinearLayout>
 
 
@@ -184,11 +189,17 @@
                 android:layout_marginTop="1dp"
                 android:orientation="horizontal">
 
-                <include layout="@xml/timer" />
+                <include
+                    android:id ="@+id/timer"
+                    layout="@xml/timer" />
 
-                <include layout="@xml/user_exercise_spec" />
+                <include
+                    android:id ="@+id/user_exercise_spec"
+                    layout="@xml/user_exercise_spec" />
 
-                <include layout="@xml/user_spec" />
+                <include
+                    android:id ="@+id/user_spec"
+                    layout="@xml/user_spec" />
 
             </LinearLayout>
 

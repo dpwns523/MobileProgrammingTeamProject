@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # MobileProgramming Team Project
 ---
 ## Activity 순서
@@ -58,4 +58,7 @@
 4. 1MIN : 이름 바꿔야 될 거 같음. 1분 쉬는시간으로 사용 or 운동 기록시간
 5. 재생버튼 : 타이머 시작
 =======
+<<<<<<< HEAD
 >>>>>>> 54add3e6866c795a6916b17d39ef1a6ae00c07b0
+=======
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233

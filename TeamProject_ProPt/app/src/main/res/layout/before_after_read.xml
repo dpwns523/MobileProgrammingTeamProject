@@ -168,3 +168,7 @@
         app:layout_constraintVertical_bias="1.0"
         app:menu="@menu/master_bottom_navigation" />
 </LinearLayout>
+<<<<<<< HEAD
+
+=======
+>>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
