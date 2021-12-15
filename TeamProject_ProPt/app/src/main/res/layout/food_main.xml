@@ -26,7 +26,7 @@
             android:layout_marginLeft="17dp"
             android:layout_marginTop="13dp"
             android:maxLines="2"
-            android:text="Pro PT" />
+            android:text="식단관리" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profileCircleImageView"
