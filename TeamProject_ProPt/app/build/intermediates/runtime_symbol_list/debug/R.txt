@@ -2095,6 +2095,7 @@ int id closest 0x7f08008c
 int id collapseActionView 0x7f08008d
 int id comment_et 0x7f08008e
 int id comment_layout 0x7f08008f
+int id community_card 0x7f080227
 int id confirm_button 0x7f080090
 int id constraint 0x7f080091
 int id container 0x7f080092
@@ -2370,6 +2371,7 @@ int id search_voice_btn 0x7f08019f
 int id select_dialog_listview 0x7f0801a0
 int id selected 0x7f0801a1
 int id selection_type 0x7f0801a2
+int id serch_icon 0x7f080223
 int id sharedValueSet 0x7f0801a3
 int id sharedValueUnset 0x7f0801a4
 int id shortcut 0x7f0801a5
@@ -2455,6 +2457,7 @@ int id textinput_prefix_text 0x7f0801f4
 int id textinput_suffix_text 0x7f0801f5
 int id textviewMessage 0x7f0801f6
 int id time 0x7f0801f7
+int id timer 0x7f080228
 int id title 0x7f0801f8
 int id titleDividerNoCustom 0x7f0801f9
 int id title_et 0x7f0801fa
@@ -2478,6 +2481,10 @@ int id uniform 0x7f08020b
 int id unlabeled 0x7f08020c
 int id up 0x7f08020d
 int id useLogo 0x7f08020e
+int id user_exercise_record 0x7f080225
+int id user_exercise_spec 0x7f080229
+int id user_spec 0x7f08022a
+int id user_spec_record 0x7f080226
 int id vertical_only 0x7f08020f
 int id view_offset_helper 0x7f080210
 int id view_transition 0x7f080211

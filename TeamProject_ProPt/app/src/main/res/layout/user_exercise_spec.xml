@@ -18,8 +18,10 @@
         android:layout_margin="@dimen/card_margin">
 
         <RelativeLayout
+            android:id="@+id/user_exercise_record"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onClick"
             android:orientation="vertical">
 
             <ImageView
@@ -45,10 +47,10 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@android:drawable/ic_media_play"
-                android:layout_alignParentLeft="true"
                 android:layout_below="@id/youtubeThubnail"
-                android:layout_marginTop="-40dp"/>
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="-40dp"
+                android:src="@android:drawable/ic_media_play" />
 
 
         </RelativeLayout>

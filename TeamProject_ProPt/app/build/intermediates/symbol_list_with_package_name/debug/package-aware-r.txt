@@ -2096,6 +2096,7 @@ id closest
 id collapseActionView
 id comment_et
 id comment_layout
+id community_card
 id confirm_button
 id constraint
 id container
@@ -2371,6 +2372,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id serch_icon
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -2456,6 +2458,7 @@ id textinput_prefix_text
 id textinput_suffix_text
 id textviewMessage
 id time
+id timer
 id title
 id titleDividerNoCustom
 id title_et
@@ -2479,6 +2482,10 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_exercise_record
+id user_exercise_spec
+id user_spec
+id user_spec_record
 id vertical_only
 id view_offset_helper
 id view_transition

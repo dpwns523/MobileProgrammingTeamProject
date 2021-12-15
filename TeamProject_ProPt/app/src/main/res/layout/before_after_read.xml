@@ -132,4 +132,3 @@
         app:menu="@menu/master_bottom_navigation" />
 </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>

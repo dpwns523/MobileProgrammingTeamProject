@@ -1,6 +1,7 @@
 package koreatech.teamproject_propt;
 
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -17,15 +18,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
-
+/*
+    메인 Home 화면 Activity
+    -기능 설명..@
+ */
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    Context mcontext = this;
     private BottomNavigationView bottomNavigationView;
-
-    //운동목표같은 리스트 누르면 이동하게끔 받는 변수선언
-    View exercise_way,exercise_report;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -37,6 +38,8 @@ public class HomeActivity extends AppCompatActivity
                 case R.id.navigationMyProfile:
                     return true;
                 case R.id.navigationMyCourses:
+                    Intent intent3 = new Intent(mcontext, main_exercise_way.class); // 2
+                    mcontext.startActivity(intent3);
                     return true;
                 case R.id.navigationHome:
                     return true;
@@ -59,7 +62,6 @@ public class HomeActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -78,26 +80,54 @@ public class HomeActivity extends AppCompatActivity
 
         bottomNavigationView.setSelectedItemId(R.id.navigationHome);
 
-        //handling floating action menu
-
         //전체메뉴 각각 view에 대한 id값을 받음
-        exercise_way = (View) findViewById(R.id.exercise_way);
-        exercise_report = (View) findViewById(R.id.exercise_report);
+        View exercise_way = (View) findViewById(R.id.exercise_way);
+        View exercise_report = (View) findViewById(R.id.exercise_report);
+        View timer = (View)findViewById(R.id.timer);
+        View user_exercise_spec = (View)findViewById(R.id.user_exercise_spec);
+        View user_spec = (View)findViewById(R.id.user_spec);
+        View community_card = (View)findViewById(R.id.community_card);
+        View profileCircleImageView = (View)findViewById(R.id.profileCircleImageView);
 
-        //운동방법에 대한 setOnClickListener
+        // 커뮤니티 onClickListener
+        community_card.setOnClickListener(v -> {
+                Intent intent = new Intent(HomeActivity.this, CommunityActivity.class);
+                startActivity(intent);
+            }
+        );
+        //운동방법 onClickListener
         exercise_way.setOnClickListener(v -> {
                     Intent intent = new Intent(HomeActivity.this, main_exercise_way.class);
                     startActivity(intent);
                 }
         );
-        //일일운동목표에 대한 setOnClickListener
+        //일일운동목표 onClickListener
         exercise_report.setOnClickListener(v -> {
                     Intent intent = new Intent(HomeActivity.this, main_exercise_report.class);
                     startActivity(intent);
                 }
         );
+        //타이머 onClickListener
+        timer.setOnClickListener(v -> {
+                Intent intent = new Intent(HomeActivity.this, TimerActivity.class);
+                startActivity(intent);
+            }
+        );
+        //사용자 운동기록 onClickListener
+        user_exercise_spec.setOnClickListener(v -> {
 
+            }
+        );
+        //사용자 스펙 기록 onClickListener
+        user_spec.setOnClickListener(v -> {
 
+                }
+        );
+        //맨 우측 상단 프로필아이콘 onClickListener
+        profileCircleImageView.setOnClickListener(v -> {
+
+                }
+        );
     }
 
     @Override
@@ -130,7 +160,6 @@ public class HomeActivity extends AppCompatActivity
         } else if (id == R.id.nav_dark_mode) {
 
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
