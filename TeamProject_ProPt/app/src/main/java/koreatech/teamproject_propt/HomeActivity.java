@@ -1,6 +1,5 @@
 package koreatech.teamproject_propt;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -26,6 +25,7 @@ public class HomeActivity extends AppCompatActivity
 
     //운동목표같은 리스트 누르면 이동하게끔 받는 변수선언
     View exercise_way,exercise_report;
+    View community_card;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -82,11 +82,18 @@ public class HomeActivity extends AppCompatActivity
 
         //전체메뉴 각각 view에 대한 id값을 받음
         exercise_way = (View) findViewById(R.id.exercise_way);
+        community_card = (View) findViewById(R.id.community_card);
         exercise_report = (View) findViewById(R.id.exercise_report);
 
         //운동방법에 대한 setOnClickListener
         exercise_way.setOnClickListener(v -> {
                     Intent intent = new Intent(HomeActivity.this, main_exercise_way.class);
+                    startActivity(intent);
+                }
+        );
+        // 커뮤니티에 대한 setOnClickListener
+        community_card.setOnClickListener(v -> {
+                    Intent intent = new Intent(HomeActivity.this, CommunityActivity.class);
                     startActivity(intent);
                 }
         );

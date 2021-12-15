@@ -61,17 +61,29 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <include layout="@layout/free_talking" />
+                <include
+                    android:id="@+id/free_talking"
+                    layout="@layout/free_talking" />
 
-                <include layout="@layout/before_after" />
+                <include
+                    android:id="@+id/before_after"
+                    layout="@layout/before_after" />
 
-                <include layout="@layout/stimulus_picture" />
+                <include
+                    android:id="@+id/stimulus"
+                    layout="@layout/stimulus_picture" />
 
-                <include layout="@layout/questions" />
+                <include
+                    android:id="@+id/questions"
+                    layout="@layout/questions" />
 
-                <include layout="@layout/tips" />
+                <include
+                    android:id="@+id/tips"
+                    layout="@layout/tips" />
 
-                <include layout="@layout/food" />
+                <include
+                    android:id="@+id/food"
+                    layout="@layout/food" />
 
 
 
