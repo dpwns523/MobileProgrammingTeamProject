@@ -8,10 +8,12 @@ import android.view.MenuItem;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 /*
-    커뮤니티 게시판 Activity
+    일일 운동 목표 설정 Activity
     -기능 설명..@
  */
+
 public class CommunityActivity extends AppCompatActivity {
     private Context mContext = this;
     private static final int ACTIVITY_NUM = 4;
@@ -19,7 +21,7 @@ public class CommunityActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.community_main);
+        setContentView(R.layout.main_exercise_report);
 
         // 하단 네비게이션 바에 대한 액션 처리 객체
         BottomNavigationView bottomNavigationView = findViewById(R.id.navigation);

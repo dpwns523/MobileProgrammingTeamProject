@@ -58,6 +58,8 @@
         android:progress="100"
         android:progressDrawable="@drawable/drawable_circle_outer"
         android:rotation="-90"
+        android:progressBackgroundTint="@color/designMainColor"
+        android:progressTint ="@color/designMainColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,12 +123,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progressBarCircle" />
+        app:layout_constraintTop_toBottomOf="@+id/progressBarCircle"
+        />
 
     <Button
+
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/designMainColor"
         android:onClick="onClick"
         android:text="interval"
         app:layout_constraintBottom_toTopOf="@+id/editTextMinute"
@@ -140,8 +145,9 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="30SEC"
+        android:backgroundTint="@color/designMainColor"
         android:onClick="onClick"
+        android:text="30SEC"
         app:layout_constraintBottom_toTopOf="@+id/editTextMinute"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.194"
@@ -153,8 +159,9 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1MIN"
+        android:backgroundTint="@color/designMainColor"
         android:onClick="onClick"
+        android:text="1MIN"
         app:layout_constraintBottom_toTopOf="@+id/editTextMinute"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.567"
@@ -164,16 +171,16 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="82dp"
-        android:layout_height="31dp"
-        android:text="직접입력"
+        android:layout_width="111dp"
+        android:layout_height="30dp"
+        android:text="직접입력(분)"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/editTextMinute"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.066" />
+        app:layout_constraintVertical_bias="0.103" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation"

@@ -1,6 +1,5 @@
 package koreatech.teamproject_propt;
 
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,6 +26,11 @@ public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     Context mcontext = this;
     private BottomNavigationView bottomNavigationView;
+
+    //운동목표같은 리스트 누르면 이동하게끔 받는 변수선언
+    View exercise_way,exercise_report;
+    View community_card;
+
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -81,6 +85,11 @@ public class HomeActivity extends AppCompatActivity
         bottomNavigationView.setSelectedItemId(R.id.navigationHome);
 
         //전체메뉴 각각 view에 대한 id값을 받음
+
+        exercise_way = (View) findViewById(R.id.exercise_way);
+        community_card = (View) findViewById(R.id.community_card);
+        exercise_report = (View) findViewById(R.id.exercise_report);
+
         View exercise_way = (View) findViewById(R.id.exercise_way);
         View exercise_report = (View) findViewById(R.id.exercise_report);
         View timer = (View)findViewById(R.id.timer);
@@ -88,6 +97,7 @@ public class HomeActivity extends AppCompatActivity
         View user_spec = (View)findViewById(R.id.user_spec);
         View community_card = (View)findViewById(R.id.community_card);
         View profileCircleImageView = (View)findViewById(R.id.profileCircleImageView);
+
 
         // 커뮤니티 onClickListener
         community_card.setOnClickListener(v -> {
@@ -101,7 +111,17 @@ public class HomeActivity extends AppCompatActivity
                     startActivity(intent);
                 }
         );
+
+        // 커뮤니티에 대한 setOnClickListener
+        community_card.setOnClickListener(v -> {
+                    Intent intent = new Intent(HomeActivity.this, CommunityActivity.class);
+                    startActivity(intent);
+                }
+        );
+        //일일운동목표에 대한 setOnClickListener
+
         //일일운동목표 onClickListener
+
         exercise_report.setOnClickListener(v -> {
                     Intent intent = new Intent(HomeActivity.this, main_exercise_report.class);
                     startActivity(intent);

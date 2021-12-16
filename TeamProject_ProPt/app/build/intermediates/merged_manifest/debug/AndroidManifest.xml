@@ -38,8 +38,18 @@
         <activity android:name="koreatech.teamproject_propt.FindActivity" />
         <activity android:name="koreatech.teamproject_propt.HomeActivity" />
         <activity android:name="koreatech.teamproject_propt.CommunityActivity" />
-        <activity android:name="koreatech.teamproject_propt.FreeTalkingActivity" />
         <activity android:name="koreatech.teamproject_propt.TimerActivity" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+        <!-- 운동방법에 대한 activity -->
+        <activity android:name="koreatech.teamproject_propt.main_exercise_way" />
+        <!-- 일일운동목표에 대한 activity -->
+=======
+<<<<<<< HEAD
+
+>>>>>>> d3b851cc1819be06c8bc7c59692bc7855de9dd64
         <!-- //운동방법에 대한 activity -->
         <activity android:name="koreatech.teamproject_propt.main_exercise_way" />
         <!-- //일일운동목표에 대한 activity -->
@@ -48,7 +58,10 @@
         <!-- //운동방법에 대한 activity -->
         <activity android:name="koreatech.teamproject_propt.main_exercise_way" />
         <!-- //일일운동목표에 대한 activity -->
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
         <activity android:name="koreatech.teamproject_propt.main_exercise_report" />
+        <!-- 커뮤니티 자유게시판에 대한 activity -->
+        <activity android:name="koreatech.teamproject_propt.FreeTalkingActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"

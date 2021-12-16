@@ -4,6 +4,8 @@ package koreatech.teamproject_propt;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.Menu;
@@ -42,7 +44,7 @@ public class TimerActivity extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.timer_main);
+        setContentView(R.layout.activity_timer);
 
         // 뷰 초기화
         initViews();
@@ -55,6 +57,7 @@ public class TimerActivity extends AppCompatActivity implements View.OnClickList
         Menu menu = bottomNavigationView.getMenu();
         MenuItem menuItem = menu.getItem(ACTIVITY_NUM);
         menuItem.setChecked(true);
+
 
     }
 

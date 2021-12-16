@@ -143,6 +143,10 @@
                 android:orientation="vertical">
 
                 <include
+<<<<<<< HEAD
+=======
+
+>>>>>>> d3b851cc1819be06c8bc7c59692bc7855de9dd64
                     android:id="@+id/community_card"
                     layout="@xml/community_card" />
 

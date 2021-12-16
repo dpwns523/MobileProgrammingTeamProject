@@ -24,17 +24,26 @@
         <activity android:name=".HomeActivity"/>
 
         <activity android:name=".CommunityActivity"/>
-        <activity android:name=".FreeTalkingActivity"/>
         <activity android:name=".TimerActivity"/>
+<<<<<<< HEAD
+=======
+
+>>>>>>> d3b851cc1819be06c8bc7c59692bc7855de9dd64
 <!--        //운동방법에 대한 activity-->
         <activity android:name=".main_exercise_way"/>
 <!--        //일일운동목표에 대한 activity-->
         <activity android:name=".main_exercise_report"/>
+<<<<<<< HEAD
 =======
 <!--         //운동방법에 대한 activity -->
         <activity android:name=".main_exercise_way"/>
 <!--         //일일운동목표에 대한 activity -->
         <activity android:name=".main_exercise_report"/>
+=======
+
+        <!-- 커뮤니티 자유게시판에 대한 activity-->
+        <activity android:name=".FreeTalkingActivity"/>
+>>>>>>> d3b851cc1819be06c8bc7c59692bc7855de9dd64
     </application>
 
 </manifest>
