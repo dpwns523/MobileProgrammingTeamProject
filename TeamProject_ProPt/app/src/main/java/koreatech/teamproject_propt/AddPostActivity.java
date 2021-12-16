@@ -23,7 +23,7 @@ import com.google.firebase.database.ValueEventListener;
  */
 
 public class AddPostActivity extends AppCompatActivity {
-    private Button addPostBtn;
+    private Button registerPostBtn;
     private TextInputEditText postName, postCategory, postDesc, postImgLink;
     private String postID;
     private int seq = 0;
@@ -38,7 +38,7 @@ public class AddPostActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_post);
 
-        addPostBtn = findViewById(R.id.addPostBtn);
+        registerPostBtn = findViewById(R.id.registerPostBtn);
         postName = findViewById(R.id.postName);
         postCategory = findViewById(R.id.postCategory);
         postDesc = findViewById(R.id.postDesc);
@@ -47,12 +47,12 @@ public class AddPostActivity extends AppCompatActivity {
 
         // firebase 객체 사용을 위한 firebase database, database reference 객체 초기화
         firebaseDatabase = FirebaseDatabase.getInstance();
-        databaseReference = firebaseDatabase.getReference("Courses");
+        databaseReference = firebaseDatabase.getReference("Posts");
 
-        addPostBtn.setOnClickListener(new View.OnClickListener() {
+        registerPostBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadingPB.setVisibility(View.VISIBLE);
+//                loadingPB.setVisibility(View.VISIBLE);
 
                 postID = String.valueOf(++seq);
                 String postNameText = postName.getText().toString();
@@ -75,7 +75,7 @@ public class AddPostActivity extends AppCompatActivity {
                         Toast.makeText(AddPostActivity.this, "게시글 등록 완료", Toast.LENGTH_SHORT).show();
 
                         // MainActivity 실행(나중에 다른 액티비티로 수정)
-                        startActivity(new Intent(AddPostActivity.this, MainActivity.class));
+                        startActivity(new Intent(AddPostActivity.this, PostListActivity.class));
                     }
 
                     @Override

@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /*
-    게시판 글 생성 시 정보 출력 위한 모달
+    게시판 글 생성 시 정보 출력 위한 모달 클래스
  */
 
 public class PostRVModal implements Parcelable {
@@ -19,6 +19,7 @@ public class PostRVModal implements Parcelable {
 
     }
 
+    // Parcel 객체에서 값 읽어와서 초기값 설정
     protected PostRVModal(Parcel in) {
         postId = in.readString();
         postName = in.readString();
@@ -53,6 +54,9 @@ public class PostRVModal implements Parcelable {
     public void setPostName(String courseName) {
         this.postName = courseName;
     }
+
+    public String getPostCategory() { return postCategory; }
+    public void setPostCategory(String postCategory) { this.postCategory = postCategory; }
 
     public String getPostDesc() {
         return postDesc;

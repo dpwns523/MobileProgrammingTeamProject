@@ -28,6 +28,8 @@
         <activity android:name=".main_exercise_way"/>
         <activity android:name=".main_exercise_report"/>
         <activity android:name=".AddPostActivity"/>
+        <activity android:name=".EditPostActivity"/>
+        <activity android:name=".PostListActivity"/>
 </application>
 
 </manifest>

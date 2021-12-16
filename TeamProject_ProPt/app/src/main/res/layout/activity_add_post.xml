@@ -123,7 +123,7 @@
 
             <!--게시글 설명-->
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/TILPostDescription"
+                android:id="@+id/TILPostDesc"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_marginLeft="10dp"
@@ -148,7 +148,7 @@
 
             <!--게시글 추가 버튼-->
             <Button
-                android:id="@+id/idBtnAddPost"
+                android:id="@+id/registerPostBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"

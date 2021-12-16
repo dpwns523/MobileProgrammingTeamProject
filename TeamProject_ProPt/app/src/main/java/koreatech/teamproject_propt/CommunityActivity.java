@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 /*
     커뮤니티 게시판 Activity
-    -기능 설명..@
+    -게시판 목록 출력
  */
 public class CommunityActivity extends AppCompatActivity {
     private Context mContext = this;
@@ -34,6 +34,11 @@ public class CommunityActivity extends AppCompatActivity {
 
         // 글 작성하기 버튼에 onClickListener 등록
         addPostBtn = findViewById(R.id.addPostBtn);
+//        addPostBtn.setOnClickListener(v -> {
+//            Intent intent = new Intent(CommunityActivity.this, AddPostActivity.class);
+//            startActivity(intent);
+//        });
+
         addPostBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
