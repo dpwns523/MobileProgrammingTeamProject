@@ -2162,6 +2162,10 @@ int id end 0x7f0800cf
 int id endToStart 0x7f0800d0
 int id enterAlways 0x7f0800d1
 int id enterAlwaysCollapsed 0x7f0800d2
+<<<<<<< HEAD
+=======
+int id exercise 0x7f080234
+>>>>>>> origin/Namtaemin
 int id exercise_report 0x7f0800d3
 int id exercise_way 0x7f0800d4
 int id exitUntilCollapsed 0x7f0800d5
@@ -2381,6 +2385,10 @@ int id select_dialog_listview 0x7f0801aa
 int id selected 0x7f0801ab
 int id selection_type 0x7f0801ac
 int id serch_icon 0x7f0801ad
+<<<<<<< HEAD
+=======
+int id set 0x7f080235
+>>>>>>> origin/Namtaemin
 int id sharedValueSet 0x7f0801ae
 int id sharedValueUnset 0x7f0801af
 int id shortcut 0x7f0801b0
@@ -2634,6 +2642,7 @@ int layout free_talking_comment 0x7f0b004b
 int layout free_talking_read 0x7f0b004c
 int layout free_talking_writepage 0x7f0b004d
 int layout main_exercise_report 0x7f0b004e
+int layout main_exercise_report_list 0x7f0b00a5
 int layout main_exercise_way 0x7f0b004f
 int layout material_chip_input_combo 0x7f0b0050
 int layout material_clock_display 0x7f0b0051

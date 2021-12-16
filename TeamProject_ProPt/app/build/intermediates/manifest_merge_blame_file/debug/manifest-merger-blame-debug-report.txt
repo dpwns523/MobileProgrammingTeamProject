@@ -6,11 +6,12 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="28"
-8-->C:\Users\AICT\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+8-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\AICT\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+9-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
+<<<<<<< HEAD
 11-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\AICT\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 11-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\AICT\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -25,19 +26,36 @@
 15
 16    <application
 16-->C:\Users\AICT\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:5:5-36:19
+=======
+11-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Namtaemin\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Namtaemin\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Namtaemin\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Namtaemin\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Namtaemin\.gradle\caches\transforms-3\a230aedb0eafbed64be550638c77ed32\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Namtaemin\.gradle\caches\transforms-3\a230aedb0eafbed64be550638c77ed32\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Namtaemin\.gradle\caches\transforms-3\79b958ab390dac4bab91c520fe9c9fe3\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Namtaemin\.gradle\caches\transforms-3\79b958ab390dac4bab91c520fe9c9fe3\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:26:22-107
+15
+16    <application
+16-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:5:5-36:19
+>>>>>>> origin/Namtaemin
 17        android:allowBackup="true"
-17-->C:\Users\AICT\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:6:9-35
+17-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:6:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.7.0] C:\Users\AICT\.gradle\caches\transforms-3\c7220573e40aa30730232dde3fd8eccf\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.7.0] C:\Users\Namtaemin\.gradle\caches\transforms-3\c7220573e40aa30730232dde3fd8eccf\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:extractNativeLibs="false"
 21        android:icon="@mipmap/ic_launcher"
-21-->C:\Users\AICT\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:7:9-43
+21-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:7:9-43
 22        android:label="@string/app_name"
-22-->C:\Users\AICT\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:8:9-41
+22-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:8:9-41
 23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->C:\Users\AICT\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:9:9-54
+23-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:9:9-54
 24        android:supportsRtl="true"
+<<<<<<< HEAD
 24-->C:\Users\AICT\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:10:9-35
 25        android:testOnly="true"
 26        android:theme="@style/Theme.TeamProject_ProPt" >
@@ -86,6 +104,56 @@
 46        <activity android:name="koreatech.teamproject_propt.main_exercise_report" />
 46-->C:\Users\AICT\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:32:9-57
 46-->C:\Users\AICT\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:32:19-55
+=======
+24-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:10:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.TeamProject_ProPt" >
+26-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:11:9-55
+27        <activity
+27-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:12:9-20:20
+28            android:name="koreatech.teamproject_propt.MainActivity"
+28-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:13:13-41
+29            android:exported="true" >
+29-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:14:13-36
+30            <intent-filter>
+30-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:15:13-19:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:16:17-69
+31-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:16:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:18:17-77
+33-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:18:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity android:name="koreatech.teamproject_propt.LoginActivity" />
+36-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:21:9-51
+36-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:21:19-48
+37        <activity android:name="koreatech.teamproject_propt.SignUpActivity" />
+37-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:22:9-52
+37-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:22:19-49
+38        <activity android:name="koreatech.teamproject_propt.FindActivity" />
+38-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:23:9-50
+38-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:23:19-47
+39        <activity android:name="koreatech.teamproject_propt.HomeActivity" />
+39-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:24:9-49
+39-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:24:19-47
+40        <activity android:name="koreatech.teamproject_propt.CommunityActivity" />
+40-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:26:9-54
+40-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:26:19-52
+41        <activity android:name="koreatech.teamproject_propt.TimerActivity" />
+41-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:27:9-50
+41-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:27:19-48
+42
+43        <!-- //운동방법에 대한 activity -->
+44        <activity android:name="koreatech.teamproject_propt.main_exercise_way" />
+44-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:30:9-54
+44-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:30:19-52
+45        <!-- //일일운동목표에 대한 activity -->
+46        <activity android:name="koreatech.teamproject_propt.main_exercise_report" />
+46-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:32:9-57
+46-->C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\AndroidManifest.xml:32:19-55
+>>>>>>> origin/Namtaemin
 47        <!-- 커뮤니티 자유게시판에 대한 activity -->
 48        <activity android:name="koreatech.teamproject_propt.FreeTalkingActivity" />
 48-->C:\Users\AICT\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:34:9-56
@@ -285,7 +353,11 @@
 151                android:name="androidx.emoji2.text.EmojiCompatInitializer"
 151-->[androidx.emoji2:emoji2:1.0.0] C:\Users\AICT\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
 152                android:value="androidx.startup" />
+<<<<<<< HEAD
 152-->[androidx.emoji2:emoji2:1.0.0] C:\Users\AICT\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+=======
+152-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Namtaemin\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+>>>>>>> origin/Namtaemin
 153            <meta-data
 153-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\AICT\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 154                android:name="androidx.lifecycle.ProcessLifecycleInitializer"

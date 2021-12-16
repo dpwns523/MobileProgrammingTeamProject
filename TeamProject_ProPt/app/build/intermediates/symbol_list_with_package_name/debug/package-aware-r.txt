@@ -2163,6 +2163,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id exercise
 id exercise_report
 id exercise_way
 id exitUntilCollapsed
@@ -2382,6 +2383,7 @@ id select_dialog_listview
 id selected
 id selection_type
 id serch_icon
+id set
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -2635,6 +2637,7 @@ layout free_talking_comment
 layout free_talking_read
 layout free_talking_writepage
 layout main_exercise_report
+layout main_exercise_report_list
 layout main_exercise_way
 layout material_chip_input_combo
 layout material_clock_display
