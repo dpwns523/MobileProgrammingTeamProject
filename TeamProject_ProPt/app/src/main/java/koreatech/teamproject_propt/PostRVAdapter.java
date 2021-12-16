@@ -46,8 +46,14 @@ public class PostRVAdapter extends RecyclerView.Adapter<PostRVAdapter.ViewHolder
         // recycler view item에 필요한 값
         PostRVModal postRVModal = postRVModalArrayList.get(holder.getAdapterPosition());
         holder.postNameTV.setText(postRVModal.getPostName());
-        holder.postCategoryTV.setText("Rs. " + postRVModal.getPostCategory());
-        Picasso.get().load(postRVModal.getPostImgLink()).into(holder.postImgIV);
+        holder.postCategoryTV.setText(postRVModal.getPostCategory());
+
+        if (holder.postImgIV == null) {
+            holder.postImgIV.setImageResource(R.drawable.community);
+        } else{
+            Picasso.get().load(postRVModal.getPostImgLink()).into(holder.postImgIV);
+        }
+
 
         // recycler view item에 애니메이션 추가
         setAnimation(holder.itemView, holder.getAdapterPosition());
