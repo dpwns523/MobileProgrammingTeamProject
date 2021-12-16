@@ -78,7 +78,6 @@
         android:maxLength="15"
         android:maxLines="1"
         android:minEms="5"
-        android:text="0"
         app:layout_constraintBottom_toTopOf="@+id/imageViewStartStop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
