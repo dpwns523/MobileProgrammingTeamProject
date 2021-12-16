@@ -16,7 +16,7 @@ public class Test extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         // firebase 객체 사용을 위한 firebase database, database reference 객체 초기화
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.);
+        setContentView(R.layout.activity_main); // 수정필요
 
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference();
@@ -38,12 +38,17 @@ public class Test extends AppCompatActivity {
 
         public Excercise(){}
         public Excercise(String arm, String chest, String back, String lowerBody){
+            // 0과 1로 이루어짐.
             this.arm = arm;
             this.chest = chest;
             this.back = back;
             this.lowerBody = lowerBody;
         }
-
+        @Override
+        public String toString(){
+            return "arm : "+arm +
+                    "chest : "+ chest;
+        }
 
     }
 }
