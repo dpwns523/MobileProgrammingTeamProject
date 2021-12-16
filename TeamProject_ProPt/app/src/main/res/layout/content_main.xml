@@ -122,16 +122,7 @@
                     style="@style/viewParent.headerText"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:text="전체 메뉴" />
-
-                <TextView
-                    style="@style/viewParent"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:text="모두 보기"
-                    android:textColor="@color/primaryTextColor"
-                    android:textSize="@dimen/headerMoreTextSize"
-                    android:textStyle="bold" />
+                    android:text="메인 메뉴" />
 
             </RelativeLayout>
 
@@ -167,15 +158,6 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
                     android:text="부가 메뉴" />
-
-                <TextView
-                    style="@style/viewParent"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:text="모두 보기"
-                    android:textColor="@color/primaryTextColor"
-                    android:textSize="@dimen/headerMoreTextSize"
-                    android:textStyle="bold" />
 
             </RelativeLayout>
 

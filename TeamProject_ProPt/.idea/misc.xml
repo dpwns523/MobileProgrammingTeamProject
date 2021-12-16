@@ -3,104 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
-        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/drawable/ic_search.xml" value="0.1" />
-        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/activity_home.xml" value="0.12689969604863222" />
-        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/app_bar_main.xml" value="0.12689969604863222" />
-        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/community_card.xml" value="0.12689969604863222" />
-        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/content_main.xml" value="0.12689969604863222" />
-        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/exercise_report.xml" value="0.12689969604863222" />
-        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/exercise_way.xml" value="0.12689969604863222" />
-        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/timer.xml" value="0.12689969604863222" />
-        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/user_exercise_spec.xml" value="0.12689969604863222" />
-        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/user_spec.xml" value="0.12689969604863222" />
-        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/menu/main.xml" value="0.2074074074074074" />
-<<<<<<< HEAD
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/drawable/drawable_circle_inner.xml" value="0.1" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/drawable/drawable_circle_outer.xml" value="0.1" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/drawable/freetalking.xml" value="0.1" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/drawable/ic_baseline_emoji_people_24.xml" value="0.1" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/drawable/ic_baseline_loop_24.xml" value="0.1" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/drawable/ic_baseline_no_food_24.xml" value="0.1" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.1" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/drawable/ic_baseline_reduce_capacity_24.xml" value="0.1" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/drawable/ic_baseline_sports_kabaddi_24.xml" value="0.1" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/drawable/ic_baseline_stop_circle_24.xml" value="0.1" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/drawable/radius.xml" value="0.1" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/activity_find.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/activity_home.xml" value="0.2" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/activity_login.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/activity_signup.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/app_bar_community_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/app_bar_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/before_after.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/before_after_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/before_after_read.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/before_after_write.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/community_card.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/community_inner_content.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/community_main.xml" value="0.264" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/content_main.xml" value="0.264" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/exercise_report.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/exercise_way.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/food.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/food_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/food_read.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/food_write.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/free_talking.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/free_talking_main.xml" value="0.2" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/free_talking_read.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/free_talking_writepage.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/nav_header_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/questions.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/questions_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/questions_read.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/questions_write.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/stimulus_picture.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/stimulus_picture_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/stimulus_picture_read.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/stimulus_pictures_write.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/timer.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/timer_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/tips.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/tips_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/tips_read.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/tips_write.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/Namtaemin/AndroidStudioProjects/TeamProject-propt/TeamProject_ProPt/app/src/main/res/layout/user_exercise_spec.xml" value="0.25364583333333335" />
-=======
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/drawable-v21/ic_menu_camera.xml" value="0.22083333333333333" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/activity_find.xml" value="0.20052083333333334" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/activity_home.xml" value="0.2046875" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/activity_login.xml" value="0.20052083333333334" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/activity_main.xml" value="0.2046875" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/activity_signup.xml" value="0.20208333333333334" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/app_bar_main.xml" value="0.2046875" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/community_card.xml" value="0.2046875" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/content_main.xml" value="0.2046875" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/exercise_report.xml" value="0.2046875" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/exercise_way.xml" value="0.2046875" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/main_exercise_goal.xml" value="0.5" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/main_exercise_report.xml" value="0.20208333333333334" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/main_exercise_way.xml" value="0.22" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/nav_header_main.xml" value="0.2046875" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/sub_exercise_way.xml" value="0.25" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/timer.xml" value="0.2046875" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/user_exercise_spec.xml" value="0.2046875" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/layout/user_spec.xml" value="0.2046875" />
-        <entry key="..\:/Users/kacaw/AndroidStudioProjects/TeamProject_ProPt/app/src/main/res/menu/master_bottom_navigation.xml" value="0.2046875" />
->>>>>>> 54add3e6866c795a6916b17d39ef1a6ae00c07b0
-        <entry key="..\:/Users/wonji/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/activity_find.xml" value="0.3302083333333333" />
-        <entry key="..\:/Users/wonji/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/activity_login.xml" value="0.315625" />
-        <entry key="..\:/Users/wonji/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/activity_main.xml" value="0.3302083333333333" />
-        <entry key="..\:/Users/wonji/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/activity_signup.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/AICT/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/activity_community.xml" value="0.33" />
+        <entry key="..\:/Users/AICT/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/activity_find.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/AICT/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/activity_home.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/AICT/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/app_bar_community_main.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/AICT/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/app_bar_main.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/AICT/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/content_main.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/AICT/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/exercise_way.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/AICT/Documents/MobileProgrammingTeamProject/TeamProject_ProPt/app/src/main/res/layout/main_exercise_way.xml" value="0.19479166666666667" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>
