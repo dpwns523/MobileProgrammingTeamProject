@@ -2101,15 +2101,6 @@ id collapseActionView
 id comment_et
 id comment_layout
 id community_card
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-id community_card
-=======
->>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
->>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
->>>>>>> d3b851cc1819be06c8bc7c59692bc7855de9dd64
 id confirm_button
 id constraint
 id container
@@ -2172,6 +2163,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id exercise
 id exercise_report
 id exercise_way
 id exitUntilCollapsed
@@ -2391,6 +2383,7 @@ id select_dialog_listview
 id selected
 id selection_type
 id serch_icon
+id set
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -2477,11 +2470,8 @@ id textinput_prefix_text
 id textinput_suffix_text
 id textviewMessage
 id time
-<<<<<<< HEAD
-id tips
-=======
 id timer
->>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
+id tips
 id title
 id titleDividerNoCustom
 id title_et
@@ -2613,10 +2603,6 @@ layout app_bar_community_main
 layout app_bar_main
 layout before_after
 layout before_after_comment
-<<<<<<< HEAD
-layout before_after_main
-=======
->>>>>>> d3b851cc1819be06c8bc7c59692bc7855de9dd64
 layout before_after_read
 layout before_after_write
 layout browser_actions_context_menu_page
@@ -2644,21 +2630,14 @@ layout exercise_report
 layout exercise_way
 layout food
 layout food_comment
-<<<<<<< HEAD
-layout food_main
-=======
->>>>>>> d3b851cc1819be06c8bc7c59692bc7855de9dd64
 layout food_read
 layout food_write
 layout free_talking
 layout free_talking_comment
-<<<<<<< HEAD
-layout free_talking_main
-=======
->>>>>>> d3b851cc1819be06c8bc7c59692bc7855de9dd64
 layout free_talking_read
 layout free_talking_writepage
 layout main_exercise_report
+layout main_exercise_report_list
 layout main_exercise_way
 layout material_chip_input_combo
 layout material_clock_display
@@ -2712,10 +2691,6 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 layout questions
 layout questions_comment
-<<<<<<< HEAD
-layout questions_main
-=======
->>>>>>> d3b851cc1819be06c8bc7c59692bc7855de9dd64
 layout questions_read
 layout questions_write
 layout select_dialog_item_material
@@ -2723,10 +2698,6 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout stimulus_picture
 layout stimulus_picture_comment
-<<<<<<< HEAD
-layout stimulus_picture_main
-=======
->>>>>>> d3b851cc1819be06c8bc7c59692bc7855de9dd64
 layout stimulus_picture_read
 layout stimulus_pictures_write
 layout sub_exercise_way
@@ -2749,10 +2720,6 @@ layout text_view_without_line_height
 layout timer
 layout tips
 layout tips_comment
-<<<<<<< HEAD
-layout tips_main
-=======
->>>>>>> d3b851cc1819be06c8bc7c59692bc7855de9dd64
 layout tips_read
 layout tips_write
 layout user_exercise_spec

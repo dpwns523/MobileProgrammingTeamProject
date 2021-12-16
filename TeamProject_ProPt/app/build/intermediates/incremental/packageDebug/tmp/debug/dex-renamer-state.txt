@@ -1,23 +1,9 @@
-<<<<<<< HEAD
-#Thu Dec 16 11:17:51 KST 2021
-base.2=C\:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-=======
-<<<<<<< HEAD
-#Wed Dec 15 16:35:11 KST 2021
-=======
-<<<<<<< HEAD
-#Wed Dec 15 16:22:47 KST 2021
-base.2=C\:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-=======
-#Tue Dec 14 15:49:46 KST 2021
->>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
+#Thu Dec 16 19:50:05 KST 2021
 base.2=C\:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
->>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
->>>>>>> d3b851cc1819be06c8bc7c59692bc7855de9dd64
 path.2=8/classes.dex
-base.1=C\:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=C\:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=C\:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.0=C\:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

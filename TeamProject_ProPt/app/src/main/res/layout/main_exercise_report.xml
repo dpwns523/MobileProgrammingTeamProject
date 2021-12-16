@@ -55,7 +55,7 @@
                     style="@style/viewParent.headerText"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:text="운동 목표" />
+                    android:text="운동 기록" />
 
             </RelativeLayout>
 
@@ -99,8 +99,17 @@
                     android:textStyle="bold"
                     tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
-            </RelativeLayout>
+                <ListView
+                    android:id="@+id/listView"
+                    android:layout_width="287dp"
+                    android:layout_height="184dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1" />
 
+            </RelativeLayout>
 
             <!--remove the below layout with recycler view, use card poplar courses as model for design-->
 
