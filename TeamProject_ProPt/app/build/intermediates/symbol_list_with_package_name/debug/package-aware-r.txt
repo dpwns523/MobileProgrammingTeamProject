@@ -57,6 +57,14 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array arm
+array arm_description
+array back
+array back_description
+array chest
+array chest_description
+array lower_body
+array lower_body_description
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -1938,6 +1946,22 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pic_arm1
+drawable pic_arm2
+drawable pic_arm3
+drawable pic_arm4
+drawable pic_back1
+drawable pic_back2
+drawable pic_back3
+drawable pic_back4
+drawable pic_chest1
+drawable pic_chest2
+drawable pic_chest3
+drawable pic_chest4
+drawable pic_lower_body1
+drawable pic_lower_body2
+drawable pic_lower_body3
+drawable pic_lower_body4
 drawable progress_drawable
 drawable protection
 drawable radius
@@ -2073,6 +2097,7 @@ id calendarView
 id callMeasure
 id cancel_button
 id card_view
+id cardview
 id carryVelocity
 id center
 id center_horizontal
@@ -2101,6 +2126,7 @@ id collapseActionView
 id comment_et
 id comment_layout
 id community_card
+id con1
 id confirm_button
 id constraint
 id container
@@ -2126,6 +2152,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2205,6 +2232,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageIcon
 id imageView
 id imageView2
 id imageViewReset
@@ -2292,6 +2320,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name_tv
 id nav_camera
 id nav_dark_mode
 id nav_gallery
@@ -2333,6 +2362,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id part
 id password_toggle
 id path
 id pathRelative
@@ -2349,6 +2379,7 @@ id questions
 id radio
 id ratio
 id rectangles
+id recycle
 id reg_button
 id relativeLayout
 id relativeLayout2
@@ -2420,10 +2451,12 @@ id staticPostLayout
 id stimulus
 id stop
 id stretch
+id sub_exercise_title
 id submenuarrow
 id submit_area
 id supportScrollUp
 id tabMode
+id tabs
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2450,7 +2483,6 @@ id textStart
 id textTop
 id textView
 id textView2
-id textView3
 id textView4
 id textView5
 id textViewFindpassword
@@ -2516,6 +2548,7 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id youtube
 id youtubeThubnail
 id zero_corner_chip
 integer abc_config_activityDefaultDur
@@ -2626,6 +2659,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout exercise_cardview
 layout exercise_report
 layout exercise_way
 layout food

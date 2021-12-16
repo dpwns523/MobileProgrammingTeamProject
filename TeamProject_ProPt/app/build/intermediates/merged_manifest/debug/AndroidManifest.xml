@@ -42,6 +42,7 @@
 
         <!-- //운동방법에 대한 activity -->
         <activity android:name="koreatech.teamproject_propt.main_exercise_way" />
+        <activity android:name="koreatech.teamproject_propt.sub_exercise_way" />
         <!-- //일일운동목표에 대한 activity -->
         <activity android:name="koreatech.teamproject_propt.main_exercise_report" />
         <!-- 커뮤니티 자유게시판에 대한 activity -->
