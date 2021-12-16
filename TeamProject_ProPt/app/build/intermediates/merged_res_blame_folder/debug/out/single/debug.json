@@ -17,6 +17,20 @@
 >>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_stimulus_picture_comment.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\stimulus_picture_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_exercise_report.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\exercise_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_food_comment.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\food_comment.xml"
+    },
+    {
+=======
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_header_image.png.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\header_image.png"
     },
@@ -73,6 +87,7 @@
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_exercise.png.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\exercise.png"
 =======
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-night_ic_search.xml.flat",
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-night\\ic_search.xml"
     },
@@ -124,8 +139,21 @@
 >>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_tips_comment.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\tips_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_timer.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_timer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_refer_icon.png.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\refer_icon.png"
+=======
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_user_exercise_spec.xml.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\user_exercise_spec.xml"
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
     },
     {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_stimulus_picture_main.xml.flat",
@@ -146,12 +174,17 @@
     },
     {
 <<<<<<< HEAD
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_stimuluspicture.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_stimuluspicture.xml"
+=======
+<<<<<<< HEAD
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_main_exercise_report.xml.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\main_exercise_report.xml"
 =======
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_stimulus_picture_main.xml.flat",
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\stimulus_picture_main.xml"
 >>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
     },
     {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home.xml.flat",
@@ -215,8 +248,16 @@
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\app_bar_community_main.xml"
     },
     {
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_food.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_food.xml"
+    },
+    {
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_right_icon.xml.flat",
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_right_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tips.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_tips.xml"
     },
     {
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_radius.xml.flat",
@@ -260,6 +301,10 @@
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\questions_read.xml"
     },
     {
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_freetalking.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_freetalking.xml"
+    },
+    {
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\xml_exercise_way.xml.flat",
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\xml\\exercise_way.xml"
     },
@@ -269,6 +314,12 @@
 >>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_gym.png.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\gym.png"
+    },
+    {
+=======
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\xml_exercise_report.xml.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\xml\\exercise_report.xml"
     },
@@ -293,8 +344,13 @@
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_report.png.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\report.png"
 =======
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_free_talking.xml.flat",
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\free_talking.xml"
+    },
+    {
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_sports_kabaddi_24.xml.flat",
@@ -330,6 +386,10 @@
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\main_exercise_report.xml"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_header_image.png.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\header_image.png"
+=======
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_free_talking_main.xml.flat",
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\free_talking_main.xml"
 >>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
@@ -337,6 +397,7 @@
     {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_community_main.xml.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\app_bar_community_main.xml"
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
     },
     {
 <<<<<<< HEAD
@@ -356,8 +417,17 @@
 >>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_before_after_comment.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\before_after_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_find.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_find.xml"
+=======
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_questions_main.xml.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\questions_main.xml"
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
     },
     {
 <<<<<<< HEAD
@@ -393,6 +463,12 @@
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-night\\users.png"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_free_talking_comment.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\free_talking_comment.xml"
+    },
+    {
+=======
 <<<<<<< HEAD
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_free_talking.xml.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\free_talking.xml"
@@ -569,6 +645,7 @@
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_gallery.xml.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
 =======
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
@@ -583,6 +660,10 @@
     {
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_camera.xml.flat",
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_questions.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_questions.xml"
     },
     {
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_refer_earn_button.xml.flat",
@@ -615,10 +696,6 @@
     {
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_questions_main.xml.flat",
-        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\questions_main.xml"
     },
     {
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_stop_circle_24.xml.flat",
@@ -673,6 +750,10 @@
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\xml\\community_card.xml"
     },
     {
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_questions_comment.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\questions_comment.xml"
+    },
+    {
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_signup.xml.flat",
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_signup.xml"
     },
@@ -695,6 +776,10 @@
     {
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_free_talking_writepage.xml.flat",
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\free_talking_writepage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_community.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_community.xml"
     },
     {
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_frutorials.png.flat",
@@ -777,18 +862,6 @@
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\questions.xml"
     },
     {
-        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_community_main.xml.flat",
-        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\community_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_before_after_main.xml.flat",
-        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\before_after_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_tips_main.xml.flat",
-        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\tips_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_reduce_capacity_24.xml.flat",
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_baseline_reduce_capacity_24.xml"
     },
@@ -821,8 +894,8 @@
         "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\free_talking_read.xml"
     },
     {
-        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_food_main.xml.flat",
-        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\food_main.xml"
+        "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_beforeafter.xml.flat",
+        "source": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_beforeafter.xml"
     },
     {
         "merged": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",

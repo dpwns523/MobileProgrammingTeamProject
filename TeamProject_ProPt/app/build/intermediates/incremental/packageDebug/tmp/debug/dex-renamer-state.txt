@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+#Wed Dec 15 16:35:11 KST 2021
+=======
+<<<<<<< HEAD
 #Wed Dec 15 16:22:47 KST 2021
 base.2=C\:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
 =======
 #Tue Dec 14 15:49:46 KST 2021
+>>>>>>> 305c660fbd511afb4d88006d727ff2f7baf43233
 base.2=C\:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
 >>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
 path.2=8/classes.dex

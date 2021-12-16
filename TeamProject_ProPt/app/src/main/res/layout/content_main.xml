@@ -141,7 +141,8 @@
                 android:orientation="vertical">
 
                 <include
-                    android:id ="@+id/community_card"
+
+                    android:id="@+id/community_card"
                     layout="@xml/community_card" />
 
                 <include
