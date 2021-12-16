@@ -1,7 +1,6 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
@@ -17,12 +16,6 @@
                 },
                 {
                     "source": "C:\\Users\\AICT\\.gradle\\caches\\transforms-3\\c2e76fb5e086b5c906002f45c03cd24a\\transformed\\material-1.4.0\\res\\values-v23\\values-v23.xml",
-=======
-            "outputFile": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Namtaemin\\.gradle\\caches\\transforms-3\\c2e76fb5e086b5c906002f45c03cd24a\\transformed\\material-1.4.0\\res\\values-v23\\values-v23.xml",
->>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -41,11 +34,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\AICT\\.gradle\\caches\\transforms-3\\b5a1dde354f7afc013622ec6eac7dc84\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
-=======
-                    "source": "C:\\Users\\Namtaemin\\.gradle\\caches\\transforms-3\\b5a1dde354f7afc013622ec6eac7dc84\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
->>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -62,20 +51,6 @@
                         "endColumns": "12",
                         "endOffsets": "3669"
                     }
-<<<<<<< HEAD
-=======
-                },
-                {
-                    "source": "C:\\Users\\Namtaemin\\.gradle\\caches\\transforms-3\\be5f57a8da44af27e3b79434a1fa46b5\\transformed\\appcompat-1.4.0\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2735,2959,3074,3181,3294",
-                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
-                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
-                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
-                    }
->>>>>>> 0312e98fe834b5e454af63770ce1b6e4199d298a
                 }
             ]
         }

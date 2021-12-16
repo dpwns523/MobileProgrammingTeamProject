@@ -124,7 +124,6 @@
         android:layout_marginStart="28dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck">
-    </androidx.core.widget.NestedScrollView>
+        tools:ignore="SpeakableTextPresentCheck"></androidx.core.widget.NestedScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

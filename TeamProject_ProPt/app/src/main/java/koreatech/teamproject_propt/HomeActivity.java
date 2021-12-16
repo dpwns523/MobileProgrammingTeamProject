@@ -32,7 +32,7 @@ public class HomeActivity extends AppCompatActivity
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
         @Override
-        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {   // BottomNavigation 선택 이벤트 처리
             Fragment fragment;
             switch (item.getItemId()) {
                 case R.id.navigationMyProfile:
