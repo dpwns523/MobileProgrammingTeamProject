@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\kacaw\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\kacaw\.gradle\caches\transforms-3\cedaca788e916b0451ba246e6e7c4e5d\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\kacaw\.gradle\caches\transforms-3\be5f57a8da44af27e3b79434a1fa46b5\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\7bc9124ddd25bef25a020b51d9d428ba\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\b5a1dde354f7afc013622ec6eac7dc84\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\043ddd7b9fc949326d1cb8044f6ad384\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\3ffd0c74528f03ede9a014699fd511d8\transformed\jetified-firebase-analytics-20.0.0\AndroidManifest.xml:2:1-9:12
@@ -46,8 +47,9 @@ MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\kacaw\.g
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\kacaw\.gradle\caches\transforms-3\270f36836ed73a45dbff76b561bed474\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kacaw\.gradle\caches\transforms-3\781dd23490527cfee6df6b2cc663fc9a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kacaw\.gradle\caches\transforms-3\fb357798e0a06fc931bb8f4dac764065\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\f0e1dca14b5ed3fe159b41cdf0cbf790\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\bc549059837f713a6813ae954483e241\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\d7d271375ded6eff316edd27ceb0072d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\f0e1dca14b5ed3fe159b41cdf0cbf790\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\21aff1fa3790b705ad8e19b1c47e0d56\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\kacaw\.gradle\caches\transforms-3\52b8a03cfc4c20a0c9c78819018423c4\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\fbf631149de996a78c67c939d36f7655\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -69,29 +71,29 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kacaw\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\kacaw\.gradle\caches\transforms-3\869e87640d2ab98ed21d3c10b182f739\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\kacaw\.gradle\caches\transforms-3\11012e34cfa220e9f58a7d557643f386\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\kacaw\.gradle\caches\transforms-3\9692f4eff85761d20785aa5053f9ebcb\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\d3f87aa4861bbafadab8253cbbec58bc\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\783b035d32ce5be15ab468001bd7362a\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\84046498be48793439a4476136a93af1\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\d3f87aa4861bbafadab8253cbbec58bc\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\kacaw\.gradle\caches\transforms-3\737d9ff2c32889bb2521aaf2bc07e3c5\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:3:5-42
-		INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-39:12
-		INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-39:12
-		INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:5:5-37:19
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:5:5-39:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\kacaw\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\kacaw\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\kacaw\.gradle\caches\transforms-3\cedaca788e916b0451ba246e6e7c4e5d\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
@@ -149,83 +151,91 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\kacaw\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\kacaw\.gradle\caches\transforms-3\c7220573e40aa30730232dde3fd8eccf\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:11:9-55
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:11:9-55
 activity#koreatech.teamproject_propt.MainActivity
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:12:9-20:20
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:12:9-21:20
 	android:exported
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:14:13-36
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:15:13-36
+	android:theme
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:14:13-47
 	android:name
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:13:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:19:27-74
 activity#koreatech.teamproject_propt.LoginActivity
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:21:9-51
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:22:9-51
 	android:name
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:21:19-48
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:22:19-48
 activity#koreatech.teamproject_propt.SignUpActivity
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:22:9-52
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:23:9-52
 	android:name
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:22:19-49
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:23:19-49
 activity#koreatech.teamproject_propt.FindActivity
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:23:9-50
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:24:9-50
 	android:name
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:23:19-47
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:24:19-47
 activity#koreatech.teamproject_propt.HomeActivity
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:24:9-49
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:25:9-49
 	android:name
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:24:19-47
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:25:19-47
 activity#koreatech.teamproject_propt.CommunityActivity
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:26:9-54
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:27:9-54
 	android:name
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:26:19-52
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:27:19-52
 activity#koreatech.teamproject_propt.TimerActivity
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:27:9-50
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:28:9-50
 	android:name
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:27:19-48
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:28:19-48
 activity#koreatech.teamproject_propt.main_exercise_way
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:30:9-54
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:31:9-54
 	android:name
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:30:19-52
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:31:19-52
 activity#koreatech.teamproject_propt.sub_exercise_way
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:31:9-53
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:32:9-53
 	android:name
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:31:19-51
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:32:19-51
 activity#koreatech.teamproject_propt.main_exercise_report
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:33:9-57
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:34:9-57
 	android:name
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:33:19-55
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:34:19-55
 activity#koreatech.teamproject_propt.FreeTalkingActivity
-ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:35:9-56
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:36:9-56
 	android:name
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:35:19-54
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:36:19-54
+activity#koreatech.teamproject_propt.user_info
+ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:38:9-46
+	android:name
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml:38:19-44
 uses-sdk
-INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\kacaw\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\kacaw\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\kacaw\.gradle\caches\transforms-3\cedaca788e916b0451ba246e6e7c4e5d\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\kacaw\.gradle\caches\transforms-3\cedaca788e916b0451ba246e6e7c4e5d\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\kacaw\.gradle\caches\transforms-3\be5f57a8da44af27e3b79434a1fa46b5\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\kacaw\.gradle\caches\transforms-3\be5f57a8da44af27e3b79434a1fa46b5\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\7bc9124ddd25bef25a020b51d9d428ba\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\7bc9124ddd25bef25a020b51d9d428ba\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\b5a1dde354f7afc013622ec6eac7dc84\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\b5a1dde354f7afc013622ec6eac7dc84\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\043ddd7b9fc949326d1cb8044f6ad384\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
@@ -304,10 +314,12 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kac
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kacaw\.gradle\caches\transforms-3\781dd23490527cfee6df6b2cc663fc9a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kacaw\.gradle\caches\transforms-3\fb357798e0a06fc931bb8f4dac764065\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kacaw\.gradle\caches\transforms-3\fb357798e0a06fc931bb8f4dac764065\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\f0e1dca14b5ed3fe159b41cdf0cbf790\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\f0e1dca14b5ed3fe159b41cdf0cbf790\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\bc549059837f713a6813ae954483e241\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\bc549059837f713a6813ae954483e241\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\d7d271375ded6eff316edd27ceb0072d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\d7d271375ded6eff316edd27ceb0072d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\f0e1dca14b5ed3fe159b41cdf0cbf790\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\f0e1dca14b5ed3fe159b41cdf0cbf790\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\21aff1fa3790b705ad8e19b1c47e0d56\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\21aff1fa3790b705ad8e19b1c47e0d56\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\kacaw\.gradle\caches\transforms-3\52b8a03cfc4c20a0c9c78819018423c4\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -350,24 +362,24 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\kacaw\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\kacaw\.gradle\caches\transforms-3\11012e34cfa220e9f58a7d557643f386\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\kacaw\.gradle\caches\transforms-3\9692f4eff85761d20785aa5053f9ebcb\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\kacaw\.gradle\caches\transforms-3\9692f4eff85761d20785aa5053f9ebcb\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\d3f87aa4861bbafadab8253cbbec58bc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\d3f87aa4861bbafadab8253cbbec58bc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\783b035d32ce5be15ab468001bd7362a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\783b035d32ce5be15ab468001bd7362a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\84046498be48793439a4476136a93af1\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\84046498be48793439a4476136a93af1\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\d3f87aa4861bbafadab8253cbbec58bc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kacaw\.gradle\caches\transforms-3\d3f87aa4861bbafadab8253cbbec58bc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\kacaw\.gradle\caches\transforms-3\737d9ff2c32889bb2521aaf2bc07e3c5\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\kacaw\.gradle\caches\transforms-3\737d9ff2c32889bb2521aaf2bc07e3c5\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\kacaw\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\kacaw\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:5-67

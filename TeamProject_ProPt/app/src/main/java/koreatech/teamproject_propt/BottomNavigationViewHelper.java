@@ -16,8 +16,8 @@ public class BottomNavigationViewHelper {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.navigationMyProfile:
-//                        Intent intent1 = new Intent(context, HomeActivity.class);  // 0
-//                        context.startActivity(intent1);
+                          Intent intent1 = new Intent(context, user_info.class);  // 0
+                          context.startActivity(intent1);
                         break;
                     case R.id.navigationMyCourses:
 //                        Intent intent2 = new Intent(context, SearchActivity.class); // 1

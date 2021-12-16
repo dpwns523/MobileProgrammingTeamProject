@@ -29,7 +29,7 @@ public class sub_exercise_way extends AppCompatActivity {
         img = findViewById(R.id.imageView2);
         title_tv = findViewById(R.id.sub_exercise_title);
         description = findViewById(R.id.description);
-        part_tv = findViewById(R.id.part);
+        part_tv = findViewById(R.id.user_info_id);
         btn = findViewById(R.id.youtube);
 
         //main_exercise_way에서 extra값으로 넣어준 값을 받아오게 됨

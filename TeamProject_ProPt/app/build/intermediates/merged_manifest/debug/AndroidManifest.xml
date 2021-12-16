@@ -26,7 +26,8 @@
         android:theme="@style/Theme.TeamProject_ProPt" >
         <activity
             android:name="koreatech.teamproject_propt.MainActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -47,6 +48,8 @@
         <activity android:name="koreatech.teamproject_propt.main_exercise_report" />
         <!-- 커뮤니티 자유게시판에 대한 activity -->
         <activity android:name="koreatech.teamproject_propt.FreeTalkingActivity" />
+        <!-- 사용자 프로필에 대한 activity -->
+        <activity android:name="koreatech.teamproject_propt.user_info" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
