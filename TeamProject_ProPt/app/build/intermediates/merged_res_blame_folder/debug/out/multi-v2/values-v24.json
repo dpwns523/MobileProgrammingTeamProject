@@ -1,10 +1,21 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\kacaw\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+=======
+<<<<<<< HEAD
+            "outputFile": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Namtaemin\\.gradle\\caches\\transforms-3\\be5f57a8da44af27e3b79434a1fa46b5\\transformed\\appcompat-1.4.0\\res\\values-v24\\values-v24.xml",
+=======
+            "outputFile": "C:\\Users\\kacaw\\Desktop\\git\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+>>>>>>> 258c262c6e841e9ab5acac16129f9940d2ef0bdf
             "map": [
                 {
                     "source": "C:\\Users\\kacaw\\.gradle\\caches\\transforms-3\\be5f57a8da44af27e3b79434a1fa46b5\\transformed\\appcompat-1.4.0\\res\\values-v24\\values-v24.xml",
+>>>>>>> c58e3cb538de3e02aa84fdd67eb2c9896cc2b742
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

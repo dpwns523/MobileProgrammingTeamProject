@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+=======
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MobileProgrammingTeamProject.TeamProject_ProPt.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MobileProgrammingTeamProject.TeamProject_ProPt.app.iml" />
+>>>>>>> c58e3cb538de3e02aa84fdd67eb2c9896cc2b742
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TeamProject_ProPt.iml" filepath="$PROJECT_DIR$/.idea/modules/TeamProject_ProPt.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TeamProject_ProPt.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TeamProject_ProPt.app.iml" />
     </modules>

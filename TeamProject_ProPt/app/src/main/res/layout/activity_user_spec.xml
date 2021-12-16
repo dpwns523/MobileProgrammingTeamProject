@@ -55,7 +55,7 @@
                     style="@style/viewParent.headerText"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:text="운동 기록" />
+                    android:text="사용자 스펙" />
 
             </RelativeLayout>
 
@@ -80,7 +80,7 @@
                     style="@style/viewParent.headerText"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:text="Daily Goal"
+                    android:text="body profile"
                     android:textSize="20sp"
                     android:textStyle="normal" />
 
@@ -90,7 +90,7 @@
                     android:layout_height="28dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginLeft="98dp"
+                    android:layout_marginLeft="110dp"
                     android:layout_marginTop="1dp"
                     android:background="#A6A3FF"
                     android:text="+"
