@@ -67,7 +67,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         textviewFindPassword.setOnClickListener(this);
     }
 
-    // 유저가 로그인하는 firebash 메소드
+    // 유저가 로그인하는 firebase 메소드
     private void userLogin(){
         String email = editTextEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();

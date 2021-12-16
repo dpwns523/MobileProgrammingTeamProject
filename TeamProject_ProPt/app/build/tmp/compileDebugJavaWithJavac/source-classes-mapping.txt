@@ -28,10 +28,9 @@ koreatech/teamproject_propt/LoginActivity.java
 koreatech/teamproject_propt/MainActivity.java
  koreatech.teamproject_propt.MainActivity
  koreatech.teamproject_propt.MainActivity$1
-koreatech/teamproject_propt/AddPostActivity.java
- koreatech.teamproject_propt.AddPostActivity
- koreatech.teamproject_propt.AddPostActivity$1
- koreatech.teamproject_propt.AddPostActivity$1$1
+koreatech/teamproject_propt/HomeActivity.java
+ koreatech.teamproject_propt.HomeActivity
+ koreatech.teamproject_propt.HomeActivity$1
 koreatech/teamproject_propt/DarkModePrefManager.java
  koreatech.teamproject_propt.DarkModePrefManager
 koreatech/teamproject_propt/BottomNavigationBehavior.java
@@ -39,6 +38,7 @@ koreatech/teamproject_propt/BottomNavigationBehavior.java
 koreatech/teamproject_propt/CommunityActivity.java
  koreatech.teamproject_propt.CommunityActivity
  koreatech.teamproject_propt.CommunityActivity$1
-koreatech/teamproject_propt/HomeActivity.java
- koreatech.teamproject_propt.HomeActivity
- koreatech.teamproject_propt.HomeActivity$1
+koreatech/teamproject_propt/AddPostActivity.java
+ koreatech.teamproject_propt.AddPostActivity
+ koreatech.teamproject_propt.AddPostActivity$1
+ koreatech.teamproject_propt.AddPostActivity$1$1

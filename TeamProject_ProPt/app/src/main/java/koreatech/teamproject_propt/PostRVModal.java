@@ -8,36 +8,23 @@ import android.os.Parcelable;
  */
 
 public class PostRVModal implements Parcelable {
-    private String courseName;
-    private String courseDescription;
-    private String coursePrice;
-    private String bestSuitedFor;
-    private String courseImg;
-    private String courseLink;
-    private String courseId;
+    private String postId;
+    private String postName;
+    private String postCategory;
+    private String postDesc;
+    private String postImgLink;
 
-    public String getCourseId() {
-        return courseId;
-    }
-
-    public void setCourseId(String courseId) {
-        this.courseId = courseId;
-    }
-
-
-    // creating an empty constructor.
+    // 빈 생성자
     public PostRVModal() {
 
     }
 
     protected PostRVModal(Parcel in) {
-        courseName = in.readString();
-        courseId = in.readString();
-        courseDescription = in.readString();
-        coursePrice = in.readString();
-        bestSuitedFor = in.readString();
-        courseImg = in.readString();
-        courseLink = in.readString();
+        postId = in.readString();
+        postName = in.readString();
+        postCategory = in.readString();
+        postDesc = in.readString();
+        postImgLink = in.readString();
     }
 
     public static final Creator<PostRVModal> CREATOR = new Creator<PostRVModal>() {
@@ -52,64 +39,41 @@ public class PostRVModal implements Parcelable {
         }
     };
 
-    // creating getter and setter methods.
-    public String getCourseName() {
-        return courseName;
+    // 각 필드에 대한 getter, setter
+    public String getPostId() {
+        return postId;
+    }
+    public void setPostId(String postId) {
+        this.postId = postId;
     }
 
-    public void setCourseName(String courseName) {
-        this.courseName = courseName;
+    public String getPostName() {
+        return postName;
+    }
+    public void setPostName(String courseName) {
+        this.postName = courseName;
     }
 
-    public String getCourseDescription() {
-        return courseDescription;
+    public String getPostDesc() {
+        return postDesc;
+    }
+    public void setPostDesc(String postDesc) {
+        this.postDesc = postDesc;
     }
 
-    public void setCourseDescription(String courseDescription) {
-        this.courseDescription = courseDescription;
+    public String getPostImgLink() {
+        return postImgLink;
+    }
+    public void setPostImgLink(String postImgLink) {
+        this.postImgLink = postImgLink;
     }
 
-    public String getCoursePrice() {
-        return coursePrice;
-    }
-
-    public void setCoursePrice(String coursePrice) {
-        this.coursePrice = coursePrice;
-    }
-
-    public String getBestSuitedFor() {
-        return bestSuitedFor;
-    }
-
-    public void setBestSuitedFor(String bestSuitedFor) {
-        this.bestSuitedFor = bestSuitedFor;
-    }
-
-    public String getCourseImg() {
-        return courseImg;
-    }
-
-    public void setCourseImg(String courseImg) {
-        this.courseImg = courseImg;
-    }
-
-    public String getCourseLink() {
-        return courseLink;
-    }
-
-    public void setCourseLink(String courseLink) {
-        this.courseLink = courseLink;
-    }
-
-
-    public PostRVModal(String courseId, String courseName, String courseDescription, String coursePrice, String bestSuitedFor, String courseImg, String courseLink) {
-        this.courseName = courseName;
-        this.courseId = courseId;
-        this.courseDescription = courseDescription;
-        this.coursePrice = coursePrice;
-        this.bestSuitedFor = bestSuitedFor;
-        this.courseImg = courseImg;
-        this.courseLink = courseLink;
+    public PostRVModal(String postId, String postName, String postCategory, String postDesc, String postImgLink) {
+        this.postId = postId;
+        this.postName = postName;
+        this.postCategory = postCategory;
+        this.postDesc = postDesc;
+        this.postImgLink = postImgLink;
     }
 
     @Override
@@ -119,12 +83,10 @@ public class PostRVModal implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeString(courseName);
-        dest.writeString(courseId);
-        dest.writeString(courseDescription);
-        dest.writeString(coursePrice);
-        dest.writeString(bestSuitedFor);
-        dest.writeString(courseImg);
-        dest.writeString(courseLink);
+        dest.writeString(postId);
+        dest.writeString(postName);
+        dest.writeString(postCategory);
+        dest.writeString(postDesc);
+        dest.writeString(postImgLink);
     }
 }

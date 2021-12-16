@@ -188,10 +188,6 @@
         "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\tips_write.xml"
     },
     {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_app.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_add_app.xml"
-    },
-    {
         "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -298,6 +294,10 @@
     {
         "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_stimulus_picture_main.xml.flat",
         "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\stimulus_picture_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_post.xml.flat",
+        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_add_post.xml"
     },
     {
         "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_protection.png.flat",

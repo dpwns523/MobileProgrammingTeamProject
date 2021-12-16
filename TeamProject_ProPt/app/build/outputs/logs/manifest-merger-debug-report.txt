@@ -12,7 +12,7 @@ MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\wonji\.gradle\caches\t
 MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\wonji\.gradle\caches\transforms-3\3ffd0c74528f03ede9a014699fd511d8\transformed\jetified-firebase-analytics-20.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\wonji\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\wonji\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:15:1-38:12
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\b58448b6ed0c1fabc2e2475c5b291cd0\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\eb044ec3cfb5f82f5b4db6311d28ec06\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\wonji\.gradle\caches\transforms-3\a230aedb0eafbed64be550638c77ed32\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\wonji\.gradle\caches\transforms-3\cc0c490645cb5c8ef7069804dff9c2ae\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\wonji\.gradle\caches\transforms-3\473b3bc2d803ac7436c939abbc1a6e43\transformed\jetified-firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:15:1-26:12
@@ -106,8 +106,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\wonji\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\wonji\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\wonji\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\wonji\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:28:5-36:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\b58448b6ed0c1fabc2e2475c5b291cd0\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\b58448b6ed0c1fabc2e2475c5b291cd0\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\eb044ec3cfb5f82f5b4db6311d28ec06\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\eb044ec3cfb5f82f5b4db6311d28ec06\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\wonji\.gradle\caches\transforms-3\a230aedb0eafbed64be550638c77ed32\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\wonji\.gradle\caches\transforms-3\a230aedb0eafbed64be550638c77ed32\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\wonji\.gradle\caches\transforms-3\cc0c490645cb5c8ef7069804dff9c2ae\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
@@ -240,8 +240,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\wonji\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\wonji\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\wonji\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\wonji\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:19:5-21:41
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\b58448b6ed0c1fabc2e2475c5b291cd0\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\b58448b6ed0c1fabc2e2475c5b291cd0\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\eb044ec3cfb5f82f5b4db6311d28ec06\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\eb044ec3cfb5f82f5b4db6311d28ec06\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\wonji\.gradle\caches\transforms-3\a230aedb0eafbed64be550638c77ed32\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\wonji\.gradle\caches\transforms-3\a230aedb0eafbed64be550638c77ed32\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\wonji\.gradle\caches\transforms-3\cc0c490645cb5c8ef7069804dff9c2ae\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
@@ -501,13 +501,13 @@ ADDED from [com.google.firebase:firebase-database:20.0.2] C:\Users\wonji\.gradle
 	android:name
 		ADDED from [com.google.firebase:firebase-database:20.0.2] C:\Users\wonji\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\b58448b6ed0c1fabc2e2475c5b291cd0\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\eb044ec3cfb5f82f5b4db6311d28ec06\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\b58448b6ed0c1fabc2e2475c5b291cd0\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\eb044ec3cfb5f82f5b4db6311d28ec06\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\b58448b6ed0c1fabc2e2475c5b291cd0\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\eb044ec3cfb5f82f5b4db6311d28ec06\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\b58448b6ed0c1fabc2e2475c5b291cd0\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\eb044ec3cfb5f82f5b4db6311d28ec06\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\wonji\.gradle\caches\transforms-3\a230aedb0eafbed64be550638c77ed32\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\wonji\.gradle\caches\transforms-3\79b958ab390dac4bab91c520fe9c9fe3\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:25:5-68

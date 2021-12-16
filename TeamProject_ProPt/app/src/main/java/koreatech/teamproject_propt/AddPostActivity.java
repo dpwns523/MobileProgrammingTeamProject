@@ -23,63 +23,65 @@ import com.google.firebase.database.ValueEventListener;
  */
 
 public class AddPostActivity extends AppCompatActivity {
-    // creating variables for our button, edit text,
-    // firebase database, database reference, progress bar.
-    private Button addCourseBtn;
-    private TextInputEditText courseNameEdt, courseDescEdt, coursePriceEdt, bestSuitedEdt, courseImgEdt, courseLinkEdt;
+    private Button addPostBtn;
+    private TextInputEditText postName, postCategory, postDesc, postImgLink;
+    private String postID;
+    private int seq = 0;
+
+    // firebase 객체 사용을 위한 firebase database, database reference 객체
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
     private ProgressBar loadingPB;
-    private String courseID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_app);
-        // initializing all our variables.
-        addCourseBtn = findViewById(R.id.idBtnAddCourse);
-        courseNameEdt = findViewById(R.id.idEdtCourseName);
-        courseDescEdt = findViewById(R.id.idEdtCourseDescription);
-        coursePriceEdt = findViewById(R.id.idEdtCoursePrice);
-        bestSuitedEdt = findViewById(R.id.idEdtSuitedFor);
-        courseImgEdt = findViewById(R.id.idEdtCourseImageLink);
-        courseLinkEdt = findViewById(R.id.idEdtCourseLink);
-        loadingPB = findViewById(R.id.idPBLoading);
+        setContentView(R.layout.activity_add_post);
+
+        addPostBtn = findViewById(R.id.addPostBtn);
+        postName = findViewById(R.id.postName);
+        postCategory = findViewById(R.id.postCategory);
+        postDesc = findViewById(R.id.postDesc);
+        postImgLink = findViewById(R.id.postImageLink);
+        loadingPB = findViewById(R.id.PBLoading);
+
+        // firebase 객체 사용을 위한 firebase database, database reference 객체 초기화
         firebaseDatabase = FirebaseDatabase.getInstance();
-        // on below line creating our database reference.
         databaseReference = firebaseDatabase.getReference("Courses");
-        // adding click listener for our add course button.
-        addCourseBtn.setOnClickListener(new View.OnClickListener() {
+
+        addPostBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 loadingPB.setVisibility(View.VISIBLE);
-                // getting data from our edit text.
-                String courseName = courseNameEdt.getText().toString();
-                String courseDesc = courseDescEdt.getText().toString();
-                String coursePrice = coursePriceEdt.getText().toString();
-                String bestSuited = bestSuitedEdt.getText().toString();
-                String courseImg = courseImgEdt.getText().toString();
-                String courseLink = courseLinkEdt.getText().toString();
-                courseID = courseName;
-                // on below line we are passing all data to our modal class.
-                PostRVModal courseRVModal = new PostRVModal(courseID, courseName, courseDesc, coursePrice, bestSuited, courseImg, courseLink);
-                // on below line we are calling a add value event
-                // to pass data to firebase database.
+
+                postID = String.valueOf(++seq);
+                String postNameText = postName.getText().toString();
+                String postCategoryText = postCategory.getText().toString();
+                String postDescText = postDesc.getText().toString();
+                String postImgLinkText = postImgLink.getText().toString();
+
+                // 모달 객체 생성
+                PostRVModal postRVModal = new PostRVModal(postID, postNameText, postCategoryText, postDescText, postImgLinkText);
+
+                // firebase DB에 데이터 전달하기 위해 databaseReference 객체에 value event 등록
                 databaseReference.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        // on below line we are setting data in our firebase database.
-                        databaseReference.child(courseID).setValue(courseRVModal);
-                        // displaying a toast message.
-                        Toast.makeText(AddPostActivity.this, "Course Added..", Toast.LENGTH_SHORT).show();
-                        // starting a main activity.
+
+                        // 데이터 값 설정
+                        databaseReference.child(postID).setValue(postRVModal);
+
+                        // 게시글 등록 완료 토스트 메시지 출력
+                        Toast.makeText(AddPostActivity.this, "게시글 등록 완료", Toast.LENGTH_SHORT).show();
+
+                        // MainActivity 실행(나중에 다른 액티비티로 수정)
                         startActivity(new Intent(AddPostActivity.this, MainActivity.class));
                     }
 
                     @Override
                     public void onCancelled(@NonNull DatabaseError error) {
-                        // displaying a failure message on below line.
-                        Toast.makeText(AddPostActivity.this, "Fail to add Course..", Toast.LENGTH_SHORT).show();
+                        // 게시글 작성을 취소할 경우 이에 해당하는 토스트 메시지 출력
+                        Toast.makeText(AddPostActivity.this, "게시글 등록 실패", Toast.LENGTH_SHORT).show();
                     }
                 });
             }
