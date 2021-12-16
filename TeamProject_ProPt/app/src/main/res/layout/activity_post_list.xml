@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeRL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostListActivity">
+
+    <!--게시글의 목록을 출력하기 위한 recyclerView-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/postRV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--진행상태를 표시하기 위한 ProgressBar-->
+    <ProgressBar
+        android:id="@+id/PBLoadingRV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true" />
+
+    <!--제어를 위한 floating action button-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addPostFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="Floating Action Btn"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        app:tint="@color/white" />
+
+</RelativeLayout>

@@ -45,7 +45,14 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:29.0.0')
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-auth'
+<<<<<<< HEAD
     implementation 'com.google.firebase:firebase-database'
     // pie chart
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+=======
+    implementation 'com.google.firebase:firebase-database:19.2.1'
+
+    // url에서 이미지를 가져오는 picaso 사용하기 위한 dependency(파베)
+    implementation 'com.squareup.picasso:picasso:2.71828'
+>>>>>>> origin/community
 }

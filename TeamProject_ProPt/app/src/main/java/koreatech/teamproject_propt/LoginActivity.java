@@ -18,8 +18,14 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+/*
+    메인 액티비티에서 로그인 버튼 누를 시 이동하는 로그인 액티비티
+    - 로그인
+    - 비밀번호 찾기
+    - 회원가입
+ */
+
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
-    //define view objects
     EditText editTextEmail;
     EditText editTextPassword;
     Button buttonSignin;
@@ -27,7 +33,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     TextView textviewMessage;
     TextView textviewFindPassword;
     ProgressDialog progressDialog;
-    //define firebase object
+
+    // 인증을 위해 FirebaseAuth 객체 생성
     FirebaseAuth firebaseAuth;
 
     @Override
@@ -35,16 +42,18 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        //initializig firebase auth object
         firebaseAuth = FirebaseAuth.getInstance();
 
+        // 이미 로그인 인증돼있는 유저가 있을 경우
         if(firebaseAuth.getCurrentUser() != null){
-            //이미 로그인 되었다면 이 액티비티를 종료함
+
+            // 현재 액티비티 종료
             finish();
-            //그리고 profile 액티비티를 연다.
-            startActivity(new Intent(getApplicationContext(), HomeActivity.class)); //추가해 줄 ProfileActivity
+
+            // profile 액티비티로 이동
+            startActivity(new Intent(getApplicationContext(), HomeActivity.class));
         }
-        //initializing views
+
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
         editTextPassword = (EditText) findViewById(R.id.editTextPassword);
         textviewSignup= (TextView) findViewById(R.id.textViewSignup);
@@ -53,13 +62,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         buttonSignin = (Button) findViewById(R.id.buttonSignin);
         progressDialog = new ProgressDialog(this);
 
-        //button click event
         buttonSignin.setOnClickListener(this);
         textviewSignup.setOnClickListener(this);
         textviewFindPassword.setOnClickListener(this);
     }
 
-    //firebase userLogin method
+    // 유저가 로그인하는 firebase 메소드
     private void userLogin(){
         String email = editTextEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
@@ -76,7 +84,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         progressDialog.setMessage("로그인중입니다. 잠시 기다려 주세요...");
         progressDialog.show();
 
-        //logging in the user
+        // 로그인 실행
         firebaseAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -92,8 +100,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     }
                 });
     }
-
-
 
     @Override
     public void onClick(View view) {

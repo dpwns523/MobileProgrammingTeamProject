@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Fri Dec 17 00:17:45 KST 2021
 base.2=C\:\\Users\\kacaw\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
 =======
@@ -27,6 +28,14 @@ base.0=C\:\\Users\\kacaw\\Documents\\MobileProgrammingTeamProject\\TeamProject_P
 base.0=C\:\\Users\\kacaw\\Desktop\\git\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 >>>>>>> c58e3cb538de3e02aa84fdd67eb2c9896cc2b742
 >>>>>>> 258c262c6e841e9ab5acac16129f9940d2ef0bdf
+=======
+#Fri Dec 17 00:34:17 KST 2021
+base.2=C\:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+path.2=8/classes.dex
+base.1=C\:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+path.1=0/classes.dex
+base.0=C\:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+>>>>>>> origin/community
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

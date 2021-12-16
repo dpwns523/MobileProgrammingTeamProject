@@ -16,20 +16,22 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 
+/*
+    로그인 액티비티에서 '패스워드가 기억나지 않습니까?' 텍스트 누를 시 이동하는 비밀번호 찾기 액티비티
+    - 사용자가 입력한 이메일로 비밀번호 재설정 메일 전송
+ */
+
 public class FindActivity extends AppCompatActivity implements View.OnClickListener{
     private static final String TAG = "FindActivity";
 
-    //define view objects
     private EditText editTextUserEmail;
     private Button buttonFind;
     private TextView textviewMessage;
     private ProgressDialog progressDialog;
-    //define firebase object
+
+    // 인증을 위해 FirebaseAuth 객체 생성
     private FirebaseAuth firebaseAuth;
-
     TextView textviewLogin;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,8 +54,10 @@ public class FindActivity extends AppCompatActivity implements View.OnClickListe
         if(view == buttonFind){
             progressDialog.setMessage("처리중입니다. 잠시 기다려 주세요...");
             progressDialog.show();
-            //비밀번호 재설정 이메일 보내기
+
             String emailAddress = editTextUserEmail.getText().toString().trim();
+
+            // 사용자가 입력한 이메일에 비밀번호 재설정 이메일 전송
             firebaseAuth.sendPasswordResetEmail(emailAddress)
                     .addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override

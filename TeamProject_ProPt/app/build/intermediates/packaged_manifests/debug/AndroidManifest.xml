@@ -40,6 +40,7 @@
         <activity android:name="koreatech.teamproject_propt.HomeActivity" />
         <activity android:name="koreatech.teamproject_propt.CommunityActivity" />
         <activity android:name="koreatech.teamproject_propt.TimerActivity" />
+<<<<<<< HEAD
 
         <!-- //운동방법에 대한 activity -->
         <activity android:name="koreatech.teamproject_propt.main_exercise_way" />
@@ -50,6 +51,13 @@
         <activity android:name="koreatech.teamproject_propt.FreeTalkingActivity" />
         <!-- 사용자 프로필에 대한 activity -->
         <activity android:name="koreatech.teamproject_propt.user_info" />
+=======
+        <activity android:name="koreatech.teamproject_propt.main_exercise_way" />
+        <activity android:name="koreatech.teamproject_propt.main_exercise_report" />
+        <activity android:name="koreatech.teamproject_propt.AddPostActivity" />
+        <activity android:name="koreatech.teamproject_propt.EditPostActivity" />
+        <activity android:name="koreatech.teamproject_propt.PostListActivity" />
+>>>>>>> origin/community
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
@@ -115,6 +123,10 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="koreatech.teamproject_propt.com.squareup.picasso"
+            android:exported="false" />
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="koreatech.teamproject_propt.firebaseinitprovider"
