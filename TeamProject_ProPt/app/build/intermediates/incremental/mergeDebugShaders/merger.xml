@@ -1,14 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\kacaw\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\debug\shaders"/></dataSet></merger>
-=======
-<<<<<<< HEAD
-<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\debug\shaders"/></dataSet></merger>
-=======
-<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\kacaw\Desktop\git\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\debug\shaders"/></dataSet></merger>
->>>>>>> c58e3cb538de3e02aa84fdd67eb2c9896cc2b742
->>>>>>> 258c262c6e841e9ab5acac16129f9940d2ef0bdf
-=======
-<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\wonji\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\wonji\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\debug\shaders"/></dataSet></merger>
->>>>>>> origin/community
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\AICT\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\AICT\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\debug\shaders"/></dataSet></merger>

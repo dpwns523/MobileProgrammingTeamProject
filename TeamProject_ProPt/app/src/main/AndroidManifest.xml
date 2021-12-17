@@ -23,13 +23,9 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".FindActivity" />
         <activity android:name=".HomeActivity"/>
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/community
         <activity android:name=".CommunityActivity"/>
         <activity android:name=".TimerActivity"/>
-<<<<<<< HEAD
+
 
 <!--        //운동방법에 대한 activity-->
         <activity android:name=".main_exercise_way"/>
@@ -40,14 +36,10 @@
         <activity android:name=".FreeTalkingActivity"/>
         <!--    사용자 프로필에 대한 activity      -->
         <activity android:name=".user_info"/>
-    </application>
-=======
-        <activity android:name=".main_exercise_way"/>
-        <activity android:name=".main_exercise_report"/>
         <activity android:name=".AddPostActivity"/>
         <activity android:name=".EditPostActivity"/>
         <activity android:name=".PostListActivity"/>
 </application>
->>>>>>> origin/community
+
 
 </manifest>

@@ -10,7 +10,7 @@ public class main_exercise_report_item extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_exercise_report_list);
+        setContentView(R.layout.main_exercise_report);
         Intent intent = getIntent();
         String data = intent.getStringExtra("item");
         TextView tv = findViewById(R.id.textView);

@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="arm">
+        <item>바벨 컬</item>
+        <item>얼터네이팅 덤벨 컬</item>
+        <item>덤벨 컬</item>
+        <item>스파이더 컬</item>
+    </string-array>
+    <string-array name="arm_description">
+        <item>무산소 운동의 하나로 이두근을 키우는데 필수적인 운동</item>
+        <item>이두근의 근력과 크기의 불균형을 해소할수 있는 좋은 운동</item>
+        <item>이두도 물론 잡아주지만 전완근도 함께 키울 수 있는 운동</item>
+        <item>바벨컬/덤벨컬이 하는 동작을 나눠서 할 수 있는 대표적인 운동</item>
+    </string-array>
+    <string-array name="back">
+        <item>랫풀다운</item>
+        <item>시티드로우</item>
+        <item>하이케이블로우</item>
+        <item>풀업</item>
+    </string-array>
+    <string-array name="back_description">
+        <item>등의 기본기 운동</item>
+        <item>앉아서하는 등 운동</item>
+        <item>케이블로 하는 등 운동</item>
+        <item>등 운동 중에서 가장 접근성이 쉬운 운동</item>
+    </string-array>
+    <string-array name="chest">
+        <item>벤치 프레스</item>
+        <item>인클라인 벤치프레스</item>
+        <item>덤벨 프레스</item>
+        <item>체스트 프레스</item>
+    </string-array>
+    <string-array name="chest_description">
+        <item>스쿼트, 데드리프트와 함께 웨이트 트레이닝을 대표하는 3대 운동 중 하나</item>
+        <item>가슴 상부 근육을 좀 더 집중적으로 발달시키는 운동</item>
+        <item>섬세하고 다양한 자극을 원하는분들께 추천하는 운동</item>
+        <item>벤치프레스가 어려운 초보자에게 효율적인 운동</item>
+    </string-array>
+    <string-array name="lower_body">
+        <item>레그익스텐션</item>
+        <item>스쿼트</item>
+        <item>레그프레스</item>
+        <item>라잉 레그컬</item>
+    </string-array>
+    <string-array name="lower_body_description">
+        <item>하체의 힘을 만들어주는 운동</item>
+        <item>몸의 라인을 예쁘게 만들어주는 운동</item>
+        <item>하체를 튼튼하게 만들어주는 운동</item>
+        <item>허벅지 뒤를 단련시켜주는 운동</item>
+    </string-array>
     <attr format="enum" name="animateCircleAngleTo">
         <enum name="bestChoice" value="0"/>
         <enum name="closest" value="1"/>
@@ -601,6 +649,7 @@
     <color name="mtrl_textinput_hovered_box_stroke_color">#DE000000</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
     <color name="primaryTextColor">#a6a3ff</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
@@ -1045,6 +1094,10 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="subtitle_corner_radius">2dp</dimen>
+    <dimen name="subtitle_outline_width">2dp</dimen>
+    <dimen name="subtitle_shadow_offset">2dp</dimen>
+    <dimen name="subtitle_shadow_radius">2dp</dimen>
     <dimen name="test_mtrl_calendar_day_cornerSize">52dp</dimen>
     <dimen name="test_navigation_bar_active_item_max_width">168dp</dimen>
     <dimen name="test_navigation_bar_active_item_min_width">96dp</dimen>
@@ -3729,6 +3782,9 @@
     <style name="ShapeAppearanceOverlay.TopRightDifferentCornerSize">
     <item name="cornerSizeTopRight">20px</item>
   </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
     <style name="Test.ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day" parent="">
     <item name="cornerFamily">rounded</item>
     <item name="cornerSize">@dimen/test_mtrl_calendar_day_cornerSize</item>
@@ -3841,12 +3897,17 @@
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media"/>
     <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Media"/>
     <style name="TextAppearance.Compat.Notification.Time">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media"/>
     <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TextAppearance.Compat.Notification.Title.Media"/>
     <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="TextAppearance.AppCompat.Display1">
     <item name="android:textColor">?android:attr/textColorPrimary</item>
   </style>

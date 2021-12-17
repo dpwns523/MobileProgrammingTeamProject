@@ -112,16 +112,7 @@ public class HomeActivity extends AppCompatActivity
                 }
         );
 
-        // 커뮤니티에 대한 setOnClickListener
-        community_card.setOnClickListener(v -> {
-                    Intent intent = new Intent(HomeActivity.this, CommunityActivity.class);
-                    startActivity(intent);
-                }
-        );
-        //일일운동목표에 대한 setOnClickListener
-
         //일일운동목표 onClickListener
-
         exercise_report.setOnClickListener(v -> {
                     Intent intent = new Intent(HomeActivity.this, main_exercise_report.class);
                     startActivity(intent);

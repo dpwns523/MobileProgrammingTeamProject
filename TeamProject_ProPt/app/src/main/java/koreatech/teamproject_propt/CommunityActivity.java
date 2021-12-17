@@ -30,7 +30,7 @@ public class CommunityActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_exercise_report);
+        setContentView(R.layout.activity_community);
 
         // 하단 네비게이션 바에 대한 액션 처리 객체
         BottomNavigationView bottomNavigationView = findViewById(R.id.navigation);
