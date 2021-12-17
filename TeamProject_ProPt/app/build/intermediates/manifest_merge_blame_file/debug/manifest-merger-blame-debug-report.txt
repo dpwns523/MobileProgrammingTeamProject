@@ -220,13 +220,13 @@
 111        </service>
 112
 113        <provider
-113-->[com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\eb044ec3cfb5f82f5b4db6311d28ec06\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+113-->[com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\b58448b6ed0c1fabc2e2475c5b291cd0\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 114            android:name="com.squareup.picasso.PicassoProvider"
-114-->[com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\eb044ec3cfb5f82f5b4db6311d28ec06\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+114-->[com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\b58448b6ed0c1fabc2e2475c5b291cd0\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 115            android:authorities="koreatech.teamproject_propt.com.squareup.picasso"
-115-->[com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\eb044ec3cfb5f82f5b4db6311d28ec06\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+115-->[com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\b58448b6ed0c1fabc2e2475c5b291cd0\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 116            android:exported="false" />
-116-->[com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\eb044ec3cfb5f82f5b4db6311d28ec06\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+116-->[com.squareup.picasso:picasso:2.71828] C:\Users\wonji\.gradle\caches\transforms-3\b58448b6ed0c1fabc2e2475c5b291cd0\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 117        <provider
 117-->[com.google.firebase:firebase-common:20.0.0] C:\Users\wonji\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
 118            android:name="com.google.firebase.provider.FirebaseInitProvider"
