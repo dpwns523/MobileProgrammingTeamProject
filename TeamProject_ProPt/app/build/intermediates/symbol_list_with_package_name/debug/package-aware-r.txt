@@ -2201,6 +2201,7 @@ id dragRight
 id dragStart
 id dragUp
 id drawer_layout
+id drawer_layout2
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -2367,11 +2368,10 @@ id nav_share
 id nav_slideshow
 id nav_view
 id navigation
+id navigation2
 id navigationHome
 id navigationMenu
-id navigationMyCourses
 id navigationMyProfile
-id navigationSearch
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
@@ -2831,6 +2831,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout timer
+layout timer_main
 layout tips
 layout tips_comment
 layout tips_read

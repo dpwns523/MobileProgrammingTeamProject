@@ -39,7 +39,11 @@
         <activity android:name=".AddPostActivity"/>
         <activity android:name=".EditPostActivity"/>
         <activity android:name=".PostListActivity"/>
-</application>
+        <activity android:name=".RecordActivity"/>
+        <activity android:name=".SpecActivity"/>
+
+
+    </application>
 
 
 </manifest>
