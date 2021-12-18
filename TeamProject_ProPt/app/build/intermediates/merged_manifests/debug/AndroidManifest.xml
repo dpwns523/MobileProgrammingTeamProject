@@ -38,7 +38,6 @@
         <activity android:name="koreatech.teamproject_propt.SignUpActivity" />
         <activity android:name="koreatech.teamproject_propt.FindActivity" />
         <activity android:name="koreatech.teamproject_propt.HomeActivity" />
-        <activity android:name="koreatech.teamproject_propt.CommunityActivity" />
         <activity android:name="koreatech.teamproject_propt.TimerActivity" />
 
         <!-- //운동방법에 대한 activity -->
@@ -47,7 +46,6 @@
         <!-- //일일운동목표에 대한 activity -->
         <activity android:name="koreatech.teamproject_propt.main_exercise_report" />
         <!-- 커뮤니티 자유게시판에 대한 activity -->
-        <activity android:name="koreatech.teamproject_propt.FreeTalkingActivity" />
         <!-- 사용자 프로필에 대한 activity -->
         <activity android:name="koreatech.teamproject_propt.user_info" />
         <activity android:name="koreatech.teamproject_propt.AddPostActivity" />

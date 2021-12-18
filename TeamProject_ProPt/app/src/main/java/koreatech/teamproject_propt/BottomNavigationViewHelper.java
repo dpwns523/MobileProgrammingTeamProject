@@ -19,21 +19,13 @@ public class BottomNavigationViewHelper {
                           Intent intent1 = new Intent(context, user_info.class);  // 0
                           context.startActivity(intent1);
                         break;
-//                    case R.id.navigationMyCourses:
-//                        Intent intent2 = new Intent(context, SearchActivity.class); // 1
-//                        context.startActivity(intent2);
-//                        break;
                     case R.id.navigationHome:
                         Intent intent3 = new Intent(context, HomeActivity.class); // 2
                         context.startActivity(intent3);
                         break;
-//                    case R.id.navigationSearch:
-//                        Intent intent4 = new Intent(context, LikeActivity.class); // 3
-//                        context.startActivity(intent4);
-//                        break;
                     case R.id.navigationMenu:
-                    //      Intent intent5 = new Intent(context, ProfileActivity.class); // 4
-                    //      context.startActivity(intent5);
+                          //Intent intent5 = new Intent(context, ProfileActivity.class); // 4
+                          //context.startActivity(intent5);
                         break;
                 }
                 return false;

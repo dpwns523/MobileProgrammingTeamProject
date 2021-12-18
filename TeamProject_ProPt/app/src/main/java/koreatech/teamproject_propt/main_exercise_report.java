@@ -41,7 +41,14 @@ import java.util.List;
 
 public class main_exercise_report extends AppCompatActivity {
     private Context mContext = this;
+<<<<<<< HEAD
+    private static final int ACTIVITY_NUM = 2;
+    private ListAdapter adapter;
+    private ListView listView;
+    private int num;
+=======
     private static final int ACTIVITY_NUM = 4;
+>>>>>>> 099d14a432efe72bacfe7321459c1e9bb0101419
 
     private ListView listView;
     private List<String> items = new ArrayList<>();
