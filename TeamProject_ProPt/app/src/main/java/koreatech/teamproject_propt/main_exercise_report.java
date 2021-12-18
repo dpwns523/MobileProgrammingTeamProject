@@ -30,7 +30,7 @@ import java.util.ArrayList;
 
 public class main_exercise_report extends AppCompatActivity {
     private Context mContext = this;
-    private static final int ACTIVITY_NUM = 4;
+    private static final int ACTIVITY_NUM = 2;
     private ListAdapter adapter;
     private ListView listView;
     private int num;

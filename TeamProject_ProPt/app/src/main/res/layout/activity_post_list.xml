@@ -9,12 +9,15 @@
     tools:context=".PostListActivity">
 
     <!--게시글의 목록을 출력하기 위한 recyclerView-->
+
+    <!--진행상태를 표시하기 위한 ProgressBar-->
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/postRV"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" />
 
-    <!--진행상태를 표시하기 위한 ProgressBar-->
     <ProgressBar
         android:id="@+id/PBLoadingRV"
         android:layout_width="wrap_content"
@@ -23,14 +26,58 @@
         android:indeterminate="true" />
 
     <!--제어를 위한 floating action button-->
+    <TextView
+        android:id="@+id/textViewUser"
+        style="@style/viewParent.headerText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="13dp"
+        android:maxLines="2"
+        android:text="팁 게시판" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileCircleImageView"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/users"
+        app:civ_border_color="@color/imageBorderColor"
+        app:civ_border_width="2dp" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addPostFAB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:contentDescription="Floating Action Btn"
         android:layout_alignParentBottom="true"
-        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="74dp"
+        android:contentDescription="Floating Action Btn"
         app:tint="@color/white" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        android:foreground="?attr/selectableItemBackground"
+        app:elevation="10dp"
+        app:itemBackground="@color/bottomNavigationBackground"
+        app:itemIconTint="@color/bottom_navigation_color"
+        app:itemTextColor="@color/bottom_navigation_color"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/master_bottom_navigation" />
 
 </RelativeLayout>

@@ -1,6 +1,8 @@
 package koreatech.teamproject_propt;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -20,6 +22,7 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
@@ -38,6 +41,12 @@ import java.util.ArrayList;
  */
 
 public class PostListActivity extends AppCompatActivity implements PostRVAdapter.PostClickInterface {
+    private Context mContext = this;
+    private static final int ACTIVITY_NUM = 2;
+    private Button addPostBtn;
+
+
+
     // firebase의 database, auth, reference 사용
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
@@ -57,6 +66,13 @@ public class PostListActivity extends AppCompatActivity implements PostRVAdapter
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post_list);
+
+        BottomNavigationView bottomNavigationView = findViewById(R.id.navigation);
+        BottomNavigationViewHelper.enableNavigation(mContext, bottomNavigationView);
+        Menu menu = bottomNavigationView.getMenu();
+        MenuItem menuItem = menu.getItem(ACTIVITY_NUM);
+        menuItem.setChecked(true);
+
         // initializing all our variables.
         postRV = findViewById(R.id.postRV);
         homeRL = findViewById(R.id.bottomSheetRL);

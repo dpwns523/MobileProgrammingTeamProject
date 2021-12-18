@@ -98,7 +98,7 @@ public class HomeActivity extends AppCompatActivity
 
         // 커뮤니티 onClickListener
         community_card.setOnClickListener(v -> {
-                Intent intent = new Intent(HomeActivity.this, CommunityActivity.class);
+                Intent intent = new Intent(HomeActivity.this, PostListActivity.class);
                 startActivity(intent);
             }
         );
