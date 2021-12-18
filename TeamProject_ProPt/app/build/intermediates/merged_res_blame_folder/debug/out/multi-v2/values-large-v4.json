@@ -1,7 +1,6 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
@@ -16,19 +15,6 @@
                 },
                 {
                     "source": "C:\\Users\\BIN\\.gradle\\caches\\transforms-3\\5576a30962e6afc9bac36f11c5503bd7\\transformed\\material-1.4.0\\res\\values-large-v4\\values-large-v4.xml",
-=======
-<<<<<<< HEAD
-            "outputFile": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\wonji\\.gradle\\caches\\transforms-3\\5576a30962e6afc9bac36f11c5503bd7\\transformed\\material-1.4.0\\res\\values-large-v4\\values-large-v4.xml",
-=======
-            "outputFile": "C:\\Users\\Namtaemin\\AndroidStudioProjects\\TeamProject-propt\\TeamProject_ProPt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Namtaemin\\.gradle\\caches\\transforms-3\\5576a30962e6afc9bac36f11c5503bd7\\transformed\\material-1.4.0\\res\\values-large-v4\\values-large-v4.xml",
->>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
->>>>>>> 2f4bb9d141c0490baa6116f11c32fe58567b642e
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -43,23 +29,6 @@
                         "endColumns": "121,133",
                         "endOffsets": "869,1003"
                     }
-<<<<<<< HEAD
-=======
-                },
-                {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\wonji\\.gradle\\caches\\transforms-3\\a1b3ca44643bee301a6ab86839fb1294\\transformed\\appcompat-1.4.0\\res\\values-large-v4\\values-large-v4.xml",
-=======
-                    "source": "C:\\Users\\Namtaemin\\.gradle\\caches\\transforms-3\\a1b3ca44643bee301a6ab86839fb1294\\transformed\\appcompat-1.4.0\\res\\values-large-v4\\values-large-v4.xml",
->>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,532,636",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,631,747"
-                    }
->>>>>>> 2f4bb9d141c0490baa6116f11c32fe58567b642e
                 }
             ]
         }

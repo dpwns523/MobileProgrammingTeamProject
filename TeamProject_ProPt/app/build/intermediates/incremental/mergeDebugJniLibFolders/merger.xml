@@ -1,10 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
 <merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\debug\jniLibs"/></dataSet></merger>
-=======
-<<<<<<< HEAD
-<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\wonji\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\main\jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\wonji\Documents\MobileProgrammingTeamProject\TeamProject_ProPt\app\src\debug\jniLibs"/></dataSet></merger>
-=======
-<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\main\jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Namtaemin\AndroidStudioProjects\TeamProject-propt\TeamProject_ProPt\app\src\debug\jniLibs"/></dataSet></merger>
->>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
->>>>>>> 2f4bb9d141c0490baa6116f11c32fe58567b642e

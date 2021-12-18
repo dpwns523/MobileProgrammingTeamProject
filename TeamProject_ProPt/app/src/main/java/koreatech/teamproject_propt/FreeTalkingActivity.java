@@ -44,7 +44,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class FreeTalkingActivity extends AppCompatActivity {
     private Context mContext = this;
-    private static final int ACTIVITY_NUM = 4;
+    private static final int ACTIVITY_NUM = 2;
 
     // 로그에 사용할 TAG 변수
     final private String TAG = getClass().getSimpleName();

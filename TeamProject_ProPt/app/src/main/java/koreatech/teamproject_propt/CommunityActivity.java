@@ -24,7 +24,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class CommunityActivity extends AppCompatActivity {
     private Context mContext = this;
-    private static final int ACTIVITY_NUM = 4;
+    private static final int ACTIVITY_NUM = 2;
     private Button addPostBtn;
 
     @Override

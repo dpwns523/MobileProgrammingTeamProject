@@ -1,6 +1,5 @@
 [
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_user_spec.xml.flat",
         "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_user_spec.xml"
     },
@@ -9,12 +8,12 @@
         "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_chest4.jpg"
     },
     {
-        "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_before_after_read.xml.flat",
-        "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\before_after_read.xml"
-    },
-    {
         "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_stimuluspicture.xml.flat",
         "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_stimuluspicture.xml"
+    },
+    {
+        "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_before_after_read.xml.flat",
+        "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\before_after_read.xml"
     },
     {
         "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_radius.xml.flat",
@@ -25,12 +24,12 @@
         "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
     },
     {
-        "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_food_comment.xml.flat",
-        "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\food_comment.xml"
-    },
-    {
         "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_timer_main.xml.flat",
         "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\timer_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_food_comment.xml.flat",
+        "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\food_comment.xml"
     },
     {
         "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_questions_read.xml.flat",
@@ -45,20 +44,24 @@
         "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\splash_logo.png"
     },
     {
-        "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tips.xml.flat",
-        "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_tips.xml"
-    },
-    {
         "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_community.png.flat",
         "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\community.png"
     },
     {
-        "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_home.xml"
+        "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tips.xml.flat",
+        "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_tips.xml"
+    },
+    {
+        "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_add.png.flat",
+        "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v21\\ic_add.png"
     },
     {
         "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_back3.jpg.flat",
         "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_back3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_home.xml"
     },
     {
         "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\xml_timer.xml.flat",
@@ -81,12 +84,12 @@
         "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\exercise_way.xml"
     },
     {
-        "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_loop_24.xml.flat",
-        "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_baseline_loop_24.xml"
-    },
-    {
         "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_lower_body3.jpg.flat",
         "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_lower_body3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_loop_24.xml.flat",
+        "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_baseline_loop_24.xml"
     },
     {
         "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_questions_write.xml.flat",
@@ -501,6 +504,10 @@
         "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\free_talking_comment.xml"
     },
     {
+        "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_android.jpg.flat",
+        "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v21\\android.jpg"
+    },
+    {
         "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -587,607 +594,5 @@
     {
         "merged": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_users.png.flat",
         "source": "C:\\Users\\BIN\\AndroidStudioProjects\\Project\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\users.png"
-=======
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_play_circle_filled_24.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_baseline_play_circle_filled_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_lower_body4.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_lower_body4.jpg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_drawable_circle_inner.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\drawable_circle_inner.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_timer.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_timer.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-night_ic_search.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-night\\ic_search.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_stimulus_picture_comment.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\stimulus_picture_comment.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_food_read.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\food_read.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_back2.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_back2.jpg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_send.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v21\\ic_menu_send.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_search.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_search.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_chest3.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_chest3.jpg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_main.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\nav_header_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_before_after_read.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\before_after_read.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_time.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\time.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_no_food_24.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_baseline_no_food_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_reduce_capacity_24.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_baseline_reduce_capacity_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_stimulus_picture.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\stimulus_picture.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_slideshow.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v21\\ic_menu_slideshow.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_goal.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\goal.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\xml_community_card.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\xml\\community_card.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_back3.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_back3.jpg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash_logo.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\splash_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_lower_body3.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_lower_body3.jpg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_food_comment.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\food_comment.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_emoji_people_24.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_baseline_emoji_people_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_main_exercise_way.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\main_exercise_way.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_exercise_way.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\exercise_way.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_main_drawer.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_chest4.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_chest4.jpg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_gym.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\gym.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\xml_user_exercise_spec.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\xml\\user_exercise_spec.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_right_icon.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_right_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_manage.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v21\\ic_menu_manage.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_before_after_comment.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\before_after_comment.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_community_inner_content.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\community_inner_content.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_graph.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\graph.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_post_list.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_post_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_user_spec.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\user_spec.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_sports_kabaddi_24.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_baseline_sports_kabaddi_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_stop_circle_24.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_baseline_stop_circle_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_before_after.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\before_after.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_arm4.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_arm4.jpg"
-=======
-        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_timer_main.xml.flat",
-        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\timer_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash_logo.png.flat",
-        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\splash_logo.png"
->>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_community_card.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\community_card.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_hero.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\hero.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_users.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\users.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_refer_icon.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\refer_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_community.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\community.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_stimulus_picture_read.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\stimulus_picture_read.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\menu_master_bottom_navigation.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\menu\\master_bottom_navigation.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_arm1.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_arm1.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_free_talking_read.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\free_talking_read.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_edit_post.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_edit_post.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_tips_write.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\tips_write.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_user_info.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\user_info.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_chest2.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_chest2.jpg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_free_talking.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\free_talking.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_content_main.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\content_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_food_write.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\food_write.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_lower_body2.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_lower_body2.jpg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_user.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_user.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_user_exercise_spec.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\user_exercise_spec.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_stimuluspicture.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_stimuluspicture.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_signup.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_signup.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_tips.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\tips.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_android.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v21\\android.jpg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_loop_24.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_baseline_loop_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_gallery.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_community.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_community.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_user_spec.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_user_spec.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tips.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_tips.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_questions_comment.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\questions_comment.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_free_talking_writepage.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\free_talking_writepage.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_refer_earn_button.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\refer_earn_button.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\xml_exercise_report.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\xml\\exercise_report.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_camera.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_layout_border.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_layout_border.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-night_users.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-night\\users.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_side_nav_bar.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_post.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_add_post.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_exercise_cardview.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\exercise_cardview.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_protection.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\protection.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\color_bottom_navigation_color.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\color\\bottom_navigation_color.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_radius.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\radius.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_menu_share.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v21\\ic_menu_share.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_frutorials.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\frutorials.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\xml_user_spec.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\xml\\user_spec.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_bottom_sheet_layout.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\bottom_sheet_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_chest1.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_chest1.jpg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_sub_exercise_way.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\sub_exercise_way.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_progress_drawable.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\progress_drawable.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_arm3.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_arm3.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_exercise.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\exercise.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_beforeafter.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_beforeafter.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_timer.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\timer.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_questions_write.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\questions_write.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_questions.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\questions.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_main.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\app_bar_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_before_after_write.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\before_after_write.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_community_main.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\app_bar_community_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_exercise_report.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\exercise_report.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_main_exercise_report.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\main_exercise_report.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_back4.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_back4.jpg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_tips_read.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\tips_read.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\xml_timer.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\xml\\timer.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_questions.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_questions.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_free_talking_comment.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\free_talking_comment.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_stimulus_pictures_write.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\stimulus_pictures_write.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\menu_main.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_find.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_find.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_questions_read.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\questions_read.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_android_developer.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\android_developer.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_drawable_circle_outer.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\drawable_circle_outer.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_tips_comment.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\tips_comment.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_freetalking.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_freetalking.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_arm2.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_arm2.jpg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_post_rv_item.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\post_rv_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_navigation_foreground.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\navigation_foreground.xml"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_food.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\food.xml"
-=======
-        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_record_dialog.xml.flat",
-        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\record_dialog.xml"
-    },
-    {
-        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_users.png.flat",
-        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\users.png"
->>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_add.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable-v21\\ic_add.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\xml_exercise_way.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\xml\\exercise_way.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_effort.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_effort.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_refer_earn.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\refer_earn.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_report.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\report.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_food.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_food.xml"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_header_image.png.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\header_image.png"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_back1.jpeg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_back1.jpeg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_lower_body1.jpg.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_lower_body1.jpg"
-    },
-    {
-        "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash.xml.flat",
-        "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\splash.xml"
->>>>>>> 2f4bb9d141c0490baa6116f11c32fe58567b642e
     }
 ]
