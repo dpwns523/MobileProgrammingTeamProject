@@ -2536,11 +2536,16 @@ int id textView17 0x7f090226
 int id textView2 0x7f090227
 int id textView4 0x7f090228
 int id textView5 0x7f090229
+int id textViewEmail 0x7f090275
 int id textViewFindpassword 0x7f09022a
 int id textViewLogin 0x7f09022b
+int id textViewPassword 0x7f090276
+int id textViewPassword2 0x7f090277
+int id textViewPassword3 0x7f090278
 int id textViewSignin 0x7f09022c
 int id textViewSignup 0x7f09022d
 int id textViewTime 0x7f09022e
+int id textViewTitle 0x7f090279
 int id textViewUser 0x7f09022f
 int id text_input_end_icon 0x7f090230
 int id text_input_error_icon 0x7f090231
@@ -2799,6 +2804,7 @@ int layout questions 0x7f0c0093
 int layout questions_comment 0x7f0c0094
 int layout questions_read 0x7f0c0095
 int layout questions_write 0x7f0c0096
+int layout record_dialog 0x7f0c00b7
 int layout select_dialog_item_material 0x7f0c0097
 int layout select_dialog_multichoice_material 0x7f0c0098
 int layout select_dialog_singlechoice_material 0x7f0c0099

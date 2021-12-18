@@ -2537,11 +2537,16 @@ id textView17
 id textView2
 id textView4
 id textView5
+id textViewEmail
 id textViewFindpassword
 id textViewLogin
+id textViewPassword
+id textViewPassword2
+id textViewPassword3
 id textViewSignin
 id textViewSignup
 id textViewTime
+id textViewTitle
 id textViewUser
 id text_input_end_icon
 id text_input_error_icon
@@ -2800,6 +2805,7 @@ layout questions
 layout questions_comment
 layout questions_read
 layout questions_write
+layout record_dialog
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

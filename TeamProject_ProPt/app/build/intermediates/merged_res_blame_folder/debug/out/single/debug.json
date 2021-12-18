@@ -12,24 +12,24 @@
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_chest1.jpg"
     },
     {
-        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_header_image.png.flat",
-        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\header_image.png"
-    },
-    {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_free_talking_comment.xml.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\free_talking_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_header_image.png.flat",
+        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\header_image.png"
     },
     {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_community_card.xml.flat",
-        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\community_card.xml"
-    },
-    {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\xml_community_card.xml.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\xml\\community_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_community_card.xml.flat",
+        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\community_card.xml"
     },
     {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_exercise_cardview.xml.flat",
@@ -44,12 +44,12 @@
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_frutorials.png.flat",
-        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\frutorials.png"
-    },
-    {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_drawable_circle_inner.xml.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\drawable_circle_inner.xml"
+    },
+    {
+        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_frutorials.png.flat",
+        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\frutorials.png"
     },
     {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_food.xml.flat",
@@ -64,12 +64,12 @@
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\user_spec.xml"
     },
     {
-        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\xml_timer.xml.flat",
-        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\xml\\timer.xml"
-    },
-    {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_edit_post.xml.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\activity_edit_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\xml_timer.xml.flat",
+        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\xml\\timer.xml"
     },
     {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_food_read.xml.flat",
@@ -112,16 +112,16 @@
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\ic_baseline_play_circle_filled_24.xml"
     },
     {
-        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_user_exercise_spec.xml.flat",
+        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\user_exercise_spec.xml"
     },
     {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\xml_user_exercise_spec.xml.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\xml\\user_exercise_spec.xml"
     },
     {
-        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_user_exercise_spec.xml.flat",
-        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\user_exercise_spec.xml"
+        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_stimulus_pictures_write.xml.flat",
@@ -534,6 +534,10 @@
     {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_lower_body2.jpg.flat",
         "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_lower_body2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_record_dialog.xml.flat",
+        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\record_dialog.xml"
     },
     {
         "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_users.png.flat",
