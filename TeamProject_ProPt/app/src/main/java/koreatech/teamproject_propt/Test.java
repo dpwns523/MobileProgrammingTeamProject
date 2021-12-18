@@ -49,6 +49,5 @@ public class Test extends AppCompatActivity {
             return "arm : "+arm +
                     "chest : "+ chest;
         }
-
     }
 }

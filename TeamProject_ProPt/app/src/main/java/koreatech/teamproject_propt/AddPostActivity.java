@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -24,13 +26,16 @@ import com.google.firebase.database.ValueEventListener;
 
 public class AddPostActivity extends AppCompatActivity {
     private Button registerPostBtn;
-    private TextInputEditText postName, postCategory, postDesc, postImgLink;
+    private TextInputEditText postName, postDesc;
     private String postID;
-    private int seq = 0;
+    private RadioButton postCategoryBtn;
+    private static long seq = 0;
 
     // firebase 객체 사용을 위한 firebase database, database reference 객체
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
+
+    // 진행상태 나타내기 위한 ProgressBar 객체
     private ProgressBar loadingPB;
 
     @Override
@@ -40,9 +45,7 @@ public class AddPostActivity extends AppCompatActivity {
 
         registerPostBtn = findViewById(R.id.registerPostBtn);
         postName = findViewById(R.id.postName);
-        postCategory = findViewById(R.id.postCategory);
-        postDesc = findViewById(R.id.postDesc);
-        postImgLink = findViewById(R.id.postImageLink);
+        postDesc = findViewById(R.id.editPostDesc);
         loadingPB = findViewById(R.id.PBLoading);
 
         // firebase 객체 사용을 위한 firebase database, database reference 객체 초기화
@@ -52,29 +55,35 @@ public class AddPostActivity extends AppCompatActivity {
         registerPostBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                loadingPB.setVisibility(View.VISIBLE);
+                // 카테고리 정하는 라디오 그룹에서 선택된 라디오 버튼(카테고리) 가져옴
+                RadioGroup categoryRadioGroup = (RadioGroup) (findViewById(R.id.categoryRadio));
+                postCategoryBtn = (RadioButton) (findViewById(categoryRadioGroup.getCheckedRadioButtonId()));
 
-                postID = String.valueOf(++seq);
+                loadingPB.setVisibility(View.VISIBLE);
                 String postNameText = postName.getText().toString();
-                String postCategoryText = postCategory.getText().toString();
+                String postCategoryText = postCategoryBtn.getText().toString();
                 String postDescText = postDesc.getText().toString();
-                String postImgLinkText = postImgLink.getText().toString();
 
-                // 모달 객체 생성
-                PostRVModal postRVModal = new PostRVModal(postID, postNameText, postCategoryText, postDescText, postImgLinkText);
+                // 모달 객체 생성 및 데이터 값 설정
+                PostRVModal postRVModal = new PostRVModal(postID, postNameText, postCategoryText, postDescText);
 
                 // firebase DB에 데이터 전달하기 위해 databaseReference 객체에 value event 등록
-                databaseReference.addValueEventListener(new ValueEventListener() {
+                databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        // 현재 (db의 자식 수 + 1)으로 게시글 번호 지정
+                        long seq = snapshot.getChildrenCount();
+                        postID = String.valueOf(seq+1);
+                        postRVModal.setPostId(postID);
 
-                        // 데이터 값 설정
+                        // 모달 객체 전달해 데이터베이스에 값 저장
                         databaseReference.child(postID).setValue(postRVModal);
 
                         // 게시글 등록 완료 토스트 메시지 출력
                         Toast.makeText(AddPostActivity.this, "게시글 등록 완료", Toast.LENGTH_SHORT).show();
 
-                        // MainActivity 실행(나중에 다른 액티비티로 수정)
+                        finish();
+                        // PostListActivity 실행
                         startActivity(new Intent(AddPostActivity.this, PostListActivity.class));
                     }
 
@@ -87,4 +96,5 @@ public class AddPostActivity extends AppCompatActivity {
             }
         });
     }
+
 }
