@@ -40,14 +40,12 @@ public class HomeActivity extends AppCompatActivity
             Fragment fragment;
             switch (item.getItemId()) {
                 case R.id.navigationMyProfile:
-                    return true;
-                case R.id.navigationMyCourses:
-                    Intent intent3 = new Intent(mcontext, main_exercise_way.class); // 2
-                    mcontext.startActivity(intent3);
+                    Intent intent2 = new Intent(mcontext, user_info.class); // 2
+                    mcontext.startActivity(intent2);
                     return true;
                 case R.id.navigationHome:
-                    return true;
-                case  R.id.navigationSearch:
+                    //Intent intent3 = new Intent(mcontext, HomeActivity.class); // 2
+                    //mcontext.startActivity(intent3);
                     return true;
                 case  R.id.navigationMenu:
                     DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -67,8 +65,7 @@ public class HomeActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 
         drawer.addDrawerListener(toggle);
         toggle.syncState();
@@ -126,12 +123,15 @@ public class HomeActivity extends AppCompatActivity
         );
         //사용자 운동기록 onClickListener
         user_exercise_spec.setOnClickListener(v -> {
+            Intent intent = new Intent(HomeActivity.this, RecordActivity.class);
+            startActivity(intent);
 
             }
         );
         //사용자 스펙 기록 onClickListener
         user_spec.setOnClickListener(v -> {
-
+            Intent intent = new Intent(HomeActivity.this, SpecActivity.class);
+            startActivity(intent);
                 }
         );
         //맨 우측 상단 프로필아이콘 onClickListener

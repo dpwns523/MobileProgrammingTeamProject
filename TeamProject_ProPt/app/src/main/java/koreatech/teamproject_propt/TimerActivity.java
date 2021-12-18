@@ -1,23 +1,28 @@
 package koreatech.teamproject_propt;
 
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.Fragment;
 
 import android.content.Context;
-import android.graphics.Color;
-import android.graphics.PorterDuff;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationView;
 
 import java.util.concurrent.TimeUnit;
 /*
@@ -28,8 +33,15 @@ import java.util.concurrent.TimeUnit;
     보통 운동은 한 세트에 30초와 1분내로 진행되기 때문에 간편하게 이용하기 위함.
     직접 입력가능 ex) 1분 30초 -> 1.5
  */
+//, NavigationView.OnNavigationItemSelectedListener
+public class TimerActivity extends AppCompatActivity implements View.OnClickListener
+{
+    Context mcontext = this;
+    private BottomNavigationView bottomNavigationView;
 
-public class TimerActivity extends AppCompatActivity implements View.OnClickListener {
+    //운동목표같은 리스트 누르면 이동하게끔 받는 변수선언
+    View exercise_way,exercise_report;
+    View community_card;
 
     private long timeCountInMilliSeconds = 1 * 60000;
 
@@ -39,35 +51,74 @@ public class TimerActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private TimerStatus timerStatus = TimerStatus.STOPPED;
-
     private ProgressBar progressBarCircle;
     private EditText editTextMinute;
     private TextView textViewTime;
     private ImageView imageViewReset;
     private ImageView imageViewStartStop;
     private CountDownTimer countDownTimer;
-    private Context mContext = this;
     private static final int ACTIVITY_NUM = 4;
+
+//    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+//            = new BottomNavigationView.OnNavigationItemSelectedListener() {
+//        @Override
+//        public boolean onNavigationItemSelected(@NonNull MenuItem item) {   // BottomNavigation 선택 이벤트 처리
+//            Fragment fragment;
+//            switch (item.getItemId()) {
+//                case R.id.navigationMyProfile:
+//                    return true;
+////                case R.id.navigationMyCourses:
+////                    Intent intent3 = new Intent(mcontext, main_exercise_way.class); // 2
+////                    mcontext.startActivity(intent3);
+////                    return true;
+//                case R.id.navigationHome:
+//                    return true;
+////                case  R.id.navigationSearch:
+////                    return true;
+//                case  R.id.navigationMenu:
+//                    DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+//                    drawer.openDrawer(GravityCompat.START);
+//                    return true;
+//            }
+//            return false;
+//        }
+//    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_timer);
+        setContentView(R.layout.timer);
+
+
+
+//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
+//
+//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+//
+//        drawer.addDrawerListener(toggle);
+//        toggle.syncState();
+//
+//        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+//        navigationView.setNavigationItemSelectedListener(this);
+//
+//        bottomNavigationView = findViewById(R.id.navigation);
+//        bottomNavigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+////
+//        CoordinatorLayout.LayoutParams layoutParams = (CoordinatorLayout.LayoutParams) bottomNavigationView.getLayoutParams();
+//        layoutParams.setBehavior(new BottomNavigationBehavior());
+//
+//        bottomNavigationView.setSelectedItemId(R.id.navigationHome);
 
         // 뷰 초기화
         initViews();
 
         // 리스너 초기화
         initListeners();
-        // 하단 네비게이션 바에 대한 액션 처리 객체
-        BottomNavigationView bottomNavigationView = findViewById(R.id.navigation);
-        BottomNavigationViewHelper.enableNavigation(mContext, bottomNavigationView);
-        Menu menu = bottomNavigationView.getMenu();
-        MenuItem menuItem = menu.getItem(ACTIVITY_NUM);
-        menuItem.setChecked(true);
-
 
     }
+
     /**
      *  뷰 초기화
      */
@@ -233,8 +284,41 @@ public class TimerActivity extends AppCompatActivity implements View.OnClickList
                 TimeUnit.MILLISECONDS.toHours(milliSeconds),
                 TimeUnit.MILLISECONDS.toMinutes(milliSeconds) - TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS.toHours(milliSeconds)),
                 TimeUnit.MILLISECONDS.toSeconds(milliSeconds) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(milliSeconds)));
-
-
     }
 
+
+//    @Override
+//    public void onBackPressed() {
+//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+//        if (drawer.isDrawerOpen(GravityCompat.START)) {
+//            drawer.closeDrawer(GravityCompat.START);
+//        } else {
+//            super.onBackPressed();
+//        }
+//    }
+//
+//
+//    @SuppressWarnings("StatementWithEmptyBody")
+//    @Override
+//    public boolean onNavigationItemSelected(MenuItem item) {
+//        // Handle navigation view item clicks here.
+//        int id = item.getItemId();
+//
+//        if (id == R.id.nav_camera) {
+//            // Handle the camera action
+//        } else if (id == R.id.nav_gallery) {
+//
+//        } else if (id == R.id.nav_slideshow) {
+//
+//        } else if (id == R.id.nav_manage) {
+//
+//        } else if (id == R.id.nav_share) {
+//
+//        } else if (id == R.id.nav_dark_mode) {
+//
+//        }
+//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+//        drawer.closeDrawer(GravityCompat.START);
+//        return true;
+//    }
 }
