@@ -1,139 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SpecActivity">
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
 
-    <androidx.core.widget.NestedScrollView
-        tools:ignore="SpeakableTextPresentCheck"
-        android:layout_width="355dp"
-        android:layout_height="696dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="19dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    <include
+        layout="@layout/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".SpecActivity">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="355dp"
+                android:layout_height="696dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="19dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpeakableTextPresentCheck">
 
 
-        <LinearLayout
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textViewUser"
+                            style="@style/viewParent.headerText"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="15dp"
+                            android:maxLines="2"
+                            android:text="Pro PT" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/profileCircleImageView"
+                            android:layout_width="40dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/users"
+                            app:civ_border_color="@color/imageBorderColor"
+                            app:civ_border_width="2dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            style="@style/viewParent.headerText"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:text="사용자 스펙" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="307dp"
+                        android:orientation="vertical">
+
+                        <CalendarView
+                            android:id="@+id/calendarView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:focusedMonthDateColor="#A6A3FF" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="219dp"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            style="@style/viewParent.headerText"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:text="body profile"
+                            android:textSize="20sp"
+                            android:textStyle="normal" />
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="39dp"
+                            android:layout_height="28dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="110dp"
+                            android:layout_marginTop="1dp"
+                            android:background="#A6A3FF"
+                            android:text="+"
+                            android:textColor="#FFFFFF"
+                            android:textSize="8sp"
+                            android:textStyle="bold"
+                            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                        <ListView
+                            android:id="@+id/listView"
+                            android:layout_width="287dp"
+                            android:layout_height="184dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_weight="1" />
+
+                    </RelativeLayout>
+
+                    <!--remove the below layout with recycler view, use card poplar courses as model for design-->
+
+
+                    <!--remove the below layout with recycler view, use card poplar courses as model for design-->
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:theme="@style/AppTheme.AppBarOverlay">>
 
-            <RelativeLayout
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="?android:attr/colorPrimary"
+                android:visibility="gone"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+        </com.google.android.material.appbar.AppBarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-                <TextView
-                    android:id="@+id/textViewUser"
-                    style="@style/viewParent.headerText"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="3dp"
-                    android:layout_marginTop="15dp"
-                    android:maxLines="2"
-                    android:text="Pro PT" />
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/profileCircleImageView"
-                    android:layout_width="40dp"
-                    android:layout_height="60dp"
-                    android:layout_alignParentRight="true"
-                    android:src="@drawable/users"
-                    app:civ_border_color="@color/imageBorderColor"
-                    app:civ_border_width="2dp" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp">
-
-                <TextView
-                    style="@style/viewParent.headerText"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:text="사용자 스펙" />
-
-            </RelativeLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="307dp"
-                android:orientation="vertical">
-
-                <CalendarView
-                    android:id="@+id/calendarView"
-                    android:layout_width="match_parent"
-                    android:focusedMonthDateColor="#A6A3FF"
-                    android:layout_height="match_parent" />
-            </LinearLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="219dp"
-                android:layout_margin="10dp">
-
-                <TextView
-                    style="@style/viewParent.headerText"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:text="body profile"
-                    android:textSize="20sp"
-                    android:textStyle="normal" />
-
-                <Button
-                    android:id="@+id/button2"
-                    android:layout_width="39dp"
-                    android:layout_height="28dp"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="110dp"
-                    android:layout_marginTop="1dp"
-                    android:background="#A6A3FF"
-                    android:text="+"
-                    android:textColor="#FFFFFF"
-                    android:textSize="8sp"
-                    android:textStyle="bold"
-                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
-
-                <ListView
-                    android:id="@+id/listView"
-                    android:layout_width="287dp"
-                    android:layout_height="184dp"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="30dp"
-                    android:layout_weight="1" />
-
-            </RelativeLayout>
-
-            <!--remove the below layout with recycler view, use card poplar courses as model for design-->
-
-
-            <!--remove the below layout with recycler view, use card poplar courses as model for design-->
-
-        </LinearLayout>
-    </androidx.core.widget.NestedScrollView>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:background="?android:attr/windowBackground"
-        android:foreground="?attr/selectableItemBackground"
-        app:elevation="10dp"
-        app:itemBackground="@color/bottomNavigationBackground"
-        app:itemIconTint="@color/bottom_navigation_color"
-        app:itemTextColor="@color/bottom_navigation_color"
-        app:labelVisibilityMode="labeled"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/master_bottom_navigation" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer"></com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

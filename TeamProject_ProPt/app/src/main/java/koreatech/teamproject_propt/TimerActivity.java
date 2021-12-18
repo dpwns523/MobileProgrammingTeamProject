@@ -23,6 +23,7 @@ import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.concurrent.TimeUnit;
 /*
@@ -34,10 +35,10 @@ import java.util.concurrent.TimeUnit;
     직접 입력가능 ex) 1분 30초 -> 1.5
  */
 //, NavigationView.OnNavigationItemSelectedListener
-public class TimerActivity extends AppCompatActivity implements View.OnClickListener
-{
-    Context mcontext = this;
+public class TimerActivity extends AppCompatActivity
+        implements View.OnClickListener ,NavigationView.OnNavigationItemSelectedListener{
     private BottomNavigationView bottomNavigationView;
+    private Context mContext = this;
 
     //운동목표같은 리스트 누르면 이동하게끔 받는 변수선언
     View exercise_way,exercise_report;
@@ -57,59 +58,51 @@ public class TimerActivity extends AppCompatActivity implements View.OnClickList
     private ImageView imageViewReset;
     private ImageView imageViewStartStop;
     private CountDownTimer countDownTimer;
-    private static final int ACTIVITY_NUM = 4;
 
-//    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-//            = new BottomNavigationView.OnNavigationItemSelectedListener() {
-//        @Override
-//        public boolean onNavigationItemSelected(@NonNull MenuItem item) {   // BottomNavigation 선택 이벤트 처리
-//            Fragment fragment;
-//            switch (item.getItemId()) {
-//                case R.id.navigationMyProfile:
-//                    return true;
-////                case R.id.navigationMyCourses:
-////                    Intent intent3 = new Intent(mcontext, main_exercise_way.class); // 2
-////                    mcontext.startActivity(intent3);
-////                    return true;
-//                case R.id.navigationHome:
-//                    return true;
-////                case  R.id.navigationSearch:
-////                    return true;
-//                case  R.id.navigationMenu:
-//                    DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-//                    drawer.openDrawer(GravityCompat.START);
-//                    return true;
-//            }
-//            return false;
-//        }
-//    };
+    //BottomNavigation 이벤트 리스너
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+            = new BottomNavigationView.OnNavigationItemSelectedListener() {
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {   // BottomNavigation 선택 이벤트 처리
+        Fragment fragment;
+        switch (item.getItemId()) {
+            case R.id.navigationMyProfile:
+                Intent intent2 = new Intent(mContext, UserProfileActivity.class); // 2
+                mContext.startActivity(intent2);
+                return true;
+            case R.id.navigationHome:
+                Intent intent3 = new Intent(mContext, HomeActivity.class); // 2
+                mContext.startActivity(intent3);
+                return true;
+            case R.id.navigationMenu:
+                DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout2);
+                drawer.openDrawer(GravityCompat.START);
+                return true;
+        }
+        return false;
+    }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.timer);
+        setContentView(R.layout.activity_timer);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 
-//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
-//
-//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-//
-//        drawer.addDrawerListener(toggle);
-//        toggle.syncState();
-//
-//        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-//        navigationView.setNavigationItemSelectedListener(this);
-//
-//        bottomNavigationView = findViewById(R.id.navigation);
-//        bottomNavigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-////
-//        CoordinatorLayout.LayoutParams layoutParams = (CoordinatorLayout.LayoutParams) bottomNavigationView.getLayoutParams();
-//        layoutParams.setBehavior(new BottomNavigationBehavior());
-//
-//        bottomNavigationView.setSelectedItemId(R.id.navigationHome);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+        bottomNavigationView = findViewById(R.id.navigation);
+        bottomNavigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
 
         // 뷰 초기화
         initViews();
@@ -285,40 +278,50 @@ public class TimerActivity extends AppCompatActivity implements View.OnClickList
                 TimeUnit.MILLISECONDS.toMinutes(milliSeconds) - TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS.toHours(milliSeconds)),
                 TimeUnit.MILLISECONDS.toSeconds(milliSeconds) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(milliSeconds)));
     }
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout2);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
 
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
 
-//    @Override
-//    public void onBackPressed() {
-//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-//        if (drawer.isDrawerOpen(GravityCompat.START)) {
-//            drawer.closeDrawer(GravityCompat.START);
-//        } else {
-//            super.onBackPressed();
-//        }
-//    }
-//
-//
-//    @SuppressWarnings("StatementWithEmptyBody")
-//    @Override
-//    public boolean onNavigationItemSelected(MenuItem item) {
-//        // Handle navigation view item clicks here.
-//        int id = item.getItemId();
-//
-//        if (id == R.id.nav_camera) {
-//            // Handle the camera action
-//        } else if (id == R.id.nav_gallery) {
-//
-//        } else if (id == R.id.nav_slideshow) {
-//
-//        } else if (id == R.id.nav_manage) {
-//
-//        } else if (id == R.id.nav_share) {
-//
-//        } else if (id == R.id.nav_dark_mode) {
-//
-//        }
-//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-//        drawer.closeDrawer(GravityCompat.START);
-//        return true;
-//    }
+        if (id == R.id.my_page) {   // 프로필 화면 이동
+            Intent intent = new Intent(TimerActivity.this, UserProfileActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.Community) {  // 커뮤니티 게시판 이동
+            Intent intent = new Intent(TimerActivity.this, PostListActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.workout) {   // 운동 방법 이동
+            Intent intent = new Intent(TimerActivity.this, ExerciseWayActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.set_goal) {  // 일일 운동 기록 이동
+            Intent intent = new Intent(TimerActivity.this, ExerciseReportActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.timer_item) { // 타이머 이동
+
+        } else if (id == R.id.record_user_exercise) {    // 사용자 운동 기록 그래프화면
+            Intent intent = new Intent(TimerActivity.this, RecordActivity.class);
+            startActivity(intent);
+        } else if( id == R.id.record_user_spec){    // 사용자 일일 스펙 기록 화면
+            Intent intent = new Intent(TimerActivity.this, SpecActivity.class);
+            startActivity(intent);
+        } else if(id == R.id.logout){   // 사용자 로그아웃 -> 로그인 페이지 이동
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(TimerActivity.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+        }
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
 }

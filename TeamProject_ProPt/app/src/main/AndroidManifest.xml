@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TeamProject_ProPt">
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:theme="@style/SplashTheme"
             android:exported="true">
             <intent-filter>
@@ -19,7 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".FindActivity" />
         <activity android:name=".HomeActivity"/>
@@ -31,7 +30,7 @@
         <activity android:name=".ExerciseReportActivity"/>
         <!-- 커뮤니티 자유게시판에 대한 activity-->
         <!--    사용자 프로필에 대한 activity      -->
-        <activity android:name=".user_info"/>
+        <activity android:name=".UserProfileActivity"/>
         <activity android:name=".AddPostActivity"/>
         <activity android:name=".EditPostActivity"/>
         <activity android:name=".PostListActivity"/>

@@ -2,39 +2,51 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-    <!--        android:icon="@drawable/ic_menu_camera
-                android:icon="@drawable/ic_menu_gallery""
-                android:icon="@drawable/ic_menu_slideshow"
-                android:icon="@drawable/ic_menu_manage"-->
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-
-            android:title="Comuunity" />
-        <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/my_page"
 
             android:title="My Page" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/Community"
 
-            android:title="Workout" />
-        <item
-            android:id="@+id/nav_manage"
-
-            android:title="Timer" />
+            android:title="Comuunity" />
     </group>
-
-    <item android:title="Only Toggle Theme would work">
+    <item android:title="Exercise">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/workout"
+                android:icon="@drawable/header_fitness_icon"
+                android:title="운동방법" />
             <item
-                android:id="@+id/nav_dark_mode"
-                android:icon="@android:drawable/ic_menu_day"
-                android:title="Toggle Theme" />
+                android:id="@+id/set_goal"
+                android:icon="@drawable/header_goal_icon"
+                android:title="목표설정" />
+            <item
+                android:id="@+id/timer_item"
+                android:icon="@drawable/header_timer_icon"
+                android:title="타이머" />
+        </menu>
+    </item>
+
+    <item android:title="User Menu">
+        <menu>
+            <item
+                android:id="@+id/record_user_exercise"
+                android:icon="@drawable/header_exer_record"
+                android:title="사용자 운동 기록" />
+            <item
+                android:id="@+id/record_user_spec"
+                android:icon="@drawable/header_spec_record"
+                android:title="사용자 스펙 기록" />
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:title="로그아웃" />
         </menu>
     </item>
 

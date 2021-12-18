@@ -1889,7 +1889,12 @@ drawable goal
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gym
+drawable header_exer_record
+drawable header_fitness_icon
+drawable header_goal_icon
 drawable header_image
+drawable header_spec_record
+drawable header_timer_icon
 drawable hero
 drawable ic_add
 drawable ic_baseline_emoji_people_24
@@ -1989,6 +1994,7 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id Community
 id FUNCTION
 id META
 id NO_DEBUG
@@ -2105,6 +2111,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btn_cancel
+id btn_confirm
 id button
 id button2
 id button3
@@ -2212,9 +2220,12 @@ id editPostBtn
 id editPostDesc
 id editPostName
 id editTILPostName
+id editTextAddress
 id editTextEmail
 id editTextMinute
+id editTextName
 id editTextPassword
+id editTextPhone
 id editTextUserEmail
 id edit_query
 id elastic
@@ -2295,6 +2306,7 @@ id linearLayout
 id listMode
 id listView
 id list_item
+id logout
 id lower_body
 id masked
 id match_constraint
@@ -2354,14 +2366,10 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id muscle_mass
+id my_page
 id name_tv
-id nav_camera
-id nav_dark_mode
-id nav_gallery
-id nav_manage
-id nav_share
-id nav_slideshow
 id nav_view
+id nav_view2
 id navigation
 id navigation2
 id navigationHome
@@ -2372,6 +2380,7 @@ id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
+id nestedScrollView
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
@@ -2400,6 +2409,8 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id picker_month
+id picker_year
 id piechart
 id pin
 id position
@@ -2416,6 +2427,8 @@ id progress_horizontal
 id questionRadioBtn
 id radio
 id ratio
+id record_user_exercise
+id record_user_spec
 id rectangles
 id recycle
 id reg_button
@@ -2451,6 +2464,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id set_goal
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -2525,7 +2539,6 @@ id textView15
 id textView17
 id textView2
 id textView4
-id textView5
 id textViewEmail
 id textViewFindpassword
 id textViewLogin
@@ -2549,6 +2562,7 @@ id textinput_suffix_text
 id textviewMessage
 id time
 id timer
+id timer_item
 id tipRadioBtn
 id title
 id titleDividerNoCustom
@@ -2556,6 +2570,7 @@ id title_template
 id title_tv
 id toggle
 id toolbar
+id toolbar2
 id top
 id topPanel
 id touch_outside
@@ -2594,6 +2609,7 @@ id west
 id wide
 id withText
 id withinBounds
+id workout
 id wrap
 id wrap_content
 id wrap_content_constrained
@@ -2672,15 +2688,16 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_post
 layout activity_edit_post
+layout activity_exercise_report
 layout activity_find
 layout activity_home
 layout activity_login
-layout activity_main
 layout activity_post_list
 layout activity_signup
 layout activity_timer
 layout activity_user_spec
 layout app_bar_main
+layout bottom_nav
 layout bottom_sheet_layout
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -2706,7 +2723,6 @@ layout exercise_cardview
 layout exercise_report
 layout exercise_way
 layout graph
-layout main_exercise_report
 layout main_exercise_way
 layout material_chip_input_combo
 layout material_clock_display
@@ -2797,6 +2813,7 @@ layout tips_read
 layout user_exercise_spec
 layout user_info
 layout user_spec
+layout year_month_picker
 menu activity_main_drawer
 menu example_menu
 menu example_menu2

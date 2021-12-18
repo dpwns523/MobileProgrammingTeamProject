@@ -1,191 +1,227 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout2"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
 
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="365dp"
-        android:layout_height="733dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck">
+    <include
+        layout="@layout/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="365dp"
+            android:layout_height="733dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck">
 
 
-        <LinearLayout
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textViewUser"
+                        style="@style/viewParent.headerText"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="15dp"
+                        android:maxLines="2"
+                        android:text="Pro PT" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="603dp">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        style="@style/viewParent.headerText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="111dp"
+                        android:layout_marginTop="26dp"
+                        android:layout_marginEnd="92dp"
+                        android:gravity="center"
+                        android:text="사용자 프로필"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        style="@style/viewParent.headerText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="186dp"
+                        android:text="이름"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/user_info_phonum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="425dp"
+                        android:digits="0123456789"
+                        android:inputType="number"
+                        android:text="01075545514" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        style="@style/viewParent.headerText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="481dp"
+                        android:text="주소"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/user_info_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="519dp"
+                        android:privateImeOptions="defaultInputmode=korean"
+                        android:text="ADDRESS" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        style="@style/viewParent.headerText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="387dp"
+                        android:text="전화번호"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        style="@style/viewParent.headerText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="285dp"
+                        android:text="이메일"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/user_info_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="127dp"
+                        android:enabled="false"
+                        android:text="ID" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        style="@style/viewParent.headerText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="89dp"
+                        android:text="아이디"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/user_info_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="323dp"
+                        android:privateImeOptions="defaultInputmode=korean"
+                        android:text="EMAIL" />
+
+                    <EditText
+                        android:id="@+id/user_info_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="225dp"
+                        android:privateImeOptions="defaultInputmode=korean"
+                        android:text="NAME" />
+
+                </RelativeLayout>
+
+
+                <!--remove the below layout with recycler view, use card poplar courses as model for design-->
+
+
+                <!--remove the below layout with recycler view, use card poplar courses as model for design-->
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:theme="@style/AppTheme.AppBarOverlay">>
 
-            <RelativeLayout
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="?android:attr/colorPrimary"
+                android:visibility="gone"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+        </com.google.android.material.appbar.AppBarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-                <TextView
-                    android:id="@+id/textViewUser"
-                    style="@style/viewParent.headerText"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="3dp"
-                    android:layout_marginTop="15dp"
-                    android:maxLines="2"
-                    android:text="Pro PT" />
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer"></com.google.android.material.navigation.NavigationView>
 
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="603dp">
-
-                <TextView
-                    android:id="@+id/textView17"
-                    style="@style/viewParent.headerText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginLeft="111dp"
-                    android:layout_marginTop="26dp"
-                    android:layout_marginEnd="92dp"
-                    android:gravity="center"
-                    android:text="사용자 프로필"
-                    android:textSize="28dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    style="@style/viewParent.headerText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginTop="186dp"
-                    android:text="이름"
-                    android:textSize="20sp"
-                    android:textStyle="normal" />
-
-                <EditText
-                    android:id="@+id/user_info_phonum"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginTop="425dp"
-                    android:text="01075545514"
-                    android:inputType="number"
-                    android:digits="0123456789"/>
-
-                <TextView
-                    android:id="@+id/textView15"
-                    style="@style/viewParent.headerText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginTop="481dp"
-                    android:text="주소"
-                    android:textSize="20sp"
-                    android:textStyle="normal" />
-
-                <EditText
-                    android:id="@+id/user_info_address"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginTop="519dp"
-                    android:text="ADDRESS"
-                    android:privateImeOptions="defaultInputmode=korean"/>
-
-                <TextView
-                    android:id="@+id/textView14"
-                    style="@style/viewParent.headerText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginTop="387dp"
-                    android:text="전화번호"
-                    android:textSize="20sp"
-                    android:textStyle="normal" />
-
-                <TextView
-                    android:id="@+id/textView13"
-                    style="@style/viewParent.headerText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginTop="285dp"
-                    android:text="이메일"
-                    android:textSize="20sp"
-                    android:textStyle="normal"/>
-
-                <EditText
-                    android:id="@+id/user_info_id"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginTop="127dp"
-                    android:text="ID"
-                    android:enabled="false"/>
-
-                <TextView
-                    android:id="@+id/textView2"
-                    style="@style/viewParent.headerText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginTop="89dp"
-                    android:text="아이디"
-                    android:textSize="20sp"
-                    android:textStyle="normal" />
-
-                <EditText
-                    android:id="@+id/user_info_email"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginTop="323dp"
-                    android:text="EMAIL"
-                    android:privateImeOptions="defaultInputmode=korean"/>
-
-                <EditText
-                    android:id="@+id/user_info_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="9dp"
-                    android:layout_marginTop="225dp"
-                    android:text="NAME"
-                    android:privateImeOptions="defaultInputmode=korean"/>
-
-            </RelativeLayout>
-
-
-            <!--remove the below layout with recycler view, use card poplar courses as model for design-->
-
-
-            <!--remove the below layout with recycler view, use card poplar courses as model for design-->
-        </LinearLayout>
-    </androidx.core.widget.NestedScrollView>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

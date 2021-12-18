@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-47:12
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\BIN\.gradle\caches\transforms-3\5576a30962e6afc9bac36f11c5503bd7\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\BIN\.gradle\caches\transforms-3\fdc605d6685876de6e5e285182405585\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\BIN\.gradle\caches\transforms-3\a1b3ca44643bee301a6ab86839fb1294\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
@@ -78,25 +78,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\BIN\.gradle\cach
 MERGED from [androidx.print:print:1.0.0] C:\Users\BIN\.gradle\caches\transforms-3\74c4766fd6be5c43cae422a428979614\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\BIN\.gradle\caches\transforms-3\9fc3946c42311b57edd2b66624642249\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\BIN\.gradle\caches\transforms-3\02a5110db57cf0f51169d7d777d5eabf\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-47:12
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-47:12
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:5:5-44:19
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:5:5-41:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\BIN\.gradle\caches\transforms-3\5576a30962e6afc9bac36f11c5503bd7\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\BIN\.gradle\caches\transforms-3\5576a30962e6afc9bac36f11c5503bd7\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\BIN\.gradle\caches\transforms-3\fdc605d6685876de6e5e285182405585\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
@@ -167,14 +167,14 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\BIN\.gradle\caches
 		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:11:9-55
-activity#koreatech.teamproject_propt.MainActivity
+activity#koreatech.teamproject_propt.LoginActivity
 ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:12:9-21:20
 	android:exported
 		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:15:13-36
 	android:theme
 		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:14:13-47
 	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:13:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
@@ -185,62 +185,58 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
 		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:19:27-74
-activity#koreatech.teamproject_propt.LoginActivity
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:22:9-51
-	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:22:19-48
 activity#koreatech.teamproject_propt.SignUpActivity
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:23:9-52
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:22:9-52
 	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:23:19-49
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:22:19-49
 activity#koreatech.teamproject_propt.FindActivity
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:24:9-50
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:23:9-50
+	android:name
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:23:19-47
+activity#koreatech.teamproject_propt.HomeActivity
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:24:9-49
 	android:name
 		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:24:19-47
-activity#koreatech.teamproject_propt.HomeActivity
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:25:9-49
-	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:25:19-47
 activity#koreatech.teamproject_propt.TimerActivity
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:26:9-50
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:25:9-50
 	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:26:19-48
-activity#koreatech.teamproject_propt.main_exercise_way
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:30:9-54
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:25:19-48
+activity#koreatech.teamproject_propt.ExerciseWayActivity
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:27:9-56
 	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:30:19-52
-activity#koreatech.teamproject_propt.sub_exercise_way
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:31:9-53
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:27:19-54
+activity#koreatech.teamproject_propt.SubExerciseWayActivity
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:28:9-59
 	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:31:19-51
-activity#koreatech.teamproject_propt.main_exercise_report
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:33:9-57
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:28:19-57
+activity#koreatech.teamproject_propt.ExerciseReportActivity
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:30:9-59
 	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:33:19-55
-activity#koreatech.teamproject_propt.user_info
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:36:9-46
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:30:19-57
+activity#koreatech.teamproject_propt.UserProfileActivity
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:33:9-56
 	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:36:19-44
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:33:19-54
 activity#koreatech.teamproject_propt.AddPostActivity
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:37:9-52
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:34:9-52
 	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:37:19-50
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:34:19-50
 activity#koreatech.teamproject_propt.EditPostActivity
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:38:9-53
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:35:9-53
 	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:38:19-51
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:35:19-51
 activity#koreatech.teamproject_propt.PostListActivity
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:39:9-53
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:36:9-53
 	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:39:19-51
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:36:19-51
 activity#koreatech.teamproject_propt.RecordActivity
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:40:9-51
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:37:9-51
 	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:40:19-49
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:37:19-49
 activity#koreatech.teamproject_propt.SpecActivity
-ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:41:9-49
+ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:38:9-49
 	android:name
-		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:41:19-47
+		ADDED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml:38:19-47
 uses-sdk
 INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\BIN\AndroidStudioProjects\Project\TeamProject_ProPt\app\src\main\AndroidManifest.xml

@@ -14,7 +14,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 /*
     MyAdapter.java (어댑터임)
-
     기능설명
     : main_exercise_way에서 recyclerview와 cardview를 adapter를 통해서 연결함
  */
@@ -74,7 +73,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>  {
             }
         });
     }
-
     //아이템 개수가 몇 개 있는지 반환
     @Override
     public int getItemCount() {

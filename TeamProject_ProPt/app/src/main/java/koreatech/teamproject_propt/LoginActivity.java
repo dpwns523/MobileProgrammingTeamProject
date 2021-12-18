@@ -17,9 +17,12 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-
 /*
-    메인 액티비티에서 로그인 버튼 누를 시 이동하는 로그인 액티비티
+    한국기술교육대학교 컴퓨터공학부
+    2021-2학기 모바일프로그래밍 팀프로젝트
+    팀원 : 임예준, 남태민, 이원진, 우동훈
+
+    로그인 화면 구성.
     - 로그인
     - 비밀번호 찾기
     - 회원가입
@@ -39,20 +42,21 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
         firebaseAuth = FirebaseAuth.getInstance();
 
-        // 이미 로그인 인증돼있는 유저가 있을 경우
-        if(firebaseAuth.getCurrentUser() != null){
-
-            // 현재 액티비티 종료
-            finish();
-
-            // profile 액티비티로 이동
-            startActivity(new Intent(getApplicationContext(), HomeActivity.class));
-        }
+//        // 이미 로그인 인증돼있는 유저가 있을 경우
+//        if(firebaseAuth.getCurrentUser() != null){
+//
+//            // 현재 액티비티 종료
+//            finish();
+//
+//            // profile 액티비티로 이동
+//            startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+//        }
 
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
         editTextPassword = (EditText) findViewById(R.id.editTextPassword);
@@ -100,7 +104,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     }
                 });
     }
-
     @Override
     public void onClick(View view) {
         if(view == buttonSignin) {

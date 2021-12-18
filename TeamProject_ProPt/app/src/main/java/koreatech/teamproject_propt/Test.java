@@ -16,7 +16,7 @@ public class Test extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         // firebase 객체 사용을 위한 firebase database, database reference 객체 초기화
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main); // 수정필요
+        setContentView(R.layout.activity_home); // 수정필요
 
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference();

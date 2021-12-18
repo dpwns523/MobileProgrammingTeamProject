@@ -25,7 +25,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.TeamProject_ProPt" >
         <activity
-            android:name="koreatech.teamproject_propt.MainActivity"
+            android:name="koreatech.teamproject_propt.LoginActivity"
             android:exported="true"
             android:theme="@style/SplashTheme" >
             <intent-filter>
@@ -34,20 +34,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="koreatech.teamproject_propt.LoginActivity" />
         <activity android:name="koreatech.teamproject_propt.SignUpActivity" />
         <activity android:name="koreatech.teamproject_propt.FindActivity" />
         <activity android:name="koreatech.teamproject_propt.HomeActivity" />
         <activity android:name="koreatech.teamproject_propt.TimerActivity" />
-
         <!-- //운동방법에 대한 activity -->
-        <activity android:name="koreatech.teamproject_propt.main_exercise_way" />
-        <activity android:name="koreatech.teamproject_propt.sub_exercise_way" />
+        <activity android:name="koreatech.teamproject_propt.ExerciseWayActivity" />
+        <activity android:name="koreatech.teamproject_propt.SubExerciseWayActivity" />
         <!-- //일일운동목표에 대한 activity -->
-        <activity android:name="koreatech.teamproject_propt.main_exercise_report" />
+        <activity android:name="koreatech.teamproject_propt.ExerciseReportActivity" />
         <!-- 커뮤니티 자유게시판에 대한 activity -->
         <!-- 사용자 프로필에 대한 activity -->
-        <activity android:name="koreatech.teamproject_propt.user_info" />
+        <activity android:name="koreatech.teamproject_propt.UserProfileActivity" />
         <activity android:name="koreatech.teamproject_propt.AddPostActivity" />
         <activity android:name="koreatech.teamproject_propt.EditPostActivity" />
         <activity android:name="koreatech.teamproject_propt.PostListActivity" />

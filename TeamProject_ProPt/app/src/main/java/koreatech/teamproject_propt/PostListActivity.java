@@ -1,5 +1,6 @@
 package koreatech.teamproject_propt;
 
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -16,12 +17,18 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -37,7 +44,9 @@ import java.util.Collections;
     - 게시글 목록 출력
  */
 
-public class PostListActivity extends AppCompatActivity implements PostRVAdapter.PostClickInterface {
+public class PostListActivity extends AppCompatActivity
+        implements PostRVAdapter.PostClickInterface, NavigationView.OnNavigationItemSelectedListener {
+    private BottomNavigationView bottomNavigationView;
     private Context mContext = this;
     private static final int ACTIVITY_NUM = 2;
     private Button addPostBtn;
@@ -55,18 +64,50 @@ public class PostListActivity extends AppCompatActivity implements PostRVAdapter
 
     // floating action 버튼 사용
     private FloatingActionButton addPostFAB;
+    // BottomNavigation
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+            = new BottomNavigationView.OnNavigationItemSelectedListener() {
+
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {   // BottomNavigation 선택 이벤트 처리
+            Fragment fragment;
+            switch (item.getItemId()) {
+                case R.id.navigationMyProfile:
+                    Intent intent2 = new Intent(mContext, UserProfileActivity.class); // 2
+                    mContext.startActivity(intent2);
+                    return true;
+                case R.id.navigationHome:
+                    Intent intent = new Intent(mContext, HomeActivity.class);
+                    mContext.startActivity(intent);
+                    return true;
+                case  R.id.navigationMenu:
+                    DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout2);
+                    drawer.openDrawer(GravityCompat.START);
+                    return true;
+            }
+            return false;
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post_list);
+        // Bottom Navigation에 대한 처리.
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar2);
+        setSupportActionBar(toolbar);
 
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout2);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.navigation);
-        BottomNavigationViewHelper.enableNavigation(mContext, bottomNavigationView);
-        Menu menu = bottomNavigationView.getMenu();
-        MenuItem menuItem = menu.getItem(ACTIVITY_NUM);
-        menuItem.setChecked(true);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view2);
+        navigationView.setNavigationItemSelectedListener(this);
+
+        bottomNavigationView = findViewById(R.id.navigation2);
+        bottomNavigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         // initializing all our variables.
 
@@ -202,5 +243,52 @@ public class PostListActivity extends AppCompatActivity implements PostRVAdapter
             }
         });
 
+    }
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout2);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+
+        if (id == R.id.my_page) {   // 프로필 화면 이동
+            Intent intent = new Intent(PostListActivity.this, UserProfileActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.Community) {  // 커뮤니티 게시판 이동
+
+        } else if (id == R.id.workout) {   // 운동 방법 이동
+            Intent intent = new Intent(PostListActivity.this, ExerciseWayActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.set_goal) {  // 일일 운동 기록 이동
+            Intent intent = new Intent(PostListActivity.this, ExerciseReportActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.timer_item) { // 타이머 이동
+            Intent intent = new Intent(PostListActivity.this, TimerActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.record_user_exercise) {    // 사용자 운동 기록 그래프화면
+            Intent intent = new Intent(PostListActivity.this, RecordActivity.class);
+            startActivity(intent);
+        } else if( id == R.id.record_user_spec){    // 사용자 일일 스펙 기록 화면
+            Intent intent = new Intent(PostListActivity.this, SpecActivity.class);
+            startActivity(intent);
+        } else if(id == R.id.logout){   // 사용자 로그아웃 -> 로그인 페이지 이동
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(PostListActivity.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+        }
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout2);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
     }
 }
