@@ -12,7 +12,6 @@ public class PostRVModal implements Parcelable {
     private String postName;
     private String postCategory;
     private String postDesc;
-    private String postImgLink;
 
     // 빈 생성자
     public PostRVModal() {
@@ -25,7 +24,6 @@ public class PostRVModal implements Parcelable {
         postName = in.readString();
         postCategory = in.readString();
         postDesc = in.readString();
-        postImgLink = in.readString();
     }
 
     public static final Creator<PostRVModal> CREATOR = new Creator<PostRVModal>() {
@@ -65,19 +63,11 @@ public class PostRVModal implements Parcelable {
         this.postDesc = postDesc;
     }
 
-    public String getPostImgLink() {
-        return postImgLink;
-    }
-    public void setPostImgLink(String postImgLink) {
-        this.postImgLink = postImgLink;
-    }
-
-    public PostRVModal(String postId, String postName, String postCategory, String postDesc, String postImgLink) {
+    public PostRVModal(String postId, String postName, String postCategory, String postDesc) {
         this.postId = postId;
         this.postName = postName;
         this.postCategory = postCategory;
         this.postDesc = postDesc;
-        this.postImgLink = postImgLink;
     }
 
     @Override
@@ -91,6 +81,5 @@ public class PostRVModal implements Parcelable {
         dest.writeString(postName);
         dest.writeString(postCategory);
         dest.writeString(postDesc);
-        dest.writeString(postImgLink);
     }
 }

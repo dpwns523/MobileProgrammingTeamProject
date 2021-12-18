@@ -1844,6 +1844,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable android
 drawable android_developer
 drawable avd_hide_password
 drawable avd_show_password
@@ -1890,6 +1891,7 @@ drawable googleg_standard_color_18
 drawable gym
 drawable header_image
 drawable hero
+drawable ic_add
 drawable ic_baseline_emoji_people_24
 drawable ic_baseline_loop_24
 drawable ic_baseline_no_food_24
@@ -1991,15 +1993,12 @@ id FUNCTION
 id META
 id NO_DEBUG
 id PBLoading
-id PBLoadingRV
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id TILPostCategory
 id TILPostDesc
-id TILPostImageLink
 id TILPostName
 id TOP_END
 id TOP_START
@@ -2121,6 +2120,7 @@ id cancel_button
 id card_view
 id cardview
 id carryVelocity
+id categoryRadio
 id center
 id center_horizontal
 id center_vertical
@@ -2183,8 +2183,8 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
-id detailPostBtn
 id dialog_button
+id dietRadioBtn
 id dimensions
 id direct
 id disableHome
@@ -2206,15 +2206,11 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editCategoryRadio
 id editPBLoading
 id editPostBtn
-id editPostCategory
 id editPostDesc
-id editPostImageLink
 id editPostName
-id editTILPostCategory
-id editTILPostDesc
-id editTILPostImageLink
 id editTILPostName
 id editTextEmail
 id editTextMinute
@@ -2244,6 +2240,7 @@ id floating
 id food
 id forever
 id fragment_container_view_tag
+id freeRadioBtn
 id free_talking
 id frost
 id ghost_view
@@ -2408,10 +2405,7 @@ id percent
 id piechart
 id pin
 id position
-id postCategory
 id postCategoryTV
-id postDesc
-id postImageLink
 id postImgIV
 id postLayout
 id postName
@@ -2421,6 +2415,7 @@ id profileCircleImageView
 id progressBarCircle
 id progress_circular
 id progress_horizontal
+id questionRadioBtn
 id questions
 id radio
 id ratio
@@ -2555,6 +2550,7 @@ id textinput_suffix_text
 id textviewMessage
 id time
 id timer
+id tipRadioBtn
 id tips
 id title
 id titleDividerNoCustom
