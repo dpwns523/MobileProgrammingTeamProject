@@ -2090,6 +2090,8 @@ int id beginOnFirstDraw 0x7f090068
 int id beginning 0x7f090069
 int id bestChoice 0x7f09006a
 int id blocking 0x7f09006b
+int id body 0x7f090277
+int id body_fat 0x7f090278
 int id bottom 0x7f09006c
 int id bottomSheetPostCategory 0x7f09006d
 int id bottomSheetPostDesc 0x7f09006e
@@ -2358,6 +2360,7 @@ int id mtrl_picker_text_input_range_start 0x7f090174
 int id mtrl_picker_title_text 0x7f090175
 int id mtrl_view_tag_bottom_padding 0x7f090176
 int id multiply 0x7f090177
+int id muscle_mass 0x7f090279
 int id name_tv 0x7f090178
 int id nav_camera 0x7f090179
 int id nav_dark_mode 0x7f09017a
@@ -2800,6 +2803,7 @@ int layout notification_template_media_custom 0x7f0c008f
 int layout notification_template_part_chronometer 0x7f0c0090
 int layout notification_template_part_time 0x7f0c0091
 int layout post_rv_item 0x7f0c0092
+int layout profile_dialog 0x7f0c00b9
 int layout questions 0x7f0c0093
 int layout questions_comment 0x7f0c0094
 int layout questions_read 0x7f0c0095

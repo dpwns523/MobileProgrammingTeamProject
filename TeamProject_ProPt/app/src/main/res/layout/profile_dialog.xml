@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:text="Body Record"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="체중" />
+
+    <EditText
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:ems="8"
+        android:hint="기록 해주세요."
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="체지방" />
+
+    <EditText
+        android:id="@+id/body_fat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:ems="8"
+        android:hint="기록 해주세요."
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="근육량" />
+
+    <EditText
+        android:id="@+id/muscle_mass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:ems="8"
+        android:hint="기록 해주세요."
+        android:inputType="text" />
+
+</LinearLayout>
