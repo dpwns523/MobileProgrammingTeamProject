@@ -24,6 +24,11 @@ public class BottomNavigationViewHelper {
                         context.startActivity(intent3);
                         break;
                     case R.id.navigationMenu:
+<<<<<<< HEAD
+=======
+                          //Intent intent5 = new Intent(context, ProfileActivity.class); // 4
+                          //context.startActivity(intent5);
+>>>>>>> ac6d9ffb41e523e491815c70626b48d080dae006
                         break;
                 }
                 return false;
