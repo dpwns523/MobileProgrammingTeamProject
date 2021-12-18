@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!--edit text for adding a course name-->
+            <!--게시글 제목-->
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/editTILPostName"
                 android:layout_width="match_parent"
@@ -41,96 +41,50 @@
                     android:textSize="14sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <!--edit text for adding a course price-->
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/editTILPostCategory"
+            <!--게시글 카테고리 설정하는 라디오 버튼-->
+            <RadioGroup
+                android:id="@+id/editCategoryRadio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp"
-                android:hint="카테고리"
-                android:padding="5dp"
-                android:textColorHint="@color/white"
-                app:boxStrokeColor="@color/purple_200"
-                app:hintTextColor="@color/white">
+                android:orientation="horizontal"
+                android:layout_marginLeft="13dp">
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/editPostCategory"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:ems="10"
-                    android:importantForAutofill="no"
-                    android:inputType="phone"
-                    android:textColor="@color/white"
-                    android:textColorHint="@color/white"
-                    android:textSize="14sp"
-                    app:boxStrokeColor="@color/purple_200" />
-            </com.google.android.material.textfield.TextInputLayout>
+                <RadioButton
+                    android:id="@+id/freeRadioBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="자유" />
 
-            <!--edit text for adding a course image link-->
+                <RadioButton
+                    android:id="@+id/questionRadioBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="질문" />
+
+                <RadioButton
+                    android:id="@+id/tipRadioBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="운동 팁" />
+
+                <RadioButton
+                    android:id="@+id/dietRadioBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="식단 공유" />
+            </RadioGroup>
+
+
+            <!--게시글 설명-->
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/editTILPostImageLink"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp"
-                android:hint="삽입할 이미지의 링크"
-                android:padding="5dp"
-                android:textColorHint="@color/white"
-                app:hintTextColor="@color/white">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/editPostImageLink"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:ems="10"
-                    android:importantForAutofill="no"
-                    android:inputType="textImeMultiLine|textMultiLine"
-                    android:textColor="@color/white"
-                    android:textColorHint="@color/white"
-                    android:textSize="14sp" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-<!--            &lt;!&ndash;edit text for adding a course link&ndash;&gt;-->
-<!--            <com.google.android.material.textfield.TextInputLayout-->
-<!--                android:id="@+id/idTILCourseLink"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginLeft="10dp"-->
-<!--                android:layout_marginTop="10dp"-->
-<!--                android:layout_marginRight="10dp"-->
-<!--                android:hint="Enter Course Link"-->
-<!--                android:padding="5dp"-->
-<!--                android:textColorHint="@color/white"-->
-<!--                app:hintTextColor="@color/white">-->
-
-<!--                <com.google.android.material.textfield.TextInputEditText-->
-<!--                    android:id="@+id/idEdtCourseLink"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:ems="10"-->
-<!--                    android:importantForAutofill="no"-->
-<!--                    android:inputType="textImeMultiLine|textMultiLine"-->
-<!--                    android:textColor="@color/white"-->
-<!--                    android:textColorHint="@color/white"-->
-<!--                    android:textSize="14sp" />-->
-<!--            </com.google.android.material.textfield.TextInputLayout>-->
-
-
-            <!--edit text for adding a course description-->
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/editTILPostDesc"
+                android:id="@+id/TILPostDesc"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 android:hint="설명"
-                android:padding="5dp"
-                android:textColorHint="@color/white"
-                app:hintTextColor="@color/white">
+                android:padding="5dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/editPostDesc"
@@ -139,8 +93,6 @@
                     android:ems="10"
                     android:importantForAutofill="no"
                     android:inputType="textImeMultiLine|textMultiLine"
-                    android:textColor="@color/white"
-                    android:textColorHint="@color/white"
                     android:textSize="14sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -150,7 +102,7 @@
                 android:orientation="horizontal"
                 android:weightSum="2">
 
-                <!--button for updating a new course-->
+                <!--게시글 수정 버튼-->
                 <Button
                     android:id="@+id/updatePostBtn"
                     android:layout_width="0dp"
@@ -163,7 +115,7 @@
                     android:text="게시글 수정"
                     android:textAllCaps="false" />
 
-                <!--button for deleting a course-->
+                <!--게시글 삭제 버튼-->
                 <Button
                     android:id="@+id/deletePostBtn"
                     android:layout_width="0dp"
@@ -179,7 +131,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!--progress bar for displaying a loading indicator-->
+        <!--진행상태 알려주는 progressBar-->
         <ProgressBar
             android:id="@+id/editPBLoading"
             android:layout_width="wrap_content"
