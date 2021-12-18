@@ -143,9 +143,17 @@ koreatech.teamproject_propt:styleable/ClockHandView = 0x7f120022
 koreatech.teamproject_propt:style/Widget.MaterialComponents.ActionBar.Solid = 0x7f11026a
 koreatech.teamproject_propt:style/MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked = 0x7f1100f7
 koreatech.teamproject_propt:style/Widget.MaterialComponents.ChipGroup = 0x7f11028e
+<<<<<<< HEAD
 koreatech.teamproject_propt:dimen/fab_margin = 0x7f070095
 koreatech.teamproject_propt:attr/textAppearanceHeadline6 = 0x7f040371
 koreatech.teamproject_propt:style/Widget.MaterialComponents.CardView = 0x7f110288
+=======
+koreatech.teamproject_propt:style/Widget.MaterialComponents.Chip.Filter = 0x7f11028d
+koreatech.teamproject_propt:style/Widget.MaterialComponents.Chip.Entry = 0x7f11028c
+koreatech.teamproject_propt:style/Widget.MaterialComponents.Chip.Choice = 0x7f11028b
+koreatech.teamproject_propt:style/Widget.MaterialComponents.CheckedTextView = 0x7f110289
+koreatech.teamproject_propt:style/Widget.MaterialComponents.Button.UnelevatedButton.Icon = 0x7f110287
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/Widget.MaterialComponents.Button.UnelevatedButton = 0x7f110286
 koreatech.teamproject_propt:style/Widget.MaterialComponents.Button.TextButton.Snackbar = 0x7f110285
 koreatech.teamproject_propt:drawable/btn_checkbox_checked_to_unchecked_mtrl_animation = 0x7f08005b
@@ -465,12 +473,25 @@ koreatech.teamproject_propt:attr/motionStagger = 0x7f04029b
 koreatech.teamproject_propt:layout/food_comment = 0x7f0c004d
 koreatech.teamproject_propt:style/TextAppearance.MaterialComponents.Headline6 = 0x7f11018a
 koreatech.teamproject_propt:style/Base.Widget.MaterialComponents.MaterialCalendar.NavigationButton = 0x7f1100e0
+<<<<<<< HEAD
 koreatech.teamproject_propt:color/highlighted_text_material_dark = 0x7f06007a
 koreatech.teamproject_propt:style/Base.Animation.AppCompat.Dialog = 0x7f110010
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.SearchResult = 0x7f11002b
 koreatech.teamproject_propt:layout/text_view_with_line_height_from_appearance = 0x7f0c00aa
 koreatech.teamproject_propt:dimen/material_clock_face_margin_top = 0x7f0700a8
 koreatech.teamproject_propt:style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox = 0x7f110209
+=======
+koreatech.teamproject_propt:style/Base.Widget.MaterialComponents.Chip = 0x7f1100df
+koreatech.teamproject_propt:style/Base.Widget.MaterialComponents.CheckedTextView = 0x7f1100de
+koreatech.teamproject_propt:style/Base.Widget.Design.TabLayout = 0x7f1100dc
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.Toolbar = 0x7f1100da
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.TextView.SpinnerItem = 0x7f1100d9
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.TextView = 0x7f1100d8
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.Spinner.Underlined = 0x7f1100d7
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.RatingBar = 0x7f1100cf
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.ProgressBar.Horizontal = 0x7f1100ce
+koreatech.teamproject_propt:attr/layout_insetEdge = 0x7f040231
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/mtrl_calendar_day_horizontal_padding = 0x7f0700fb
 koreatech.teamproject_propt:attr/layout_insetEdge = 0x7f040231
 koreatech.teamproject_propt:style/Base.Widget.AppCompat.PopupWindow = 0x7f1100cc
@@ -521,6 +542,7 @@ koreatech.teamproject_propt:style/Widget.MaterialComponents.TextInputEditText.Ou
 koreatech.teamproject_propt:styleable/ViewStubCompat = 0x7f120092
 koreatech.teamproject_propt:dimen/test_navigation_bar_label_padding = 0x7f0701ab
 koreatech.teamproject_propt:style/Base.Widget.AppCompat.ActivityChooserView = 0x7f1100ab
+<<<<<<< HEAD
 koreatech.teamproject_propt:styleable/ViewTransition = 0x7f120093
 koreatech.teamproject_propt:color/design_default_color_on_surface = 0x7f060060
 koreatech.teamproject_propt:style/Theme.AppCompat = 0x7f110193
@@ -528,6 +550,11 @@ koreatech.teamproject_propt:style/Base.V7.Widget.AppCompat.AutoCompleteTextView 
 koreatech.teamproject_propt:id/filled = 0x7f0900f8
 koreatech.teamproject_propt:style/MaterialAlertDialog.MaterialComponents.Picker.Date.Calendar = 0x7f1100f2
 koreatech.teamproject_propt:string/mtrl_exceed_max_badge_number_content_description = 0x7f10005b
+=======
+koreatech.teamproject_propt:id/floating = 0x7f090102
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.ActionMode = 0x7f1100aa
+koreatech.teamproject_propt:attr/numericModifiers = 0x7f0402ab
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/Base.Widget.AppCompat.ActionBar.Solid = 0x7f1100a3
 koreatech.teamproject_propt:attr/numericModifiers = 0x7f0402ab
 koreatech.teamproject_propt:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.OutlinedBox.Dense = 0x7f1101f3
@@ -630,6 +657,7 @@ koreatech.teamproject_propt:dimen/abc_dropdownitem_icon_width = 0x7f070029
 koreatech.teamproject_propt:styleable/MenuGroup = 0x7f12005c
 koreatech.teamproject_propt:drawable/abc_ratingbar_material = 0x7f08003a
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Small = 0x7f11002e
+<<<<<<< HEAD
 koreatech.teamproject_propt:attr/chipSpacingVertical = 0x7f0400ad
 koreatech.teamproject_propt:id/group_divider = 0x7f090108
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Body2 = 0x7f11001b
@@ -637,6 +665,16 @@ koreatech.teamproject_propt:drawable/goal = 0x7f08007f
 koreatech.teamproject_propt:string/common_google_play_services_update_button = 0x7f100030
 koreatech.teamproject_propt:attr/backgroundOverlayColorAlpha = 0x7f040046
 koreatech.teamproject_propt:attr/textAppearancePopupMenuHeader = 0x7f040378
+=======
+koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.SearchResult = 0x7f11002b
+koreatech.teamproject_propt:style/Theme.MaterialComponents.Dialog.MinWidth.Bridge = 0x7f1101ca
+koreatech.teamproject_propt:drawable/common_google_signin_btn_icon_light_focused = 0x7f080068
+koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Inverse = 0x7f110023
+koreatech.teamproject_propt:id/group_divider = 0x7f09010d
+koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Body2 = 0x7f11001b
+koreatech.teamproject_propt:style/Base.MaterialAlertDialog.MaterialComponents.Title.Panel = 0x7f110017
+koreatech.teamproject_propt:id/inward = 0x7f090128
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/Base.DialogWindowTitleBackground.AppCompat = 0x7f110015
 koreatech.teamproject_propt:id/inward = 0x7f090123
 koreatech.teamproject_propt:color/bottom_navigation_color = 0x7f060026
@@ -719,6 +757,7 @@ koreatech.teamproject_propt:id/search_src_text = 0x7f0901d2
 koreatech.teamproject_propt:string/mtrl_picker_range_header_title = 0x7f10006f
 koreatech.teamproject_propt:attr/track = 0x7f0403be
 koreatech.teamproject_propt:dimen/abc_text_size_display_3_material = 0x7f070045
+<<<<<<< HEAD
 koreatech.teamproject_propt:layout/abc_action_menu_layout = 0x7f0c0003
 koreatech.teamproject_propt:style/Base.Theme.MaterialComponents.Light.Dialog.Alert = 0x7f110069
 koreatech.teamproject_propt:styleable/MaterialCheckBox = 0x7f120055
@@ -727,6 +766,12 @@ koreatech.teamproject_propt:id/tag_accessibility_clickable_spans = 0x7f090204
 koreatech.teamproject_propt:id/accessibility_custom_action_22 = 0x7f090022
 koreatech.teamproject_propt:attr/trackTint = 0x7f0403c5
 koreatech.teamproject_propt:attr/reactiveGuide_applyToConstraintSet = 0x7f0402ea
+=======
+koreatech.teamproject_propt:string/mtrl_picker_range_header_title = 0x7f10006f
+koreatech.teamproject_propt:id/editPostImageLink = 0x7f0900e4
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f1100b0
+koreatech.teamproject_propt:string/mtrl_picker_out_of_range = 0x7f10006b
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:string/mtrl_picker_invalid_range = 0x7f100069
 koreatech.teamproject_propt:id/freeRadioBtn = 0x7f090100
 koreatech.teamproject_propt:id/toggle = 0x7f09023d
@@ -742,7 +787,13 @@ koreatech.teamproject_propt:string/mtrl_picker_date_header_unselected = 0x7f1000
 koreatech.teamproject_propt:style/Widget.Compat.NotificationActionContainer = 0x7f11025b
 koreatech.teamproject_propt:styleable/AnimatedStateListDrawableItem = 0x7f120008
 koreatech.teamproject_propt:string/mtrl_picker_cancel = 0x7f100060
+<<<<<<< HEAD
 koreatech.teamproject_propt:style/TextAppearance.Design.Counter.Overflow = 0x7f110176
+=======
+koreatech.teamproject_propt:id/filled = 0x7f0900fe
+koreatech.teamproject_propt:style/Base.V7.Widget.AppCompat.AutoCompleteTextView = 0x7f11009f
+koreatech.teamproject_propt:string/mtrl_exceed_max_badge_number_content_description = 0x7f10005b
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:string/material_timepicker_minute = 0x7f100055
 koreatech.teamproject_propt:string/material_timepicker_clock_mode_description = 0x7f100053
 koreatech.teamproject_propt:style/Widget.MaterialComponents.Snackbar.FullWidth = 0x7f1102c1
@@ -820,6 +871,7 @@ koreatech.teamproject_propt:style/MaterialAlertDialog.MaterialComponents.Title.P
 koreatech.teamproject_propt:dimen/material_clock_number_text_size = 0x7f0700ac
 koreatech.teamproject_propt:menu/main = 0x7f0d0003
 koreatech.teamproject_propt:menu/example_menu2 = 0x7f0d0002
+<<<<<<< HEAD
 koreatech.teamproject_propt:interpolator/mtrl_linear_out_slow_in = 0x7f0b000a
 koreatech.teamproject_propt:layout/user_spec = 0x7f0c00b6
 koreatech.teamproject_propt:style/Base.V21.Theme.AppCompat = 0x7f110087
@@ -868,6 +920,41 @@ koreatech.teamproject_propt:layout/test_chip_zero_corner_radius = 0x7f0c00a1
 koreatech.teamproject_propt:attr/itemHorizontalPadding = 0x7f0401d2
 koreatech.teamproject_propt:layout/select_dialog_singlechoice_material = 0x7f0c0099
 koreatech.teamproject_propt:style/Theme.Design.Light.BottomSheetDialog = 0x7f1101ac
+=======
+koreatech.teamproject_propt:layout/user_spec = 0x7f0c00b8
+koreatech.teamproject_propt:attr/boxBackgroundMode = 0x7f040067
+koreatech.teamproject_propt:layout/user_exercise_spec = 0x7f0c00b6
+koreatech.teamproject_propt:layout/tips_write = 0x7f0c00b5
+koreatech.teamproject_propt:layout/tips_read = 0x7f0c00b4
+koreatech.teamproject_propt:layout/tips_comment = 0x7f0c00b3
+koreatech.teamproject_propt:layout/tips = 0x7f0c00b2
+koreatech.teamproject_propt:color/browser_actions_text_color = 0x7f06002f
+koreatech.teamproject_propt:layout/timer = 0x7f0c00b0
+koreatech.teamproject_propt:layout/text_view_without_line_height = 0x7f0c00af
+koreatech.teamproject_propt:styleable/Transform = 0x7f12008c
+koreatech.teamproject_propt:layout/text_view_with_line_height_from_style = 0x7f0c00ad
+koreatech.teamproject_propt:style/Base.ThemeOverlay.AppCompat = 0x7f11006e
+koreatech.teamproject_propt:layout/text_view_with_line_height_from_layout = 0x7f0c00ac
+koreatech.teamproject_propt:id/autoCompleteToEnd = 0x7f090062
+koreatech.teamproject_propt:attr/paddingTopNoTitle = 0x7f0402bb
+koreatech.teamproject_propt:style/Base.ThemeOverlay.MaterialComponents.Light.Dialog.Alert.Framework = 0x7f110078
+koreatech.teamproject_propt:dimen/material_clock_face_margin_top = 0x7f0700a8
+koreatech.teamproject_propt:layout/text_view_with_line_height_from_appearance = 0x7f0c00ab
+koreatech.teamproject_propt:layout/test_toolbar_surface = 0x7f0c00aa
+koreatech.teamproject_propt:attr/fastScrollEnabled = 0x7f040173
+koreatech.teamproject_propt:layout/test_reflow_chipgroup = 0x7f0c00a6
+koreatech.teamproject_propt:layout/test_design_checkbox = 0x7f0c00a3
+koreatech.teamproject_propt:layout/test_chip_zero_corner_radius = 0x7f0c00a2
+koreatech.teamproject_propt:layout/test_action_chip = 0x7f0c00a1
+koreatech.teamproject_propt:attr/itemHorizontalPadding = 0x7f0401d2
+koreatech.teamproject_propt:layout/select_dialog_singlechoice_material = 0x7f0c009a
+koreatech.teamproject_propt:layout/select_dialog_item_material = 0x7f0c0098
+koreatech.teamproject_propt:string/icon_content_description = 0x7f100043
+koreatech.teamproject_propt:layout/questions_comment = 0x7f0c0094
+koreatech.teamproject_propt:color/cardview_shadow_start_color = 0x7f060036
+koreatech.teamproject_propt:layout/notification_template_part_time = 0x7f0c0091
+koreatech.teamproject_propt:style/Base.Theme.MaterialComponents.Light = 0x7f110064
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:layout/notification_template_part_chronometer = 0x7f0c0090
 koreatech.teamproject_propt:style/Base.Theme.MaterialComponents.Light = 0x7f110064
 koreatech.teamproject_propt:style/Theme.MaterialComponents.Light.BottomSheetDialog = 0x7f1101ce
@@ -944,10 +1031,18 @@ koreatech.teamproject_propt:layout/free_talking_read = 0x7f0c0052
 koreatech.teamproject_propt:style/Base.TextAppearance.MaterialComponents.Subtitle2 = 0x7f110049
 koreatech.teamproject_propt:attr/trackThickness = 0x7f0403c4
 koreatech.teamproject_propt:layout/food_write = 0x7f0c004f
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:layout/food_comment = 0x7f0c004d
+koreatech.teamproject_propt:color/design_default_color_surface = 0x7f060066
+koreatech.teamproject_propt:layout/food = 0x7f0c004c
+koreatech.teamproject_propt:id/editPostCategory = 0x7f0900e2
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:layout/exercise_report = 0x7f0c004a
 koreatech.teamproject_propt:style/Base.Widget.AppCompat.CompoundButton.Switch = 0x7f1100b7
 koreatech.teamproject_propt:layout/design_layout_tab_icon = 0x7f0c003e
 koreatech.teamproject_propt:layout/design_layout_snackbar = 0x7f0c003c
+<<<<<<< HEAD
 koreatech.teamproject_propt:attr/buttonIconDimen = 0x7f040079
 koreatech.teamproject_propt:style/Widget.MaterialComponents.Tooltip = 0x7f1102de
 koreatech.teamproject_propt:string/mtrl_picker_text_input_year_abbr = 0x7f100077
@@ -956,6 +1051,14 @@ koreatech.teamproject_propt:style/TextAppearance.AppCompat.Widget.ActionBar.Menu
 koreatech.teamproject_propt:string/common_open_on_phone = 0x7f100035
 koreatech.teamproject_propt:styleable/FlowLayout = 0x7f120035
 koreatech.teamproject_propt:style/Widget.Design.FloatingActionButton = 0x7f110261
+=======
+koreatech.teamproject_propt:style/Theme.AppCompat.Light.Dialog = 0x7f1101a3
+koreatech.teamproject_propt:attr/itemShapeInsetStart = 0x7f0401df
+koreatech.teamproject_propt:style/Base.V23.Theme.AppCompat.Light = 0x7f110094
+koreatech.teamproject_propt:layout/community_inner_content = 0x7f0c0037
+koreatech.teamproject_propt:string/material_slider_range_start = 0x7f100051
+koreatech.teamproject_propt:id/navigation = 0x7f090180
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:layout/community_card = 0x7f0c0036
 koreatech.teamproject_propt:id/navigation = 0x7f09017b
 koreatech.teamproject_propt:string/material_slider_range_start = 0x7f100051
@@ -1027,6 +1130,7 @@ koreatech.teamproject_propt:integer/abc_config_activityShortDur = 0x7f0a0001
 koreatech.teamproject_propt:style/TextAppearance.AppCompat.SearchResult.Title = 0x7f11014f
 koreatech.teamproject_propt:styleable/MaterialButton = 0x7f120050
 koreatech.teamproject_propt:integer/abc_config_activityDefaultDur = 0x7f0a0000
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/exitUntilCollapsed = 0x7f0900f1
 koreatech.teamproject_propt:integer/cancel_button_image_alpha = 0x7f0a0004
 koreatech.teamproject_propt:id/youtube = 0x7f09026a
@@ -1059,9 +1163,46 @@ koreatech.teamproject_propt:style/Theme.MaterialComponents.DayNight.Dialog.Alert
 koreatech.teamproject_propt:id/up = 0x7f09024d
 koreatech.teamproject_propt:id/transition_transform = 0x7f090248
 koreatech.teamproject_propt:id/transitionToEnd = 0x7f090242
+=======
+koreatech.teamproject_propt:id/zero_corner_chip = 0x7f090276
+koreatech.teamproject_propt:integer/cancel_button_image_alpha = 0x7f0a0004
+koreatech.teamproject_propt:id/youtube = 0x7f090274
+koreatech.teamproject_propt:id/currentState = 0x7f0900b2
+koreatech.teamproject_propt:id/x_left = 0x7f090272
+koreatech.teamproject_propt:style/Base.V21.ThemeOverlay.MaterialComponents.BottomSheetDialog = 0x7f110090
+koreatech.teamproject_propt:id/wrap_content_constrained = 0x7f090271
+koreatech.teamproject_propt:id/accessibility_custom_action_4 = 0x7f090030
+koreatech.teamproject_propt:id/wrap_content = 0x7f090270
+koreatech.teamproject_propt:attr/bottomSheetStyle = 0x7f040065
+koreatech.teamproject_propt:color/abc_tint_btn_checkable = 0x7f060013
+koreatech.teamproject_propt:id/wrap = 0x7f09026f
+koreatech.teamproject_propt:integer/material_motion_duration_medium_2 = 0x7f0a000d
+koreatech.teamproject_propt:id/view_tree_view_model_store_owner = 0x7f090268
+koreatech.teamproject_propt:id/view_tree_saved_state_registry_owner = 0x7f090267
+koreatech.teamproject_propt:id/view_tree_lifecycle_owner = 0x7f090266
+koreatech.teamproject_propt:id/view_transition = 0x7f090265
+koreatech.teamproject_propt:id/view_offset_helper = 0x7f090264
+koreatech.teamproject_propt:color/abc_tint_default = 0x7f060014
+koreatech.teamproject_propt:id/vertical_only = 0x7f090263
+koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Header = 0x7f110041
+koreatech.teamproject_propt:color/ripple_material_dark = 0x7f0600e4
+koreatech.teamproject_propt:id/user_info_id = 0x7f09025e
+koreatech.teamproject_propt:dimen/mtrl_progress_circular_track_thickness_medium = 0x7f070164
+koreatech.teamproject_propt:id/user_info_address = 0x7f09025c
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.PopupMenu.Overflow = 0x7f1100cb
+koreatech.teamproject_propt:layout/mtrl_alert_dialog_title = 0x7f0c0067
+koreatech.teamproject_propt:layout/graph = 0x7f0c0054
+koreatech.teamproject_propt:id/user_exercise_record = 0x7f09025a
+koreatech.teamproject_propt:style/Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge = 0x7f1101ba
+koreatech.teamproject_propt:id/updatePostBtn = 0x7f090258
+koreatech.teamproject_propt:id/up = 0x7f090257
+koreatech.teamproject_propt:id/transition_transform = 0x7f090252
+koreatech.teamproject_propt:id/transitionToEnd = 0x7f09024c
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:animator/mtrl_fab_transformation_sheet_expand_spec = 0x7f020019
 koreatech.teamproject_propt:id/touch_outside = 0x7f090241
 koreatech.teamproject_propt:drawable/abc_star_half_black_48dp = 0x7f080047
+<<<<<<< HEAD
 koreatech.teamproject_propt:style/Theme.MaterialComponents.Light.Dialog.MinWidth = 0x7f1101d8
 koreatech.teamproject_propt:id/title_tv = 0x7f09023c
 koreatech.teamproject_propt:drawable/notification_tile_bg = 0x7f0800c1
@@ -1084,13 +1225,43 @@ koreatech.teamproject_propt:style/ShapeAppearance.MaterialComponents.Test = 0x7f
 koreatech.teamproject_propt:id/arm = 0x7f09005a
 koreatech.teamproject_propt:id/progressBarCircle = 0x7f0901ac
 koreatech.teamproject_propt:id/test_radiobutton_app_button_tint = 0x7f090213
+=======
+koreatech.teamproject_propt:id/touch_outside = 0x7f09024b
+koreatech.teamproject_propt:style/Theme.MaterialComponents.Light.Dialog.MinWidth = 0x7f1101d8
+koreatech.teamproject_propt:id/title_tv = 0x7f090246
+koreatech.teamproject_propt:id/activity_chooser_view_content = 0x7f09004d
+koreatech.teamproject_propt:id/navigation_bar_item_icon_view = 0x7f090185
+koreatech.teamproject_propt:id/titleDividerNoCustom = 0x7f090243
+koreatech.teamproject_propt:id/time = 0x7f09023f
+koreatech.teamproject_propt:id/browser_actions_header_text = 0x7f090076
+koreatech.teamproject_propt:id/textinput_error = 0x7f090239
+koreatech.teamproject_propt:id/text_input_error_icon = 0x7f090236
+koreatech.teamproject_propt:attr/font = 0x7f04018d
+koreatech.teamproject_propt:id/textViewTime = 0x7f090232
+koreatech.teamproject_propt:id/textViewPassword = 0x7f09022d
+koreatech.teamproject_propt:id/textViewFindpassword = 0x7f09022b
+koreatech.teamproject_propt:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1 = 0x7f0b0001
+koreatech.teamproject_propt:id/textView2 = 0x7f090227
+koreatech.teamproject_propt:id/textView11 = 0x7f090222
+koreatech.teamproject_propt:id/withinBounds = 0x7f09026e
+koreatech.teamproject_propt:id/textStart = 0x7f09021f
+koreatech.teamproject_propt:id/textSpacerNoButtons = 0x7f09021d
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:color/bottomNavigationTextColor = 0x7f060024
 koreatech.teamproject_propt:id/tag_screen_reader_focusable = 0x7f09020a
 koreatech.teamproject_propt:style/MaterialAlertDialog.MaterialComponents = 0x7f1100f0
 koreatech.teamproject_propt:layout/browser_actions_context_menu_row = 0x7f0c0035
 koreatech.teamproject_propt:style/Base.V14.ThemeOverlay.MaterialComponents.Dialog.Alert = 0x7f110085
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/tag_on_receive_content_listener = 0x7f090208
 koreatech.teamproject_propt:id/tabs = 0x7f090202
+=======
+koreatech.teamproject_propt:id/tag_on_receive_content_listener = 0x7f09020e
+koreatech.teamproject_propt:id/unchecked = 0x7f090254
+koreatech.teamproject_propt:id/tag_on_apply_window_listener = 0x7f09020d
+koreatech.teamproject_propt:id/tag_accessibility_heading = 0x7f09020b
+koreatech.teamproject_propt:id/textinput_prefix_text = 0x7f09023c
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:layout/design_layout_tab_text = 0x7f0c003f
 koreatech.teamproject_propt:id/textinput_prefix_text = 0x7f090231
 koreatech.teamproject_propt:color/tooltip_background_dark = 0x7f0600f5
@@ -1100,12 +1271,21 @@ koreatech.teamproject_propt:attr/materialTimePickerStyle = 0x7f040269
 koreatech.teamproject_propt:id/sub_exercise_title = 0x7f0901fd
 koreatech.teamproject_propt:id/relativeLayout = 0x7f0901b7
 koreatech.teamproject_propt:style/TextAppearance.MaterialComponents.Headline3 = 0x7f110187
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/stretch = 0x7f0901fc
 koreatech.teamproject_propt:attr/fontFamily = 0x7f04018e
 koreatech.teamproject_propt:id/SHOW_PATH = 0x7f09000a
 koreatech.teamproject_propt:id/transition_scene_layoutid_cache = 0x7f090247
 koreatech.teamproject_propt:id/startVertical = 0x7f0901f6
 koreatech.teamproject_propt:id/src_over = 0x7f0901f1
+=======
+koreatech.teamproject_propt:id/stretch = 0x7f090202
+koreatech.teamproject_propt:id/stimulus = 0x7f090200
+koreatech.teamproject_propt:id/transition_scene_layoutid_cache = 0x7f090251
+koreatech.teamproject_propt:id/startVertical = 0x7f0901fc
+koreatech.teamproject_propt:id/start = 0x7f0901f9
+koreatech.teamproject_propt:id/src_over = 0x7f0901f7
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:layout/mtrl_picker_dialog = 0x7f0c0079
 koreatech.teamproject_propt:id/src_atop = 0x7f0901ef
 koreatech.teamproject_propt:color/background_material_dark = 0x7f06001f
@@ -1140,7 +1320,16 @@ koreatech.teamproject_propt:id/dropdown_menu = 0x7f0900d9
 koreatech.teamproject_propt:id/parentRelative = 0x7f09019b
 koreatech.teamproject_propt:style/TextAppearance.Design.Tab = 0x7f11017e
 koreatech.teamproject_propt:attr/lineHeight = 0x7f04023b
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/sharedValueUnset = 0x7f0901d9
+=======
+koreatech.teamproject_propt:id/parentRelative = 0x7f09019f
+koreatech.teamproject_propt:id/dropdown_menu = 0x7f0900db
+koreatech.teamproject_propt:id/shortcut = 0x7f0901e0
+koreatech.teamproject_propt:attr/layout_constraintRight_toLeftOf = 0x7f040217
+koreatech.teamproject_propt:id/stop = 0x7f090201
+koreatech.teamproject_propt:animator/fragment_open_enter = 0x7f020007
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/targetId = 0x7f040363
 koreatech.teamproject_propt:animator/fragment_open_enter = 0x7f020007
 koreatech.teamproject_propt:id/info = 0x7f090121
@@ -1155,6 +1344,7 @@ koreatech.teamproject_propt:id/search_plate = 0x7f0901d1
 koreatech.teamproject_propt:string/abc_capital_on = 0x7f100007
 koreatech.teamproject_propt:id/month_navigation_previous = 0x7f090158
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large = 0x7f110026
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/visible_removing_fragment_view_tag = 0x7f090260
 koreatech.teamproject_propt:id/search_edit_frame = 0x7f0901ce
 koreatech.teamproject_propt:layout/test_toolbar_elevation = 0x7f0c00a8
@@ -1171,18 +1361,33 @@ koreatech.teamproject_propt:attr/contentInsetRight = 0x7f0400f8
 koreatech.teamproject_propt:layout/mtrl_calendar_year = 0x7f0c0074
 koreatech.teamproject_propt:attr/layout_scrollFlags = 0x7f040235
 koreatech.teamproject_propt:attr/tabTextColor = 0x7f040361
+=======
+koreatech.teamproject_propt:id/visible_removing_fragment_view_tag = 0x7f09026a
+koreatech.teamproject_propt:id/search_edit_frame = 0x7f0901d4
+koreatech.teamproject_propt:id/search_button = 0x7f0901d2
+koreatech.teamproject_propt:id/scrollable = 0x7f0901cf
+koreatech.teamproject_propt:id/scrollView = 0x7f0901ce
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/clockFaceBackgroundColor = 0x7f0400c2
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Caption = 0x7f11001d
 koreatech.teamproject_propt:id/scrollIndicatorDown = 0x7f0901c6
 koreatech.teamproject_propt:id/date_tv = 0x7f0900b6
 koreatech.teamproject_propt:drawable/notification_icon_background = 0x7f0800be
 koreatech.teamproject_propt:style/Platform.V21.AppCompat.Light = 0x7f110104
+<<<<<<< HEAD
 koreatech.teamproject_propt:string/material_minute_suffix = 0x7f10004a
 koreatech.teamproject_propt:array/lower_body_description = 0x7f030007
 koreatech.teamproject_propt:attr/navigationIconTint = 0x7f0402a3
 koreatech.teamproject_propt:id/textViewSignin = 0x7f090226
 koreatech.teamproject_propt:id/list_item = 0x7f090138
 koreatech.teamproject_propt:id/scale = 0x7f0901c3
+=======
+koreatech.teamproject_propt:id/date_tv = 0x7f0900b8
+koreatech.teamproject_propt:drawable/notification_icon_background = 0x7f0800bc
+koreatech.teamproject_propt:id/scrollIndicatorDown = 0x7f0901cc
+koreatech.teamproject_propt:id/list_item = 0x7f09013d
+koreatech.teamproject_propt:id/textViewSignin = 0x7f090230
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/errorIconTintMode = 0x7f04015c
 koreatech.teamproject_propt:id/sawtooth = 0x7f0901c2
 koreatech.teamproject_propt:anim/abc_shrink_fade_out_from_bottom = 0x7f010005
@@ -1207,6 +1412,7 @@ koreatech.teamproject_propt:id/material_clock_period_toggle = 0x7f090142
 koreatech.teamproject_propt:id/cardview = 0x7f090085
 koreatech.teamproject_propt:id/reg_button = 0x7f0901b5
 koreatech.teamproject_propt:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox = 0x7f1102ce
+<<<<<<< HEAD
 koreatech.teamproject_propt:string/google_api_key = 0x7f10003e
 koreatech.teamproject_propt:id/rectangles = 0x7f0901b3
 koreatech.teamproject_propt:id/ratio = 0x7f0901b2
@@ -1222,6 +1428,21 @@ koreatech.teamproject_propt:id/disableIntraAutoTransition = 0x7f0900cc
 koreatech.teamproject_propt:style/Base.Widget.MaterialComponents.CheckedTextView = 0x7f1100de
 koreatech.teamproject_propt:id/percent = 0x7f0901a1
 koreatech.teamproject_propt:id/pathRelative = 0x7f09019f
+=======
+koreatech.teamproject_propt:id/reg_button = 0x7f0901bb
+koreatech.teamproject_propt:id/rectangles = 0x7f0901b9
+koreatech.teamproject_propt:id/ratio = 0x7f0901b8
+koreatech.teamproject_propt:id/progressBarCircle = 0x7f0901b3
+koreatech.teamproject_propt:id/postRV = 0x7f0901b1
+koreatech.teamproject_propt:id/postNameTV = 0x7f0901b0
+koreatech.teamproject_propt:id/pin = 0x7f0901a7
+koreatech.teamproject_propt:id/percent = 0x7f0901a5
+koreatech.teamproject_propt:id/transitionToStart = 0x7f09024d
+koreatech.teamproject_propt:string/material_timepicker_select_time = 0x7f100057
+koreatech.teamproject_propt:style/Theme.AppCompat.Dialog.Alert = 0x7f11019d
+koreatech.teamproject_propt:id/textViewUser = 0x7f090234
+koreatech.teamproject_propt:style/Test.Theme.MaterialComponents.MaterialCalendar = 0x7f110130
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/Platform.AppCompat = 0x7f1100fa
 koreatech.teamproject_propt:style/Test.Theme.MaterialComponents.MaterialCalendar = 0x7f110130
 koreatech.teamproject_propt:id/password_toggle = 0x7f09019d
@@ -1248,6 +1469,7 @@ koreatech.teamproject_propt:id/questions = 0x7f0901b0
 koreatech.teamproject_propt:id/action_image = 0x7f090041
 koreatech.teamproject_propt:id/accessibility_custom_action_5 = 0x7f09002e
 koreatech.teamproject_propt:layout/mtrl_picker_header_toggle = 0x7f0c007f
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/off = 0x7f090191
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Widget.Button.Colored = 0x7f11003e
 koreatech.teamproject_propt:string/abc_action_bar_up_description = 0x7f100001
@@ -1283,12 +1505,55 @@ koreatech.teamproject_propt:animator/fragment_fade_exit = 0x7f020006
 koreatech.teamproject_propt:style/Widget.Design.TabLayout = 0x7f110265
 koreatech.teamproject_propt:id/month_navigation_fragment_toggle = 0x7f090156
 koreatech.teamproject_propt:style/Theme.MaterialComponents.Light.Dialog.Bridge = 0x7f1101d5
+=======
+koreatech.teamproject_propt:id/off = 0x7f090195
+koreatech.teamproject_propt:id/notification_main_column = 0x7f090193
+koreatech.teamproject_propt:id/north = 0x7f090191
+koreatech.teamproject_propt:id/neverCompleteToStart = 0x7f09018c
+koreatech.teamproject_propt:id/navigation_header_container = 0x7f090189
+koreatech.teamproject_propt:id/navigation_bar_item_small_label_view = 0x7f090188
+koreatech.teamproject_propt:id/navigationMyProfile = 0x7f090184
+koreatech.teamproject_propt:id/navigationHome = 0x7f090182
+koreatech.teamproject_propt:style/Widget.AppCompat.ActionButton.CloseMode = 0x7f110218
+koreatech.teamproject_propt:attr/tabIndicatorAnimationMode = 0x7f04034f
+koreatech.teamproject_propt:id/navigation2 = 0x7f090181
+koreatech.teamproject_propt:id/nav_view = 0x7f09017f
+koreatech.teamproject_propt:style/Base.V14.Theme.MaterialComponents.Light.Dialog = 0x7f110081
+koreatech.teamproject_propt:id/bounceEnd = 0x7f090074
+koreatech.teamproject_propt:id/nav_slideshow = 0x7f09017e
+koreatech.teamproject_propt:id/nav_manage = 0x7f09017c
+koreatech.teamproject_propt:id/nav_gallery = 0x7f09017b
+koreatech.teamproject_propt:id/nav_dark_mode = 0x7f09017a
+koreatech.teamproject_propt:attr/backgroundStacked = 0x7f040048
+koreatech.teamproject_propt:id/mtrl_view_tag_bottom_padding = 0x7f090176
+koreatech.teamproject_propt:id/mtrl_picker_header_toggle = 0x7f090171
+koreatech.teamproject_propt:id/mtrl_picker_header_title_and_selection = 0x7f090170
+koreatech.teamproject_propt:id/mtrl_picker_fullscreen = 0x7f09016d
+koreatech.teamproject_propt:style/Widget.MaterialComponents.TimePicker = 0x7f1102d3
+koreatech.teamproject_propt:attr/trackColorInactive = 0x7f0403c1
+koreatech.teamproject_propt:id/mtrl_motion_snapshot_view = 0x7f09016c
+koreatech.teamproject_propt:style/CardView.Dark = 0x7f1100ed
+koreatech.teamproject_propt:id/mtrl_internal_children_alpha_tag = 0x7f09016b
+koreatech.teamproject_propt:id/mtrl_calendar_year_selector_frame = 0x7f090168
+koreatech.teamproject_propt:style/Theme.MaterialComponents.CompactMenu = 0x7f1101b2
+koreatech.teamproject_propt:id/mtrl_calendar_text_input_frame = 0x7f090167
+koreatech.teamproject_propt:color/mtrl_filled_background_color = 0x7f0600b8
+koreatech.teamproject_propt:id/tag_state_description = 0x7f090211
+koreatech.teamproject_propt:id/mtrl_calendar_months = 0x7f090165
+koreatech.teamproject_propt:id/mtrl_calendar_days_of_week = 0x7f090162
+koreatech.teamproject_propt:string/abc_capital_on = 0x7f100007
+koreatech.teamproject_propt:id/month_navigation_previous = 0x7f09015d
+koreatech.teamproject_propt:style/Widget.Design.TabLayout = 0x7f110265
+koreatech.teamproject_propt:animator/fragment_fade_exit = 0x7f020006
+koreatech.teamproject_propt:id/month_navigation_fragment_toggle = 0x7f09015b
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:layout/design_navigation_item_separator = 0x7f0c0043
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.SearchResult.Title = 0x7f11002d
 koreatech.teamproject_propt:layout/mtrl_calendar_horizontal = 0x7f0c006e
 koreatech.teamproject_propt:dimen/design_navigation_icon_padding = 0x7f07007c
 koreatech.teamproject_propt:drawable/abc_btn_switch_to_on_mtrl_00012 = 0x7f080015
 koreatech.teamproject_propt:color/material_blue_grey_950 = 0x7f06007f
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/month_grid = 0x7f090154
 koreatech.teamproject_propt:color/design_dark_default_color_on_secondary = 0x7f060052
 koreatech.teamproject_propt:id/material_timepicker_mode_button = 0x7f09014c
@@ -1355,8 +1620,78 @@ koreatech.teamproject_propt:style/TextAppearance.MaterialComponents.Subtitle1 = 
 koreatech.teamproject_propt:attr/imagePanX = 0x7f0401c1
 koreatech.teamproject_propt:id/honorRequest = 0x7f090111
 koreatech.teamproject_propt:id/clip_vertical = 0x7f090099
+=======
+koreatech.teamproject_propt:id/month_grid = 0x7f090159
+koreatech.teamproject_propt:id/material_value_index = 0x7f090154
+koreatech.teamproject_propt:id/material_timepicker_ok_button = 0x7f090152
+koreatech.teamproject_propt:color/design_dark_default_color_on_secondary = 0x7f060052
+koreatech.teamproject_propt:id/material_timepicker_mode_button = 0x7f090151
+koreatech.teamproject_propt:dimen/mtrl_low_ripple_focused_alpha = 0x7f070145
+koreatech.teamproject_propt:layout/notification_media_action = 0x7f0c0085
+koreatech.teamproject_propt:id/material_timepicker_edit_text = 0x7f090150
+koreatech.teamproject_propt:id/material_timepicker_container = 0x7f09014f
+koreatech.teamproject_propt:attr/searchViewStyle = 0x7f0402fe
+koreatech.teamproject_propt:id/material_minute_tv = 0x7f09014c
+koreatech.teamproject_propt:id/material_hour_text_input = 0x7f090148
+koreatech.teamproject_propt:id/material_clock_period_toggle = 0x7f090147
+koreatech.teamproject_propt:attr/layout_constraintCircleAngle = 0x7f040203
+koreatech.teamproject_propt:id/material_clock_face = 0x7f090143
+koreatech.teamproject_propt:styleable/SwitchCompat = 0x7f120081
+koreatech.teamproject_propt:id/material_clock_display = 0x7f090142
+koreatech.teamproject_propt:id/match_parent = 0x7f090141
+koreatech.teamproject_propt:id/match_constraint = 0x7f090140
+koreatech.teamproject_propt:attr/autoTransition = 0x7f04003f
+koreatech.teamproject_propt:id/lower_body = 0x7f09013e
+koreatech.teamproject_propt:id/linear = 0x7f090139
+koreatech.teamproject_propt:id/line3 = 0x7f090138
+koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Menu = 0x7f110035
+koreatech.teamproject_propt:animator/fragment_fade_enter = 0x7f020005
+koreatech.teamproject_propt:id/line1 = 0x7f090137
+koreatech.teamproject_propt:attr/indicatorDirectionCircular = 0x7f0401c8
+koreatech.teamproject_propt:layout/test_toolbar_custom_background = 0x7f0c00a8
+koreatech.teamproject_propt:id/legacy = 0x7f090135
+koreatech.teamproject_propt:id/leftToRight = 0x7f090134
+koreatech.teamproject_propt:id/textView14 = 0x7f090224
+koreatech.teamproject_propt:id/left = 0x7f090133
+koreatech.teamproject_propt:id/labeled = 0x7f090131
+koreatech.teamproject_propt:dimen/mtrl_chip_pressed_translation_z = 0x7f070124
+koreatech.teamproject_propt:id/jumpToStart = 0x7f090130
+koreatech.teamproject_propt:id/item_touch_helper_previous_elevation = 0x7f09012e
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.ActionButton = 0x7f1100a7
+koreatech.teamproject_propt:id/user_exercise_spec = 0x7f09025b
+koreatech.teamproject_propt:id/item4 = 0x7f09012d
+koreatech.teamproject_propt:attr/touchAnchorSide = 0x7f0403bc
+koreatech.teamproject_propt:id/invisible = 0x7f090127
+koreatech.teamproject_propt:drawable/common_google_signin_btn_icon_dark_focused = 0x7f080063
+koreatech.teamproject_propt:dimen/mtrl_btn_disabled_elevation = 0x7f0700de
+koreatech.teamproject_propt:id/info = 0x7f090126
+koreatech.teamproject_propt:id/youtubeThubnail = 0x7f090275
+koreatech.teamproject_propt:dimen/mtrl_extended_fab_end_padding_icon = 0x7f070130
+koreatech.teamproject_propt:id/included = 0x7f090125
+koreatech.teamproject_propt:id/immediateStop = 0x7f090124
+koreatech.teamproject_propt:id/tabMode = 0x7f090207
+koreatech.teamproject_propt:id/tag_accessibility_pane_title = 0x7f09020c
+koreatech.teamproject_propt:id/imageViewStartStop = 0x7f090123
+koreatech.teamproject_propt:layout/stimulus_picture = 0x7f0c009b
+koreatech.teamproject_propt:id/imageIcon = 0x7f09011f
+koreatech.teamproject_propt:id/ignore = 0x7f09011c
+koreatech.teamproject_propt:drawable/tooltip_frame_dark = 0x7f0800de
+koreatech.teamproject_propt:id/ifRoom = 0x7f09011b
+koreatech.teamproject_propt:id/icon_only = 0x7f09011a
+koreatech.teamproject_propt:id/icon_group = 0x7f090119
+koreatech.teamproject_propt:id/icon = 0x7f090118
+koreatech.teamproject_propt:style/TextAppearance.MaterialComponents.Subtitle1 = 0x7f11018c
+koreatech.teamproject_propt:attr/imagePanX = 0x7f0401c1
+koreatech.teamproject_propt:id/honorRequest = 0x7f090116
+koreatech.teamproject_propt:attr/collapseIcon = 0x7f0400cf
+koreatech.teamproject_propt:attr/behavior_skipCollapsed = 0x7f04005c
+koreatech.teamproject_propt:dimen/abc_button_padding_horizontal_material = 0x7f070014
+koreatech.teamproject_propt:id/hideable = 0x7f090112
+koreatech.teamproject_propt:style/Base.Theme.MaterialComponents.Dialog.MinWidth = 0x7f110062
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/ShapeAppearanceOverlay.MaterialComponents.Chip = 0x7f110125
 koreatech.teamproject_propt:attr/materialCalendarStyle = 0x7f040262
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/guideline = 0x7f09010b
 koreatech.teamproject_propt:attr/displayOptions = 0x7f040131
 koreatech.teamproject_propt:string/path_password_eye = 0x7f10007f
@@ -1419,6 +1754,54 @@ koreatech.teamproject_propt:id/dragUp = 0x7f0900d7
 koreatech.teamproject_propt:id/dragRight = 0x7f0900d5
 koreatech.teamproject_propt:drawable/abc_textfield_activated_mtrl_alpha = 0x7f080050
 koreatech.teamproject_propt:style/Widget.MaterialComponents.CircularProgressIndicator = 0x7f11028f
+=======
+koreatech.teamproject_propt:id/guideline = 0x7f090110
+koreatech.teamproject_propt:id/groups = 0x7f09010f
+koreatech.teamproject_propt:id/graph_wrap = 0x7f09010c
+koreatech.teamproject_propt:id/action_bar_root = 0x7f09003d
+koreatech.teamproject_propt:string/abc_searchview_description_submit = 0x7f100016
+koreatech.teamproject_propt:style/Widget.MaterialComponents.Slider = 0x7f1102bf
+koreatech.teamproject_propt:id/free_talking = 0x7f090106
+koreatech.teamproject_propt:layout/questions_write = 0x7f0c0096
+koreatech.teamproject_propt:layout/abc_screen_content_include = 0x7f0c0014
+koreatech.teamproject_propt:id/fragment_container_view_tag = 0x7f090105
+koreatech.teamproject_propt:id/imageView2 = 0x7f090121
+koreatech.teamproject_propt:drawable/pic_arm4 = 0x7f0800c4
+koreatech.teamproject_propt:id/fixed = 0x7f090100
+koreatech.teamproject_propt:id/fill_vertical = 0x7f0900fd
+koreatech.teamproject_propt:id/fill_horizontal = 0x7f0900fc
+koreatech.teamproject_propt:styleable/RadialViewGroup = 0x7f12006f
+koreatech.teamproject_propt:id/fade = 0x7f0900fa
+koreatech.teamproject_propt:id/exitUntilCollapsed = 0x7f0900f7
+koreatech.teamproject_propt:id/textView = 0x7f090221
+koreatech.teamproject_propt:style/Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox.Dense = 0x7f110272
+koreatech.teamproject_propt:id/enterAlwaysCollapsed = 0x7f0900f4
+koreatech.teamproject_propt:drawable/ic_launcher_foreground = 0x7f080090
+koreatech.teamproject_propt:id/end_padder = 0x7f0900f2
+koreatech.teamproject_propt:attr/chipIcon = 0x7f0400a4
+koreatech.teamproject_propt:id/elastic = 0x7f0900ef
+koreatech.teamproject_propt:id/edit_query = 0x7f0900ee
+koreatech.teamproject_propt:id/editTextUserEmail = 0x7f0900ed
+koreatech.teamproject_propt:style/TextAppearance.AppCompat.Widget.ActionMode.Title = 0x7f11015e
+koreatech.teamproject_propt:attr/colorControlActivated = 0x7f0400d8
+koreatech.teamproject_propt:id/editTextPassword = 0x7f0900ec
+koreatech.teamproject_propt:id/editTextMinute = 0x7f0900eb
+koreatech.teamproject_propt:id/editTILPostName = 0x7f0900e9
+koreatech.teamproject_propt:id/editPostBtn = 0x7f0900e1
+koreatech.teamproject_propt:id/middle = 0x7f090157
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.ActionButton.Overflow = 0x7f1100a9
+koreatech.teamproject_propt:id/editPBLoading = 0x7f0900e0
+koreatech.teamproject_propt:id/easeInOut = 0x7f0900dd
+koreatech.teamproject_propt:id/easeIn = 0x7f0900dc
+koreatech.teamproject_propt:array/back = 0x7f030002
+koreatech.teamproject_propt:id/drawer_layout2 = 0x7f0900da
+koreatech.teamproject_propt:id/screen = 0x7f0901ca
+koreatech.teamproject_propt:drawable/abc_textfield_search_default_mtrl_alpha = 0x7f080053
+koreatech.teamproject_propt:style/Base.Theme.MaterialComponents.Light.Dialog = 0x7f110068
+koreatech.teamproject_propt:id/dragUp = 0x7f0900d8
+koreatech.teamproject_propt:id/dragRight = 0x7f0900d6
+koreatech.teamproject_propt:attr/cornerFamilyTopRight = 0x7f04010a
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/mtrl_alert_dialog_background_inset_end = 0x7f0700ca
 koreatech.teamproject_propt:attr/cornerFamilyTopRight = 0x7f04010a
 koreatech.teamproject_propt:id/dragLeft = 0x7f0900d4
@@ -1427,6 +1810,7 @@ koreatech.teamproject_propt:id/dragDown = 0x7f0900d2
 koreatech.teamproject_propt:attr/startIconCheckable = 0x7f040329
 koreatech.teamproject_propt:id/disableScroll = 0x7f0900ce
 koreatech.teamproject_propt:color/primary_material_light = 0x7f0600db
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/navigationHome = 0x7f09017c
 koreatech.teamproject_propt:id/accessibility_custom_action_23 = 0x7f090023
 koreatech.teamproject_propt:id/direct = 0x7f0900ca
@@ -1441,6 +1825,24 @@ koreatech.teamproject_propt:style/Base.Widget.AppCompat.TextView = 0x7f1100d8
 koreatech.teamproject_propt:id/callMeasure = 0x7f090081
 koreatech.teamproject_propt:id/design_menu_item_action_area = 0x7f0900c2
 koreatech.teamproject_propt:color/primaryTextColor = 0x7f0600d7
+=======
+koreatech.teamproject_propt:id/disableScroll = 0x7f0900cf
+koreatech.teamproject_propt:id/disablePostScroll = 0x7f0900ce
+koreatech.teamproject_propt:id/imageView = 0x7f090120
+koreatech.teamproject_propt:style/Test.Widget.MaterialComponents.MaterialCalendar.Day.Selected = 0x7f110133
+koreatech.teamproject_propt:id/direct = 0x7f0900cb
+koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Large = 0x7f110024
+koreatech.teamproject_propt:style/Widget.MaterialComponents.Button.OutlinedButton.Icon = 0x7f11027f
+koreatech.teamproject_propt:id/dimensions = 0x7f0900ca
+koreatech.teamproject_propt:id/textinput_placeholder = 0x7f09023b
+koreatech.teamproject_propt:id/detailPostBtn = 0x7f0900c8
+koreatech.teamproject_propt:id/design_menu_item_action_area_stub = 0x7f0900c5
+koreatech.teamproject_propt:id/relativeLayout = 0x7f0901bd
+koreatech.teamproject_propt:id/callMeasure = 0x7f090084
+koreatech.teamproject_propt:id/design_menu_item_action_area = 0x7f0900c4
+koreatech.teamproject_propt:id/listView = 0x7f09013c
+koreatech.teamproject_propt:id/design_bottom_sheet = 0x7f0900c3
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/mtrl_calendar_dialog_background_inset = 0x7f070100
 koreatech.teamproject_propt:dimen/mtrl_extended_fab_min_height = 0x7f070133
 koreatech.teamproject_propt:id/description = 0x7f0900c0
@@ -1448,6 +1850,7 @@ koreatech.teamproject_propt:layout/custom_dialog = 0x7f0c0039
 koreatech.teamproject_propt:attr/drawableEndCompat = 0x7f04013b
 koreatech.teamproject_propt:attr/dividerPadding = 0x7f040134
 koreatech.teamproject_propt:color/mtrl_navigation_item_text_color = 0x7f0600c2
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/default_activity_button = 0x7f0900bc
 koreatech.teamproject_propt:id/decor_content_parent = 0x7f0900bb
 koreatech.teamproject_propt:style/Theme.MaterialComponents.Light.DialogWhenLarge = 0x7f1101da
@@ -1456,6 +1859,13 @@ koreatech.teamproject_propt:id/decelerate = 0x7f0900b9
 koreatech.teamproject_propt:id/food = 0x7f0900fd
 koreatech.teamproject_propt:drawable/ic_menu_gallery = 0x7f080095
 koreatech.teamproject_propt:id/date_picker_actions = 0x7f0900b5
+=======
+koreatech.teamproject_propt:id/default_activity_button = 0x7f0900be
+koreatech.teamproject_propt:id/decor_content_parent = 0x7f0900bd
+koreatech.teamproject_propt:id/decelerateAndComplete = 0x7f0900bc
+koreatech.teamproject_propt:id/food = 0x7f090103
+koreatech.teamproject_propt:id/decelerate = 0x7f0900bb
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/colorBackgroundFloating = 0x7f0400d6
 koreatech.teamproject_propt:id/cos = 0x7f0900ae
 koreatech.teamproject_propt:style/Widget.MaterialComponents.MaterialCalendar.Day = 0x7f11029e
@@ -1512,11 +1922,19 @@ koreatech.teamproject_propt:id/cache_measures = 0x7f09007f
 koreatech.teamproject_propt:id/snap = 0x7f0901e4
 koreatech.teamproject_propt:id/buttonFind = 0x7f09007b
 koreatech.teamproject_propt:attr/suffixTextColor = 0x7f040342
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/button2 = 0x7f090079
 koreatech.teamproject_propt:layout/before_after = 0x7f0c002f
 koreatech.teamproject_propt:attr/drawerArrowStyle = 0x7f040143
 koreatech.teamproject_propt:id/button = 0x7f090078
 koreatech.teamproject_propt:id/browser_actions_menu_item_text = 0x7f090075
+=======
+koreatech.teamproject_propt:id/button2 = 0x7f09007c
+koreatech.teamproject_propt:id/button = 0x7f09007b
+koreatech.teamproject_propt:id/browser_actions_menu_view = 0x7f09007a
+koreatech.teamproject_propt:attr/actionOverflowMenuStyle = 0x7f040022
+koreatech.teamproject_propt:id/east = 0x7f0900df
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/useCompatPadding = 0x7f0403d2
 koreatech.teamproject_propt:styleable/MaterialTextView = 0x7f120059
 koreatech.teamproject_propt:id/east = 0x7f0900dd
@@ -1524,6 +1942,10 @@ koreatech.teamproject_propt:attr/actionOverflowMenuStyle = 0x7f040022
 koreatech.teamproject_propt:id/home = 0x7f09010e
 koreatech.teamproject_propt:style/Widget.AppCompat.PopupMenu.Overflow = 0x7f110248
 koreatech.teamproject_propt:style/Base.Widget.AppCompat.ButtonBar = 0x7f1100b3
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:id/home = 0x7f090113
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/ShapeAppearanceOverlay.MaterialComponents.TextInputLayout.FilledBox = 0x7f11012b
 koreatech.teamproject_propt:id/browser_actions_menu_item_icon = 0x7f090074
 koreatech.teamproject_propt:id/bounceStart = 0x7f090072
@@ -1589,7 +2011,15 @@ koreatech.teamproject_propt:attr/nestedScrollFlags = 0x7f0402a7
 koreatech.teamproject_propt:attr/tooltipForegroundColor = 0x7f0403b7
 koreatech.teamproject_propt:id/barrier = 0x7f090062
 koreatech.teamproject_propt:attr/windowActionBarOverlay = 0x7f0403e5
+<<<<<<< HEAD
 koreatech.teamproject_propt:attr/blendSrc = 0x7f04005d
+=======
+koreatech.teamproject_propt:id/barrier = 0x7f090065
+koreatech.teamproject_propt:id/autoCompleteToStart = 0x7f090063
+koreatech.teamproject_propt:color/mtrl_textinput_hovered_box_stroke_color = 0x7f0600d3
+koreatech.teamproject_propt:id/header_title = 0x7f090111
+koreatech.teamproject_propt:id/async = 0x7f09005f
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/design_navigation_icon_size = 0x7f07007d
 koreatech.teamproject_propt:id/asConfigured = 0x7f09005b
 koreatech.teamproject_propt:id/motion_base = 0x7f09015a
@@ -1609,9 +2039,15 @@ koreatech.teamproject_propt:dimen/mtrl_extended_fab_disabled_elevation = 0x7f070
 koreatech.teamproject_propt:attr/flow_wrapMode = 0x7f04018c
 koreatech.teamproject_propt:id/month_title = 0x7f090159
 koreatech.teamproject_propt:style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title = 0x7f11004c
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/action_text = 0x7f090048
 koreatech.teamproject_propt:style/Widget.AppCompat.ActionBar.Solid = 0x7f110213
 koreatech.teamproject_propt:id/action_mode_close_button = 0x7f090046
+=======
+koreatech.teamproject_propt:id/month_title = 0x7f09015e
+koreatech.teamproject_propt:id/action_text = 0x7f09004b
+koreatech.teamproject_propt:id/action_settings = 0x7f09004a
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/Widget.AppCompat.Light.ActionButton.Overflow = 0x7f110237
 koreatech.teamproject_propt:styleable/OnClick = 0x7f12006a
 koreatech.teamproject_propt:drawable/ic_baseline_emoji_people_24 = 0x7f080086
@@ -1623,6 +2059,7 @@ koreatech.teamproject_propt:id/material_label = 0x7f090145
 koreatech.teamproject_propt:attr/region_heightLessThan = 0x7f0402ed
 koreatech.teamproject_propt:id/action_mode_bar = 0x7f090044
 koreatech.teamproject_propt:layout/abc_screen_simple = 0x7f0c0015
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/action_context_bar = 0x7f09003f
 koreatech.teamproject_propt:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Calendar = 0x7f110202
 koreatech.teamproject_propt:styleable/ExtendedFloatingActionButton_Behavior_Layout = 0x7f120032
@@ -1652,6 +2089,28 @@ koreatech.teamproject_propt:id/actionUp = 0x7f090036
 koreatech.teamproject_propt:id/action0 = 0x7f090033
 koreatech.teamproject_propt:styleable/MaterialButtonToggleGroup = 0x7f120051
 koreatech.teamproject_propt:id/accessibility_custom_action_7 = 0x7f090030
+=======
+koreatech.teamproject_propt:id/action_mode_bar = 0x7f090047
+koreatech.teamproject_propt:color/mtrl_fab_icon_text_color_selector = 0x7f0600b6
+koreatech.teamproject_propt:style/AppTheme = 0x7f11000a
+koreatech.teamproject_propt:id/action_menu_presenter = 0x7f090046
+koreatech.teamproject_propt:id/action_menu_divider = 0x7f090045
+koreatech.teamproject_propt:id/action_image = 0x7f090044
+koreatech.teamproject_propt:id/action_context_bar = 0x7f090042
+koreatech.teamproject_propt:attr/checkMarkTint = 0x7f040094
+koreatech.teamproject_propt:id/action_container = 0x7f090041
+koreatech.teamproject_propt:id/timer = 0x7f090240
+koreatech.teamproject_propt:style/Base.TextAppearance.MaterialComponents.Badge = 0x7f110046
+koreatech.teamproject_propt:id/expand_activities_button = 0x7f0900f8
+koreatech.teamproject_propt:dimen/mtrl_progress_circular_size_small = 0x7f070162
+koreatech.teamproject_propt:id/action_bar_title = 0x7f090040
+koreatech.teamproject_propt:id/action_bar_activity_content = 0x7f09003b
+koreatech.teamproject_propt:id/title_et = 0x7f090244
+koreatech.teamproject_propt:id/actionUp = 0x7f090039
+koreatech.teamproject_propt:id/action0 = 0x7f090036
+koreatech.teamproject_propt:id/accessibility_custom_action_7 = 0x7f090033
+koreatech.teamproject_propt:id/accessibility_custom_action_5 = 0x7f090031
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Small = 0x7f110043
 koreatech.teamproject_propt:id/accessibility_custom_action_30 = 0x7f09002b
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored = 0x7f11003d
@@ -1669,12 +2128,35 @@ koreatech.teamproject_propt:id/action_settings = 0x7f090047
 koreatech.teamproject_propt:styleable/NavigationView = 0x7f120069
 koreatech.teamproject_propt:id/accessibility_custom_action_14 = 0x7f090019
 koreatech.teamproject_propt:styleable/RangeSlider = 0x7f120070
+<<<<<<< HEAD
 koreatech.teamproject_propt:style/parent.contentLayout = 0x7f1102e1
 koreatech.teamproject_propt:id/accessibility_custom_action_13 = 0x7f090018
 koreatech.teamproject_propt:styleable/Transition = 0x7f12008d
 koreatech.teamproject_propt:id/TILPostName = 0x7f09000e
 koreatech.teamproject_propt:anim/abc_slide_out_bottom = 0x7f010008
 koreatech.teamproject_propt:drawable/ic_mtrl_chip_checked_black = 0x7f08009b
+=======
+koreatech.teamproject_propt:id/accessibility_custom_action_14 = 0x7f09001c
+koreatech.teamproject_propt:id/accessibility_custom_action_13 = 0x7f09001b
+koreatech.teamproject_propt:id/textViewPassword3 = 0x7f09022f
+koreatech.teamproject_propt:id/accessibility_custom_action_12 = 0x7f09001a
+koreatech.teamproject_propt:id/accelerate = 0x7f090014
+koreatech.teamproject_propt:styleable/Transition = 0x7f12008d
+koreatech.teamproject_propt:id/TILPostName = 0x7f090011
+koreatech.teamproject_propt:dimen/mtrl_bottomappbar_height = 0x7f0700db
+koreatech.teamproject_propt:id/accessibility_custom_action_11 = 0x7f090019
+koreatech.teamproject_propt:id/TILPostImageLink = 0x7f090010
+koreatech.teamproject_propt:id/TILPostCategory = 0x7f09000e
+koreatech.teamproject_propt:id/toggle = 0x7f090247
+koreatech.teamproject_propt:dimen/design_snackbar_extra_spacing_horizontal = 0x7f070087
+koreatech.teamproject_propt:id/SYM = 0x7f09000d
+koreatech.teamproject_propt:attr/fontFamily = 0x7f04018e
+koreatech.teamproject_propt:id/SHOW_PATH = 0x7f09000b
+koreatech.teamproject_propt:id/META = 0x7f090005
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.SearchView = 0x7f1100d2
+koreatech.teamproject_propt:id/BOTTOM_END = 0x7f090001
+koreatech.teamproject_propt:drawable/ic_mtrl_chip_checked_black = 0x7f080099
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:id/ALT = 0x7f090000
 koreatech.teamproject_propt:attr/fastScrollVerticalTrackDrawable = 0x7f040177
 koreatech.teamproject_propt:style/Base.Theme.AppCompat.Light.Dialog.Alert = 0x7f110057
@@ -1715,6 +2197,7 @@ koreatech.teamproject_propt:drawable/abc_tab_indicator_mtrl_alpha = 0x7f08004b
 koreatech.teamproject_propt:styleable/ButtonBarLayout = 0x7f120018
 koreatech.teamproject_propt:id/accessibility_custom_action_28 = 0x7f090028
 koreatech.teamproject_propt:dimen/mtrl_calendar_selection_text_baseline_to_bottom = 0x7f070113
+<<<<<<< HEAD
 koreatech.teamproject_propt:bool/abc_config_actionMenuItemAllCaps = 0x7f050001
 koreatech.teamproject_propt:drawable/pic_back4 = 0x7f0800ca
 koreatech.teamproject_propt:id/search_mag_icon = 0x7f0901d0
@@ -1741,6 +2224,33 @@ koreatech.teamproject_propt:id/textviewMessage = 0x7f090233
 koreatech.teamproject_propt:drawable/mtrl_popupmenu_background = 0x7f0800b2
 koreatech.teamproject_propt:attr/viewTransitionOnCross = 0x7f0403d8
 koreatech.teamproject_propt:style/Widget.MaterialComponents.PopupMenu = 0x7f1102b9
+=======
+koreatech.teamproject_propt:id/accessibility_custom_action_28 = 0x7f09002b
+koreatech.teamproject_propt:drawable/pic_arm3 = 0x7f0800c3
+koreatech.teamproject_propt:drawable/test_level_drawable = 0x7f0800dc
+koreatech.teamproject_propt:drawable/notify_panel_notification_icon_bg = 0x7f0800c0
+koreatech.teamproject_propt:drawable/notification_tile_bg = 0x7f0800bf
+koreatech.teamproject_propt:id/mtrl_card_checked_layer_id = 0x7f090169
+koreatech.teamproject_propt:style/Base.Theme.AppCompat.Light.Dialog.FixedSize = 0x7f110058
+koreatech.teamproject_propt:attr/fabCustomSize = 0x7f040171
+koreatech.teamproject_propt:id/ghost_view_holder = 0x7f090109
+koreatech.teamproject_propt:drawable/notification_template_icon_bg = 0x7f0800bd
+koreatech.teamproject_propt:style/ShapeAppearanceOverlay = 0x7f11011f
+koreatech.teamproject_propt:id/sin = 0x7f0901e4
+koreatech.teamproject_propt:attr/constraintSet = 0x7f0400ed
+koreatech.teamproject_propt:drawable/notification_bg_normal_pressed = 0x7f0800bb
+koreatech.teamproject_propt:layout/notification_template_lines_media = 0x7f0c008d
+koreatech.teamproject_propt:id/mtrl_picker_text_input_range_end = 0x7f090173
+koreatech.teamproject_propt:drawable/notification_bg_low_normal = 0x7f0800b8
+koreatech.teamproject_propt:drawable/notification_bg_low = 0x7f0800b7
+koreatech.teamproject_propt:attr/spanCount = 0x7f04031c
+koreatech.teamproject_propt:drawable/navigation_foreground = 0x7f0800b4
+koreatech.teamproject_propt:drawable/navigation_empty_icon = 0x7f0800b3
+koreatech.teamproject_propt:drawable/mtrl_tabs_default_indicator = 0x7f0800b2
+koreatech.teamproject_propt:id/textviewMessage = 0x7f09023e
+koreatech.teamproject_propt:drawable/mtrl_popupmenu_background = 0x7f0800b0
+koreatech.teamproject_propt:string/androidx_startup = 0x7f10001c
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:layout/before_after_read = 0x7f0c0031
 koreatech.teamproject_propt:string/androidx_startup = 0x7f10001c
 koreatech.teamproject_propt:drawable/mtrl_navigation_bar_item_background = 0x7f0800b1
@@ -1783,6 +2293,10 @@ koreatech.teamproject_propt:id/end_padder = 0x7f0900ec
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Menu = 0x7f11002a
 koreatech.teamproject_propt:id/material_timepicker_view = 0x7f09014e
 koreatech.teamproject_propt:attr/badgeTextColor = 0x7f04004d
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:id/material_timepicker_view = 0x7f090153
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Title.Inverse = 0x7f110033
 koreatech.teamproject_propt:id/dark = 0x7f0900b4
 koreatech.teamproject_propt:attr/strokeWidth = 0x7f040338
@@ -1791,12 +2305,21 @@ koreatech.teamproject_propt:drawable/abc_btn_radio_material = 0x7f080010
 koreatech.teamproject_propt:style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu = 0x7f1102cd
 koreatech.teamproject_propt:styleable/TabItem = 0x7f120083
 koreatech.teamproject_propt:attr/chipIconEnabled = 0x7f0400a5
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/editTextEmail = 0x7f0900e4
 koreatech.teamproject_propt:drawable/ic_baseline_play_circle_filled_24 = 0x7f080089
 koreatech.teamproject_propt:drawable/ic_add = 0x7f080085
 koreatech.teamproject_propt:drawable/gym = 0x7f080082
 koreatech.teamproject_propt:drawable/frutorials = 0x7f08007e
 koreatech.teamproject_propt:drawable/exercise = 0x7f08007d
+=======
+koreatech.teamproject_propt:id/editTextEmail = 0x7f0900ea
+koreatech.teamproject_propt:drawable/ic_baseline_play_circle_filled_24 = 0x7f080087
+koreatech.teamproject_propt:styleable/OnClick = 0x7f12006a
+koreatech.teamproject_propt:drawable/ic_baseline_emoji_people_24 = 0x7f080084
+koreatech.teamproject_propt:drawable/gym = 0x7f080081
+koreatech.teamproject_propt:drawable/frutorials = 0x7f08007d
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/viewTransitionOnNegativeCross = 0x7f0403d9
 koreatech.teamproject_propt:style/Theme.MaterialComponents.Light.Dialog.FixedSize.Bridge = 0x7f1101d7
 koreatech.teamproject_propt:layout/content_main = 0x7f0c0038
@@ -1806,6 +2329,7 @@ koreatech.teamproject_propt:drawable/common_google_signin_btn_text_light_normal 
 koreatech.teamproject_propt:id/dragEnd = 0x7f0900d3
 koreatech.teamproject_propt:drawable/common_google_signin_btn_text_light_focused = 0x7f080072
 koreatech.teamproject_propt:style/Base.Theme.AppCompat.Dialog.Alert = 0x7f110050
+<<<<<<< HEAD
 koreatech.teamproject_propt:drawable/common_google_signin_btn_text_light = 0x7f080071
 koreatech.teamproject_propt:drawable/common_google_signin_btn_text_dark_normal = 0x7f08006e
 koreatech.teamproject_propt:attr/shortcutMatchRequired = 0x7f04030a
@@ -1820,13 +2344,44 @@ koreatech.teamproject_propt:layout/stimulus_picture_comment = 0x7f0c009b
 koreatech.teamproject_propt:styleable/LoadingImageView = 0x7f12004c
 koreatech.teamproject_propt:drawable/btn_checkbox_unchecked_to_checked_mtrl_animation = 0x7f08005d
 koreatech.teamproject_propt:drawable/abc_text_select_handle_middle_mtrl = 0x7f08004e
+=======
+koreatech.teamproject_propt:drawable/common_google_signin_btn_text_light = 0x7f080070
+koreatech.teamproject_propt:drawable/common_google_signin_btn_text_disabled = 0x7f08006f
+koreatech.teamproject_propt:drawable/common_google_signin_btn_text_dark_normal = 0x7f08006d
+koreatech.teamproject_propt:id/accessibility_custom_action_27 = 0x7f09002a
+koreatech.teamproject_propt:drawable/common_google_signin_btn_text_dark_focused = 0x7f08006c
+koreatech.teamproject_propt:id/textinput_helper_text = 0x7f09023a
+koreatech.teamproject_propt:drawable/common_google_signin_btn_icon_light_normal_background = 0x7f08006a
+koreatech.teamproject_propt:id/textView17 = 0x7f090226
+koreatech.teamproject_propt:attr/shortcutMatchRequired = 0x7f04030a
+koreatech.teamproject_propt:drawable/common_google_signin_btn_icon_light = 0x7f080067
+koreatech.teamproject_propt:drawable/common_google_signin_btn_icon_disabled = 0x7f080066
+koreatech.teamproject_propt:drawable/common_full_open_on_phone = 0x7f080061
+koreatech.teamproject_propt:drawable/btn_radio_on_mtrl = 0x7f08005f
+koreatech.teamproject_propt:layout/stimulus_picture_comment = 0x7f0c009c
+koreatech.teamproject_propt:drawable/btn_radio_off_mtrl = 0x7f08005d
+koreatech.teamproject_propt:drawable/btn_checkbox_unchecked_to_checked_mtrl_animation = 0x7f08005c
+koreatech.teamproject_propt:drawable/btn_checkbox_checked_to_unchecked_mtrl_animation = 0x7f08005a
+koreatech.teamproject_propt:id/transition_current_scene = 0x7f09024e
+koreatech.teamproject_propt:id/search_badge = 0x7f0901d0
+koreatech.teamproject_propt:drawable/avd_hide_password = 0x7f080057
+koreatech.teamproject_propt:string/abc_searchview_description_clear = 0x7f100013
+koreatech.teamproject_propt:drawable/abc_textfield_search_material = 0x7f080054
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:styleable/AppBarLayout = 0x7f12000a
 koreatech.teamproject_propt:dimen/mtrl_calendar_year_width = 0x7f07011d
 koreatech.teamproject_propt:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Centered = 0x7f110200
 koreatech.teamproject_propt:drawable/abc_switch_track_mtrl_alpha = 0x7f080049
+<<<<<<< HEAD
 koreatech.teamproject_propt:style/Widget.MaterialComponents.Toolbar.Primary = 0x7f1102db
 koreatech.teamproject_propt:style/TextAppearance.AppCompat.Widget.PopupMenu.Small = 0x7f110167
 koreatech.teamproject_propt:id/chronometer = 0x7f090095
+=======
+koreatech.teamproject_propt:drawable/abc_switch_thumb_material = 0x7f080048
+koreatech.teamproject_propt:id/chronometer = 0x7f090097
+koreatech.teamproject_propt:id/mtrl_picker_text_input_date = 0x7f090172
+koreatech.teamproject_propt:dimen/fastscroll_margin = 0x7f070097
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:drawable/abc_star_black_48dp = 0x7f080046
 koreatech.teamproject_propt:id/mtrl_picker_text_input_date = 0x7f09016d
 koreatech.teamproject_propt:dimen/fastscroll_margin = 0x7f070097
@@ -1865,7 +2420,12 @@ koreatech.teamproject_propt:drawable/abc_btn_switch_to_on_mtrl_00001 = 0x7f08001
 koreatech.teamproject_propt:styleable/SearchView = 0x7f120075
 koreatech.teamproject_propt:attr/itemShapeAppearance = 0x7f0401da
 koreatech.teamproject_propt:drawable/abc_btn_radio_to_on_mtrl_000 = 0x7f080012
+<<<<<<< HEAD
 koreatech.teamproject_propt:attr/passwordToggleEnabled = 0x7f0402c2
+=======
+koreatech.teamproject_propt:drawable/splash_logo = 0x7f0800da
+koreatech.teamproject_propt:drawable/abc_btn_radio_material = 0x7f080010
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:drawable/abc_btn_colored_material = 0x7f08000e
 koreatech.teamproject_propt:layout/main_exercise_report = 0x7f0c0055
 koreatech.teamproject_propt:drawable/abc_btn_check_material_anim = 0x7f08000b
@@ -1875,9 +2435,24 @@ koreatech.teamproject_propt:style/Base.V21.Theme.MaterialComponents.Light = 0x7f
 koreatech.teamproject_propt:attr/layout_constraintWidth = 0x7f040222
 koreatech.teamproject_propt:layout/mtrl_picker_header_fullscreen = 0x7f0c007c
 koreatech.teamproject_propt:dimen/tooltip_precise_anchor_extra_offset = 0x7f0701b1
+<<<<<<< HEAD
 koreatech.teamproject_propt:dimen/test_navigation_bar_text_size = 0x7f0701ad
 koreatech.teamproject_propt:string/mtrl_picker_range_header_only_start_selected = 0x7f10006d
 koreatech.teamproject_propt:style/AppBottomSheetDialogTheme = 0x7f110008
+=======
+koreatech.teamproject_propt:layout/activity_login = 0x7f0c0024
+koreatech.teamproject_propt:dimen/tooltip_margin = 0x7f0701b0
+koreatech.teamproject_propt:dimen/tooltip_horizontal_padding = 0x7f0701af
+koreatech.teamproject_propt:color/mtrl_popupmenu_overlay_color = 0x7f0600c7
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.ActionButton.CloseMode = 0x7f1100a8
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.Spinner = 0x7f1100d6
+koreatech.teamproject_propt:dimen/tooltip_corner_radius = 0x7f0701ae
+koreatech.teamproject_propt:dimen/test_navigation_bar_text_size = 0x7f0701ad
+koreatech.teamproject_propt:string/mtrl_picker_range_header_only_start_selected = 0x7f10006d
+koreatech.teamproject_propt:style/AppBottomSheetDialogTheme = 0x7f110008
+koreatech.teamproject_propt:attr/contentPaddingRight = 0x7f0400ff
+koreatech.teamproject_propt:id/material_clock_period_pm_button = 0x7f090146
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/test_navigation_bar_shadow_height = 0x7f0701ac
 koreatech.teamproject_propt:attr/contentPaddingRight = 0x7f0400ff
 koreatech.teamproject_propt:id/material_clock_period_pm_button = 0x7f090141
@@ -1887,7 +2462,11 @@ koreatech.teamproject_propt:drawable/abc_btn_default_mtrl_shape = 0x7f08000f
 koreatech.teamproject_propt:dimen/test_navigation_bar_item_max_width = 0x7f0701a9
 koreatech.teamproject_propt:dimen/test_navigation_bar_icon_size = 0x7f0701a8
 koreatech.teamproject_propt:string/hide_bottom_view_on_scroll_behavior = 0x7f100042
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/user_info_name = 0x7f090255
+=======
+koreatech.teamproject_propt:id/user_info_name = 0x7f09025f
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/test_navigation_bar_elevation = 0x7f0701a6
 koreatech.teamproject_propt:styleable/MaterialCalendarItem = 0x7f120053
 koreatech.teamproject_propt:string/material_timepicker_text_input_mode_description = 0x7f100058
@@ -1925,20 +2504,38 @@ koreatech.teamproject_propt:style/Theme.MaterialComponents = 0x7f1101af
 koreatech.teamproject_propt:style/Widget.AppCompat.PopupMenu = 0x7f110247
 koreatech.teamproject_propt:dimen/mtrl_switch_thumb_elevation = 0x7f07017b
 koreatech.teamproject_propt:attr/activityChooserViewStyle = 0x7f040026
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/mini = 0x7f090153
 koreatech.teamproject_propt:dimen/mtrl_snackbar_message_margin_horizontal = 0x7f070179
 koreatech.teamproject_propt:id/end = 0x7f0900ea
+=======
+koreatech.teamproject_propt:id/mini = 0x7f090158
+koreatech.teamproject_propt:dimen/mtrl_snackbar_message_margin_horizontal = 0x7f070179
+koreatech.teamproject_propt:dimen/mtrl_snackbar_margin = 0x7f070178
+koreatech.teamproject_propt:id/end = 0x7f0900f0
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/mtrl_slider_track_top = 0x7f070173
 koreatech.teamproject_propt:dimen/mtrl_slider_track_height = 0x7f070171
 koreatech.teamproject_propt:dimen/mtrl_slider_thumb_radius = 0x7f070170
 koreatech.teamproject_propt:dimen/mtrl_slider_label_square_side = 0x7f07016e
 koreatech.teamproject_propt:dimen/mtrl_slider_label_padding = 0x7f07016c
 koreatech.teamproject_propt:dimen/mtrl_shape_corner_size_small_component = 0x7f07016a
+<<<<<<< HEAD
 koreatech.teamproject_propt:color/abc_background_cache_hint_selector_material_light = 0x7f060001
 koreatech.teamproject_propt:dimen/mtrl_shape_corner_size_large_component = 0x7f070168
 koreatech.teamproject_propt:id/user_spec_record = 0x7f090258
 koreatech.teamproject_propt:id/fitToContents = 0x7f0900f9
 koreatech.teamproject_propt:attr/rangeFillColor = 0x7f0402e4
+=======
+koreatech.teamproject_propt:id/item2 = 0x7f09012b
+koreatech.teamproject_propt:drawable/ic_baseline_loop_24 = 0x7f080085
+koreatech.teamproject_propt:dimen/mtrl_shape_corner_size_medium_component = 0x7f070169
+koreatech.teamproject_propt:color/abc_background_cache_hint_selector_material_light = 0x7f060001
+koreatech.teamproject_propt:dimen/mtrl_shape_corner_size_large_component = 0x7f070168
+koreatech.teamproject_propt:id/user_spec_record = 0x7f090262
+koreatech.teamproject_propt:id/fitToContents = 0x7f0900ff
+koreatech.teamproject_propt:attr/dayInvalidStyle = 0x7f040124
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/tabStyle = 0x7f04035f
 koreatech.teamproject_propt:attr/dayInvalidStyle = 0x7f040124
 koreatech.teamproject_propt:dimen/mtrl_progress_indicator_full_rounded_corner_radius = 0x7f070166
@@ -1959,14 +2556,26 @@ koreatech.teamproject_propt:id/message = 0x7f090151
 koreatech.teamproject_propt:dimen/mtrl_navigation_rail_margin = 0x7f070157
 koreatech.teamproject_propt:style/Widget.AppCompat.Light.ActionMode.Inverse = 0x7f110238
 koreatech.teamproject_propt:string/material_clock_toggle_content_description = 0x7f100046
+<<<<<<< HEAD
 koreatech.teamproject_propt:attr/listDividerAlertDialog = 0x7f040241
 koreatech.teamproject_propt:layout/main_exercise_way = 0x7f0c0056
 koreatech.teamproject_propt:style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse = 0x7f11015b
+=======
+koreatech.teamproject_propt:id/message = 0x7f090156
+koreatech.teamproject_propt:dimen/mtrl_navigation_rail_margin = 0x7f070157
+koreatech.teamproject_propt:id/search_close_btn = 0x7f0901d3
+koreatech.teamproject_propt:dimen/mtrl_navigation_rail_icon_size = 0x7f070156
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/mtrl_navigation_rail_icon_margin = 0x7f070155
 koreatech.teamproject_propt:dimen/mtrl_navigation_rail_default_width = 0x7f070153
 koreatech.teamproject_propt:attr/upDuration = 0x7f0403d1
 koreatech.teamproject_propt:dimen/mtrl_navigation_rail_compact_width = 0x7f070152
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/navigationMenu = 0x7f09017d
+=======
+koreatech.teamproject_propt:id/navigationMenu = 0x7f090183
+koreatech.teamproject_propt:attr/layout_constraintLeft_creator = 0x7f040213
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/mtrl_navigation_rail_active_text_size = 0x7f070151
 koreatech.teamproject_propt:attr/layout_constraintLeft_creator = 0x7f040213
 koreatech.teamproject_propt:drawable/abc_ic_menu_overflow_material = 0x7f080023
@@ -1986,8 +2595,13 @@ koreatech.teamproject_propt:dimen/mtrl_fab_elevation = 0x7f07013b
 koreatech.teamproject_propt:dimen/headerTextSize = 0x7f07009b
 koreatech.teamproject_propt:attr/dropdownListPreferredItemHeight = 0x7f040145
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Large = 0x7f110042
+<<<<<<< HEAD
 koreatech.teamproject_propt:array/chest = 0x7f030004
 koreatech.teamproject_propt:color/checkbox_themeable_attribute_color = 0x7f060037
+=======
+koreatech.teamproject_propt:dimen/mtrl_extended_fab_top_padding = 0x7f070137
+koreatech.teamproject_propt:id/topPanel = 0x7f09024a
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:menu/activity_main_drawer = 0x7f0d0000
 koreatech.teamproject_propt:id/topPanel = 0x7f090240
 koreatech.teamproject_propt:dimen/mtrl_extended_fab_start_padding_icon = 0x7f070136
@@ -2033,16 +2647,24 @@ koreatech.teamproject_propt:dimen/mtrl_calendar_month_horizontal_padding = 0x7f0
 koreatech.teamproject_propt:style/Widget.AppCompat.ListMenuView = 0x7f110242
 koreatech.teamproject_propt:attr/textAppearanceLargePopupMenu = 0x7f040372
 koreatech.teamproject_propt:dimen/mtrl_calendar_landscape_header_width = 0x7f07010a
+<<<<<<< HEAD
 koreatech.teamproject_propt:attr/cornerSize = 0x7f04010c
 koreatech.teamproject_propt:color/design_fab_stroke_top_outer_color = 0x7f06006e
 koreatech.teamproject_propt:id/easeOut = 0x7f0900dc
+=======
+koreatech.teamproject_propt:id/easeOut = 0x7f0900de
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/mtrl_calendar_header_selection_line_height = 0x7f070106
 koreatech.teamproject_propt:style/Theme.AppCompat.DayNight.Dialog.MinWidth = 0x7f110199
 koreatech.teamproject_propt:animator/linear_indeterminate_line2_tail_interpolator = 0x7f02000c
 koreatech.teamproject_propt:attr/progressBarStyle = 0x7f0402dc
 koreatech.teamproject_propt:id/uniform = 0x7f09024b
 koreatech.teamproject_propt:styleable/CoordinatorLayout = 0x7f12002d
+<<<<<<< HEAD
 koreatech.teamproject_propt:attr/reactiveGuide_valueId = 0x7f0402eb
+=======
+koreatech.teamproject_propt:id/uniform = 0x7f090255
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/Widget.AppCompat.Light.ActionBar.Solid.Inverse = 0x7f11022e
 koreatech.teamproject_propt:attr/buttonSize = 0x7f04007b
 koreatech.teamproject_propt:color/primary_dark_material_light = 0x7f0600d9
@@ -2072,7 +2694,11 @@ koreatech.teamproject_propt:layout/abc_list_menu_item_icon = 0x7f0c000f
 koreatech.teamproject_propt:dimen/mtrl_btn_disabled_z = 0x7f0700df
 koreatech.teamproject_propt:color/abc_background_cache_hint_selector_material_dark = 0x7f060000
 koreatech.teamproject_propt:dimen/abc_text_size_subtitle_material_toolbar = 0x7f07004e
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/graph = 0x7f090106
+=======
+koreatech.teamproject_propt:id/graph = 0x7f09010b
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/mtrl_btn_corner_radius = 0x7f0700dc
 koreatech.teamproject_propt:dimen/mtrl_bottomappbar_fab_cradle_margin = 0x7f0700d8
 koreatech.teamproject_propt:attr/layout_constraintTop_toTopOf = 0x7f04021e
@@ -2147,7 +2773,13 @@ koreatech.teamproject_propt:attr/behavior_hideable = 0x7f040058
 koreatech.teamproject_propt:layout/activity_user_spec = 0x7f0c002c
 koreatech.teamproject_propt:attr/barrierDirection = 0x7f040050
 koreatech.teamproject_propt:dimen/frutorial_title = 0x7f070099
+<<<<<<< HEAD
 koreatech.teamproject_propt:color/design_dark_default_color_secondary = 0x7f060057
+=======
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.Light.PopupMenu = 0x7f1100c3
+koreatech.teamproject_propt:id/material_clock_hand = 0x7f090144
+koreatech.teamproject_propt:id/editTILPostDesc = 0x7f0900e7
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/design_navigation_item_horizontal_padding = 0x7f07007e
 koreatech.teamproject_propt:dimen/mtrl_slider_halo_radius = 0x7f07016b
 koreatech.teamproject_propt:string/common_google_play_services_enable_text = 0x7f100027
@@ -2164,12 +2796,25 @@ koreatech.teamproject_propt:style/Widget.AppCompat.RatingBar = 0x7f11024c
 koreatech.teamproject_propt:attr/dialogCornerRadius = 0x7f04012e
 koreatech.teamproject_propt:dimen/design_snackbar_action_inline_max_width = 0x7f070083
 koreatech.teamproject_propt:dimen/design_navigation_max_width = 0x7f070080
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:drawable/notification_bg_low_pressed = 0x7f0800b9
+koreatech.teamproject_propt:drawable/ic_baseline_no_food_24 = 0x7f080086
+koreatech.teamproject_propt:string/abc_shareactionprovider_share_with = 0x7f100018
+koreatech.teamproject_propt:dimen/design_navigation_item_icon_padding = 0x7f07007f
+koreatech.teamproject_propt:id/motion_base = 0x7f09015f
+koreatech.teamproject_propt:attr/cardBackgroundColor = 0x7f040080
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/design_fab_size_normal = 0x7f070078
 koreatech.teamproject_propt:id/tag_unhandled_key_listeners = 0x7f09020e
 koreatech.teamproject_propt:attr/enforceTextAppearance = 0x7f040156
 koreatech.teamproject_propt:dimen/design_fab_image_size = 0x7f070076
 koreatech.teamproject_propt:attr/customColorValue = 0x7f04011c
 koreatech.teamproject_propt:dimen/design_fab_elevation = 0x7f070075
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:id/mtrl_picker_title_text = 0x7f090175
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/popupTheme = 0x7f0402d4
 koreatech.teamproject_propt:dimen/abc_action_bar_elevation_material = 0x7f070005
 koreatech.teamproject_propt:id/mtrl_picker_title_text = 0x7f090170
@@ -2219,6 +2864,7 @@ koreatech.teamproject_propt:string/abc_toolbar_collapse_description = 0x7f10001a
 koreatech.teamproject_propt:anim/btn_checkbox_to_unchecked_check_path_merged_animation = 0x7f010010
 koreatech.teamproject_propt:style/Base.Widget.AppCompat.ProgressBar = 0x7f1100cd
 koreatech.teamproject_propt:dimen/abc_seekbar_track_background_height_material = 0x7f070038
+<<<<<<< HEAD
 koreatech.teamproject_propt:dimen/mtrl_btn_dialog_btn_min_width = 0x7f0700dd
 koreatech.teamproject_propt:attr/isLightTheme = 0x7f0401ce
 koreatech.teamproject_propt:attr/iconifiedByDefault = 0x7f0401bb
@@ -2227,6 +2873,18 @@ koreatech.teamproject_propt:id/text_input_start_icon = 0x7f09022c
 koreatech.teamproject_propt:attr/carousel_forwardTransition = 0x7f04008b
 koreatech.teamproject_propt:style/Base.Widget.AppCompat.Toolbar.Button.Navigation = 0x7f1100db
 koreatech.teamproject_propt:attr/counterTextAppearance = 0x7f040115
+=======
+koreatech.teamproject_propt:id/ignoreRequest = 0x7f09011d
+koreatech.teamproject_propt:dimen/mtrl_btn_dialog_btn_min_width = 0x7f0700dd
+koreatech.teamproject_propt:attr/isLightTheme = 0x7f0401ce
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.Toolbar.Button.Navigation = 0x7f1100db
+koreatech.teamproject_propt:attr/carousel_forwardTransition = 0x7f04008b
+koreatech.teamproject_propt:attr/counterTextAppearance = 0x7f040115
+koreatech.teamproject_propt:id/text_input_start_icon = 0x7f090237
+koreatech.teamproject_propt:dimen/abc_list_item_height_material = 0x7f070031
+koreatech.teamproject_propt:dimen/abc_switch_padding = 0x7f07003e
+koreatech.teamproject_propt:dimen/abc_floating_window_z = 0x7f07002f
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/abc_edit_text_inset_top_material = 0x7f07002e
 koreatech.teamproject_propt:dimen/card_margin = 0x7f070057
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Widget.ActionMode.Title = 0x7f11003b
@@ -2270,6 +2928,11 @@ koreatech.teamproject_propt:dimen/abc_dialog_corner_radius_material = 0x7f07001b
 koreatech.teamproject_propt:color/accent_material_light = 0x7f06001a
 koreatech.teamproject_propt:dimen/abc_button_inset_vertical_material = 0x7f070013
 koreatech.teamproject_propt:string/abc_menu_shift_shortcut_label = 0x7f10000e
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:id/mtrl_picker_text_input_range_start = 0x7f090174
+koreatech.teamproject_propt:attr/cornerFamilyBottomRight = 0x7f040108
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/mtrl_btn_inset = 0x7f0700e5
 koreatech.teamproject_propt:id/mtrl_picker_text_input_range_start = 0x7f09016f
 koreatech.teamproject_propt:attr/cornerFamilyBottomRight = 0x7f040108
@@ -2280,8 +2943,14 @@ koreatech.teamproject_propt:attr/drawableTopCompat = 0x7f040142
 koreatech.teamproject_propt:attr/textInputLayoutFocusedRectEnabled = 0x7f040387
 koreatech.teamproject_propt:dimen/abc_button_inset_horizontal_material = 0x7f070012
 koreatech.teamproject_propt:attr/ifTagNotSet = 0x7f0401bc
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/nav_camera = 0x7f090174
 koreatech.teamproject_propt:id/cancel_action = 0x7f090082
+=======
+koreatech.teamproject_propt:id/nav_camera = 0x7f090179
+koreatech.teamproject_propt:attr/actionModeShareDrawable = 0x7f04001c
+koreatech.teamproject_propt:dimen/abc_action_button_min_width_overflow_material = 0x7f07000f
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/abc_action_bar_subtitle_top_margin_material = 0x7f07000c
 koreatech.teamproject_propt:attr/cornerSizeTopRight = 0x7f040110
 koreatech.teamproject_propt:id/progress_horizontal = 0x7f0901ae
@@ -2297,6 +2966,13 @@ koreatech.teamproject_propt:layout/notification_template_custom_big = 0x7f0c008b
 koreatech.teamproject_propt:dimen/abc_action_bar_default_padding_start_material = 0x7f070004
 koreatech.teamproject_propt:style/Widget.AppCompat.Toolbar = 0x7f110259
 koreatech.teamproject_propt:dimen/abc_action_bar_default_height_material = 0x7f070002
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:dimen/abc_action_bar_content_inset_with_nav = 0x7f070001
+koreatech.teamproject_propt:layout/stimulus_pictures_write = 0x7f0c009e
+koreatech.teamproject_propt:id/contentPanel = 0x7f0900aa
+koreatech.teamproject_propt:dimen/nav_header_vertical_spacing = 0x7f07018d
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/Widget.MaterialComponents.MaterialCalendar.Year = 0x7f1102af
 koreatech.teamproject_propt:color/white = 0x7f0600f7
 koreatech.teamproject_propt:attr/checkedChip = 0x7f040098
@@ -2309,8 +2985,12 @@ koreatech.teamproject_propt:color/design_dark_default_color_primary_variant = 0x
 koreatech.teamproject_propt:id/cancel_button = 0x7f090083
 koreatech.teamproject_propt:color/teal_200 = 0x7f0600f1
 koreatech.teamproject_propt:dimen/cardview_default_radius = 0x7f07005a
+<<<<<<< HEAD
 koreatech.teamproject_propt:style/Widget.AppCompat.ButtonBar = 0x7f110223
 koreatech.teamproject_propt:id/transition_layout_save = 0x7f090245
+=======
+koreatech.teamproject_propt:id/transition_layout_save = 0x7f09024f
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:color/switch_thumb_material_dark = 0x7f0600ed
 koreatech.teamproject_propt:dimen/activity_horizontal_margin = 0x7f070052
 koreatech.teamproject_propt:attr/motionDurationMedium1 = 0x7f040286
@@ -2322,13 +3002,23 @@ koreatech.teamproject_propt:style/Widget.MaterialComponents.MaterialCalendar.Mon
 koreatech.teamproject_propt:drawable/material_ic_edit_black_24dp = 0x7f0800a4
 koreatech.teamproject_propt:attr/textAppearanceSearchResultTitle = 0x7f04037a
 koreatech.teamproject_propt:color/statusBarColor = 0x7f0600ea
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:layout/select_dialog_multichoice_material = 0x7f0c0099
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/Platform.ThemeOverlay.AppCompat.Dark = 0x7f110101
 koreatech.teamproject_propt:attr/drawPath = 0x7f040139
 koreatech.teamproject_propt:layout/activity_find = 0x7f0c0020
 koreatech.teamproject_propt:id/user_info_phonum = 0x7f090256
 koreatech.teamproject_propt:attr/contentPadding = 0x7f0400fb
+<<<<<<< HEAD
 koreatech.teamproject_propt:color/secondary_text_default_material_light = 0x7f0600e7
 koreatech.teamproject_propt:id/title = 0x7f090238
+=======
+koreatech.teamproject_propt:id/user_info_phonum = 0x7f090260
+koreatech.teamproject_propt:color/secondary_text_default_material_light = 0x7f0600e7
+koreatech.teamproject_propt:id/title = 0x7f090242
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:color/radiobutton_themeable_attribute_color = 0x7f0600e3
 koreatech.teamproject_propt:drawable/mtrl_ic_arrow_drop_up = 0x7f0800ae
 koreatech.teamproject_propt:id/confirm_button = 0x7f0900a4
@@ -2385,14 +3075,29 @@ koreatech.teamproject_propt:attr/buttonBarStyle = 0x7f040076
 koreatech.teamproject_propt:color/mtrl_navigation_item_background_color = 0x7f0600c0
 koreatech.teamproject_propt:attr/barrierMargin = 0x7f040051
 koreatech.teamproject_propt:color/mtrl_indicator_text_color = 0x7f0600bb
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/mtrl_calendar_day_selector_frame = 0x7f09015c
 koreatech.teamproject_propt:attr/percentHeight = 0x7f0402c7
+=======
+koreatech.teamproject_propt:id/mtrl_calendar_day_selector_frame = 0x7f090161
+koreatech.teamproject_propt:id/accessibility_custom_action_17 = 0x7f09001f
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/Base.Widget.AppCompat.ImageButton = 0x7f1100bc
 koreatech.teamproject_propt:id/accessibility_custom_action_17 = 0x7f09001c
 koreatech.teamproject_propt:color/mtrl_filled_stroke_color = 0x7f0600ba
 koreatech.teamproject_propt:color/common_google_signin_btn_text_light = 0x7f060040
 koreatech.teamproject_propt:color/mtrl_textinput_filled_box_default_background_color = 0x7f0600d1
 koreatech.teamproject_propt:dimen/abc_search_view_preferred_height = 0x7f070036
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:style/Base.V26.Widget.AppCompat.Toolbar = 0x7f110097
+koreatech.teamproject_propt:layout/free_talking_comment = 0x7f0c0051
+koreatech.teamproject_propt:id/outline = 0x7f090198
+koreatech.teamproject_propt:color/mtrl_filled_icon_tint = 0x7f0600b9
+koreatech.teamproject_propt:style/Base.V14.Theme.MaterialComponents.Dialog.Bridge = 0x7f11007d
+koreatech.teamproject_propt:color/mtrl_error = 0x7f0600b4
+koreatech.teamproject_propt:id/ghost_view = 0x7f090108
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:string/common_google_play_services_update_title = 0x7f100032
 koreatech.teamproject_propt:color/mtrl_fab_bg_color_selector = 0x7f0600b5
 koreatech.teamproject_propt:color/mtrl_fab_ripple_color = 0x7f0600b7
@@ -2416,11 +3121,24 @@ koreatech.teamproject_propt:attr/bottomAppBarStyle = 0x7f040062
 koreatech.teamproject_propt:attr/colorSecondaryVariant = 0x7f0400e8
 koreatech.teamproject_propt:color/error_color_material_light = 0x7f060076
 koreatech.teamproject_propt:attr/mock_diagonalsColor = 0x7f04027d
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:color/miniTitle = 0x7f0600a0
+koreatech.teamproject_propt:color/miniDescription = 0x7f06009f
+koreatech.teamproject_propt:styleable/PropertySet = 0x7f12006e
+koreatech.teamproject_propt:id/tips = 0x7f090241
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense = 0x7f1102cf
 koreatech.teamproject_propt:attr/civ_border_overlay = 0x7f0400bd
 koreatech.teamproject_propt:color/mtrl_outlined_stroke_color = 0x7f0600c6
 koreatech.teamproject_propt:string/path_password_strike_through = 0x7f100082
 koreatech.teamproject_propt:dimen/mtrl_btn_elevation = 0x7f0700e0
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:id/profileCircleImageView = 0x7f0901b2
+koreatech.teamproject_propt:id/layout = 0x7f090132
+koreatech.teamproject_propt:id/accessibility_custom_action_21 = 0x7f090024
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:color/material_timepicker_button_background = 0x7f06009a
 koreatech.teamproject_propt:id/profileCircleImageView = 0x7f0901ab
 koreatech.teamproject_propt:id/layout = 0x7f09012d
@@ -2448,8 +3166,12 @@ koreatech.teamproject_propt:dimen/material_clock_hand_stroke_width = 0x7f0700ab
 koreatech.teamproject_propt:color/material_on_primary_disabled = 0x7f06008d
 koreatech.teamproject_propt:attr/hintTextColor = 0x7f0401ae
 koreatech.teamproject_propt:color/material_grey_800 = 0x7f060087
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/snackbar_action = 0x7f0901e2
 koreatech.teamproject_propt:id/mtrl_calendar_selection_frame = 0x7f090161
+=======
+koreatech.teamproject_propt:id/mtrl_calendar_selection_frame = 0x7f090166
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/material_filled_edittext_font_2_0_padding_top = 0x7f0700ba
 koreatech.teamproject_propt:attr/tickVisible = 0x7f0403a4
 koreatech.teamproject_propt:color/material_grey_600 = 0x7f060086
@@ -2467,7 +3189,11 @@ koreatech.teamproject_propt:attr/layout_goneMarginLeft = 0x7f04022d
 koreatech.teamproject_propt:color/error_color_material_dark = 0x7f060075
 koreatech.teamproject_propt:attr/closeIconEnabled = 0x7f0400c7
 koreatech.teamproject_propt:color/dim_foreground_disabled_material_light = 0x7f060072
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/gone = 0x7f090105
+=======
+koreatech.teamproject_propt:id/gone = 0x7f09010a
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:color/dim_foreground_disabled_material_dark = 0x7f060071
 koreatech.teamproject_propt:dimen/mtrl_calendar_header_content_padding_fullscreen = 0x7f070102
 koreatech.teamproject_propt:attr/actionBarSize = 0x7f040005
@@ -2547,8 +3273,15 @@ koreatech.teamproject_propt:color/button_material_dark = 0x7f060031
 koreatech.teamproject_propt:style/Base.Widget.MaterialComponents.Chip = 0x7f1100df
 koreatech.teamproject_propt:color/browser_actions_title_color = 0x7f060030
 koreatech.teamproject_propt:dimen/mtrl_alert_dialog_picker_background_inset = 0x7f0700cd
+<<<<<<< HEAD
 koreatech.teamproject_propt:attr/spinnerDropDownItemStyle = 0x7f04031e
 koreatech.teamproject_propt:id/wide = 0x7f090262
+=======
+koreatech.teamproject_propt:attr/snackbarStyle = 0x7f04031a
+koreatech.teamproject_propt:style/TextAppearance.AppCompat.Small = 0x7f110150
+koreatech.teamproject_propt:color/browser_actions_divider_color = 0x7f06002e
+koreatech.teamproject_propt:id/wide = 0x7f09026c
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:color/bright_foreground_material_light = 0x7f06002c
 koreatech.teamproject_propt:attr/thumbRadius = 0x7f040398
 koreatech.teamproject_propt:color/bright_foreground_material_dark = 0x7f06002b
@@ -2568,18 +3301,35 @@ koreatech.teamproject_propt:attr/paddingBottomSystemWindowInsets = 0x7f0402b6
 koreatech.teamproject_propt:styleable/CircularProgressIndicator = 0x7f120020
 koreatech.teamproject_propt:attr/yearSelectedStyle = 0x7f0403ee
 koreatech.teamproject_propt:attr/textAppearanceSubtitle2 = 0x7f04037d
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/top = 0x7f09023f
+=======
+koreatech.teamproject_propt:id/top = 0x7f090249
+koreatech.teamproject_propt:id/arm = 0x7f09005d
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/switchPadding = 0x7f040345
 koreatech.teamproject_propt:color/bottomNavigationSelectedColor = 0x7f060023
 koreatech.teamproject_propt:attr/endIconTintMode = 0x7f040154
+<<<<<<< HEAD
 koreatech.teamproject_propt:layout/test_navigation_bar_item_layout = 0x7f0c00a4
+=======
+koreatech.teamproject_propt:layout/test_navigation_bar_item_layout = 0x7f0c00a5
+koreatech.teamproject_propt:color/cardview_shadow_end_color = 0x7f060035
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Display3 = 0x7f110020
 koreatech.teamproject_propt:dimen/mtrl_calendar_header_text_padding = 0x7f070107
 koreatech.teamproject_propt:style/Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow = 0x7f1100e3
 koreatech.teamproject_propt:drawable/googleg_disabled_color_18 = 0x7f080080
 koreatech.teamproject_propt:drawable/common_google_signin_btn_icon_dark_normal_background = 0x7f080066
 koreatech.teamproject_propt:drawable/abc_ic_menu_paste_mtrl_am_alpha = 0x7f080024
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/mtrl_picker_header_selection_text = 0x7f09016a
+=======
+koreatech.teamproject_propt:drawable/common_google_signin_btn_icon_dark_normal_background = 0x7f080065
+koreatech.teamproject_propt:drawable/googleg_disabled_color_18 = 0x7f08007f
+koreatech.teamproject_propt:dimen/mtrl_calendar_header_text_padding = 0x7f070107
+koreatech.teamproject_propt:id/mtrl_picker_header_selection_text = 0x7f09016f
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:color/background_floating_material_dark = 0x7f06001d
 koreatech.teamproject_propt:color/androidx_core_secondary_text_default_material_light = 0x7f06001c
 koreatech.teamproject_propt:dimen/headerMoreTextSize = 0x7f07009a
@@ -2607,7 +3357,12 @@ koreatech.teamproject_propt:color/abc_tint_edittext = 0x7f060015
 koreatech.teamproject_propt:styleable/MaterialCardView = 0x7f120054
 koreatech.teamproject_propt:attr/alertDialogStyle = 0x7f040029
 koreatech.teamproject_propt:color/abc_secondary_text_material_light = 0x7f060012
+<<<<<<< HEAD
 koreatech.teamproject_propt:attr/motionPathRotate = 0x7f040299
+=======
+koreatech.teamproject_propt:color/material_slider_active_tick_marks_color = 0x7f060094
+koreatech.teamproject_propt:id/mtrl_calendar_main_pane = 0x7f090164
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:animator/mtrl_chip_state_list_anim = 0x7f020010
 koreatech.teamproject_propt:id/mtrl_calendar_main_pane = 0x7f09015f
 koreatech.teamproject_propt:color/material_slider_active_tick_marks_color = 0x7f060094
@@ -2643,7 +3398,15 @@ koreatech.teamproject_propt:attr/onPositiveCross = 0x7f0402af
 koreatech.teamproject_propt:color/abc_decor_view_status_guard = 0x7f060005
 koreatech.teamproject_propt:attr/borderWidth = 0x7f040060
 koreatech.teamproject_propt:color/abc_btn_colored_text_material = 0x7f060003
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/exercise_report = 0x7f0900ef
+=======
+koreatech.teamproject_propt:id/material_minute_text_input = 0x7f09014b
+koreatech.teamproject_propt:attr/editTextColor = 0x7f040148
+koreatech.teamproject_propt:xml/standalone_badge_gravity_bottom_end = 0x7f130004
+koreatech.teamproject_propt:color/abc_btn_colored_borderless_text_material = 0x7f060002
+koreatech.teamproject_propt:id/exercise_report = 0x7f0900f5
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:bool/mtrl_btn_textappearance_all_caps = 0x7f050002
 koreatech.teamproject_propt:attr/yearStyle = 0x7f0403ef
 koreatech.teamproject_propt:attr/haloRadius = 0x7f0401a0
@@ -2665,7 +3428,11 @@ koreatech.teamproject_propt:attr/windowNoTitle = 0x7f0403ed
 koreatech.teamproject_propt:id/accessibility_custom_action_19 = 0x7f09001e
 koreatech.teamproject_propt:attr/layout_collapseMode = 0x7f0401f7
 koreatech.teamproject_propt:string/material_hour_suffix = 0x7f100048
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/textinput_suffix_text = 0x7f090232
+=======
+koreatech.teamproject_propt:id/textinput_suffix_text = 0x7f09023d
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/hint_pressed_alpha_material_light = 0x7f0700a2
 koreatech.teamproject_propt:dimen/mtrl_textinput_outline_box_expanded_padding = 0x7f070183
 koreatech.teamproject_propt:attr/telltales_velocityMode = 0x7f040366
@@ -2691,6 +3458,14 @@ koreatech.teamproject_propt:dimen/mtrl_textinput_box_stroke_width_focused = 0x7f
 koreatech.teamproject_propt:attr/chipGroupStyle = 0x7f0400a3
 koreatech.teamproject_propt:attr/wavePhase = 0x7f0403e1
 koreatech.teamproject_propt:attr/visibilityMode = 0x7f0403db
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:style/Widget.MaterialComponents.PopupMenu = 0x7f1102b9
+koreatech.teamproject_propt:attr/viewTransitionOnCross = 0x7f0403d8
+koreatech.teamproject_propt:layout/design_bottom_navigation_item = 0x7f0c003a
+koreatech.teamproject_propt:id/frost = 0x7f090107
+koreatech.teamproject_propt:color/material_timepicker_clock_text_color = 0x7f06009c
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/values = 0x7f0403d4
 koreatech.teamproject_propt:attr/ttcIndex = 0x7f0403d0
 koreatech.teamproject_propt:attr/triggerSlack = 0x7f0403cf
@@ -2707,13 +3482,36 @@ koreatech.teamproject_propt:attr/layout_optimizationLevel = 0x7f040234
 koreatech.teamproject_propt:id/toolbar = 0x7f09023e
 koreatech.teamproject_propt:id/accessibility_custom_action_10 = 0x7f090015
 koreatech.teamproject_propt:attr/iconGravity = 0x7f0401b5
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:id/accessibility_custom_action_10 = 0x7f090018
+koreatech.teamproject_propt:id/toolbar = 0x7f090248
+koreatech.teamproject_propt:style/Theme.Design = 0x7f1101a9
+koreatech.teamproject_propt:id/textViewEmail = 0x7f09022a
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/transitionEasing = 0x7f0403c9
 koreatech.teamproject_propt:style/Theme.Design = 0x7f1101a9
 koreatech.teamproject_propt:attr/transformPivotTarget = 0x7f0403c7
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/NO_DEBUG = 0x7f090006
 koreatech.teamproject_propt:color/design_dark_default_color_background = 0x7f06004d
 koreatech.teamproject_propt:dimen/notification_main_column_padding_top = 0x7f070195
 koreatech.teamproject_propt:attr/listMenuViewStyle = 0x7f040244
+=======
+koreatech.teamproject_propt:id/textSpacerNoTitle = 0x7f09021e
+koreatech.teamproject_propt:id/tag_accessibility_clickable_spans = 0x7f09020a
+koreatech.teamproject_propt:id/accessibility_custom_action_22 = 0x7f090025
+koreatech.teamproject_propt:attr/reactiveGuide_applyToConstraintSet = 0x7f0402ea
+koreatech.teamproject_propt:attr/trackTint = 0x7f0403c5
+koreatech.teamproject_propt:color/tooltip_background_dark = 0x7f0600f5
+koreatech.teamproject_propt:id/TOP_START = 0x7f090013
+koreatech.teamproject_propt:layout/test_toolbar_elevation = 0x7f0c00a9
+koreatech.teamproject_propt:dimen/mtrl_low_ripple_pressed_alpha = 0x7f070147
+koreatech.teamproject_propt:id/NO_DEBUG = 0x7f090006
+koreatech.teamproject_propt:color/design_dark_default_color_background = 0x7f06004d
+koreatech.teamproject_propt:id/fill = 0x7f0900fb
+koreatech.teamproject_propt:color/bright_foreground_disabled_material_dark = 0x7f060027
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/counterEnabled = 0x7f040111
 koreatech.teamproject_propt:attr/viewTransitionMode = 0x7f0403d7
 koreatech.teamproject_propt:attr/constraintRotate = 0x7f0400ec
@@ -2765,7 +3563,12 @@ koreatech.teamproject_propt:color/mtrl_btn_text_color_selector = 0x7f0600a7
 koreatech.teamproject_propt:attr/reverseLayout = 0x7f0402f1
 koreatech.teamproject_propt:dimen/mtrl_calendar_header_height = 0x7f070104
 koreatech.teamproject_propt:attr/tabTextAppearance = 0x7f040360
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/text_input_end_icon = 0x7f09022a
+=======
+koreatech.teamproject_propt:id/text_input_end_icon = 0x7f090235
+koreatech.teamproject_propt:style/TextAppearance.Compat.Notification.Info.Media = 0x7f11016c
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/textInputStyle = 0x7f040388
 koreatech.teamproject_propt:style/TextAppearance.Compat.Notification.Info.Media = 0x7f11016c
 koreatech.teamproject_propt:attr/textFillColor = 0x7f040386
@@ -2804,7 +3607,12 @@ koreatech.teamproject_propt:color/mtrl_navigation_bar_colored_item_tint = 0x7f06
 koreatech.teamproject_propt:id/tag_on_receive_content_mime_types = 0x7f090209
 koreatech.teamproject_propt:attr/tabIndicatorFullWidth = 0x7f040351
 koreatech.teamproject_propt:attr/tabIndicatorColor = 0x7f040350
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/useLogo = 0x7f09024f
+=======
+koreatech.teamproject_propt:id/dialog_button = 0x7f0900c9
+koreatech.teamproject_propt:id/useLogo = 0x7f090259
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/tabIndicatorAnimationDuration = 0x7f04034e
 koreatech.teamproject_propt:attr/flow_firstHorizontalStyle = 0x7f04017b
 koreatech.teamproject_propt:attr/layout_constraintHeight_max = 0x7f04020d
@@ -2820,7 +3628,11 @@ koreatech.teamproject_propt:attr/thumbStrokeColor = 0x7f040399
 koreatech.teamproject_propt:attr/overlapAnchor = 0x7f0402b3
 koreatech.teamproject_propt:attr/suggestionRowLayout = 0x7f040343
 koreatech.teamproject_propt:layout/design_text_input_start_icon = 0x7f0c0048
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/listMode = 0x7f090136
+=======
+koreatech.teamproject_propt:id/listMode = 0x7f09013b
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/trackHeight = 0x7f0403c3
 koreatech.teamproject_propt:attr/extendMotionSpec = 0x7f040169
 koreatech.teamproject_propt:attr/suffixTextAppearance = 0x7f040341
@@ -2839,13 +3651,37 @@ koreatech.teamproject_propt:attr/statusBarForeground = 0x7f040335
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Button = 0x7f11001c
 koreatech.teamproject_propt:attr/closeIconTint = 0x7f0400cb
 koreatech.teamproject_propt:attr/statusBarBackground = 0x7f040334
+<<<<<<< HEAD
 koreatech.teamproject_propt:attr/buttonStyleSmall = 0x7f04007d
 koreatech.teamproject_propt:style/Widget.MaterialComponents.MaterialCalendar.HeaderConfirmButton = 0x7f1102a5
+=======
+koreatech.teamproject_propt:color/purple_700 = 0x7f0600e2
+koreatech.teamproject_propt:attr/state_dragged = 0x7f040331
+koreatech.teamproject_propt:id/browser_actions_menu_items = 0x7f090079
+koreatech.teamproject_propt:bool/abc_action_bar_embed_tabs = 0x7f050000
+koreatech.teamproject_propt:attr/state_collapsible = 0x7f040330
+koreatech.teamproject_propt:id/nav_share = 0x7f09017d
+koreatech.teamproject_propt:attr/startIconTint = 0x7f04032c
+koreatech.teamproject_propt:layout/notification_template_big_media_custom = 0x7f0c0088
+koreatech.teamproject_propt:color/colorPrimaryDark = 0x7f06003a
+koreatech.teamproject_propt:attr/onCross = 0x7f0402ac
+koreatech.teamproject_propt:attr/springMass = 0x7f040323
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/queryBackground = 0x7f0402e0
 koreatech.teamproject_propt:attr/voiceIcon = 0x7f0403dc
 koreatech.teamproject_propt:attr/chipIconVisible = 0x7f0400a8
 koreatech.teamproject_propt:style/TextAppearance.Compat.Notification = 0x7f11016a
 koreatech.teamproject_propt:attr/springDamping = 0x7f040322
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:id/mtrl_child_content_container = 0x7f09016a
+koreatech.teamproject_propt:id/forever = 0x7f090104
+koreatech.teamproject_propt:attr/spinnerStyle = 0x7f04031f
+koreatech.teamproject_propt:layout/mtrl_calendar_year = 0x7f0c0074
+koreatech.teamproject_propt:attr/layout_scrollFlags = 0x7f040235
+koreatech.teamproject_propt:attr/tabTextColor = 0x7f040361
+koreatech.teamproject_propt:id/BOTTOM_START = 0x7f090002
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/snackbarTextViewStyle = 0x7f04031b
 koreatech.teamproject_propt:id/BOTTOM_START = 0x7f090002
 koreatech.teamproject_propt:dimen/design_fab_border_width = 0x7f070074
@@ -2853,6 +3689,10 @@ koreatech.teamproject_propt:dimen/mtrl_badge_text_size = 0x7f0700d2
 koreatech.teamproject_propt:color/darkTextColor = 0x7f060049
 koreatech.teamproject_propt:attr/closeIconVisible = 0x7f0400cc
 koreatech.teamproject_propt:drawable/abc_ab_share_pack_mtrl_alpha = 0x7f080007
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:id/unlabeled = 0x7f090256
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/singleLine = 0x7f040315
 koreatech.teamproject_propt:id/unlabeled = 0x7f09024c
 koreatech.teamproject_propt:attr/nestedScrollViewStyle = 0x7f0402a8
@@ -2895,9 +3735,17 @@ koreatech.teamproject_propt:dimen/abc_text_size_large_material = 0x7f070048
 koreatech.teamproject_propt:attr/region_widthMoreThan = 0x7f0402f0
 koreatech.teamproject_propt:dimen/design_tab_text_size_2line = 0x7f070091
 koreatech.teamproject_propt:color/design_dark_default_color_error = 0x7f06004e
+<<<<<<< HEAD
 koreatech.teamproject_propt:color/material_timepicker_button_stroke = 0x7f06009b
 koreatech.teamproject_propt:id/grouping = 0x7f090109
 koreatech.teamproject_propt:style/Base.Theme.AppCompat.CompactMenu = 0x7f11004e
+=======
+koreatech.teamproject_propt:id/material_label = 0x7f09014a
+koreatech.teamproject_propt:attr/cornerSizeTopLeft = 0x7f04010f
+koreatech.teamproject_propt:attr/region_heightLessThan = 0x7f0402ed
+koreatech.teamproject_propt:style/Base.Theme.AppCompat.CompactMenu = 0x7f11004e
+koreatech.teamproject_propt:id/grouping = 0x7f09010e
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/errorEnabled = 0x7f040159
 koreatech.teamproject_propt:dimen/mtrl_alert_dialog_background_inset_bottom = 0x7f0700c9
 koreatech.teamproject_propt:id/comment_et = 0x7f0900a0
@@ -3012,25 +3860,48 @@ koreatech.teamproject_propt:style/Widget.AppCompat.PopupWindow = 0x7f110249
 koreatech.teamproject_propt:attr/minWidth = 0x7f04027c
 koreatech.teamproject_propt:drawable/android_developer = 0x7f080057
 koreatech.teamproject_propt:attr/minTouchTargetSize = 0x7f04027b
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:style/Base.Theme.MaterialComponents.Light.Dialog.FixedSize = 0x7f11006b
+koreatech.teamproject_propt:dimen/disabled_alpha_material_light = 0x7f070094
+koreatech.teamproject_propt:attr/minHeight = 0x7f040278
+koreatech.teamproject_propt:attr/useMaterialThemeColors = 0x7f0403d3
+koreatech.teamproject_propt:id/homeRL = 0x7f090115
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:styleable/ActionMenuView = 0x7f120003
 koreatech.teamproject_propt:attr/maxHeight = 0x7f04026f
 koreatech.teamproject_propt:attr/mock_showLabel = 0x7f040282
 koreatech.teamproject_propt:attr/civ_border_width = 0x7f0400be
 koreatech.teamproject_propt:attr/nestedScrollable = 0x7f0402a9
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/media_actions = 0x7f090150
 koreatech.teamproject_propt:id/linearLayout = 0x7f090135
+=======
+koreatech.teamproject_propt:color/bottom_navigation_color = 0x7f060026
+koreatech.teamproject_propt:id/media_actions = 0x7f090155
+koreatech.teamproject_propt:id/linearLayout = 0x7f09013a
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/maxAcceleration = 0x7f04026b
 koreatech.teamproject_propt:attr/circularProgressIndicatorStyle = 0x7f0400b6
 koreatech.teamproject_propt:attr/panelMenuListWidth = 0x7f0402bf
-koreatech.teamproject_propt:layout/text_view_with_theme_line_height = 0x7f0c00ad
+koreatech.teamproject_propt:layout/text_view_with_theme_line_height = 0x7f0c00ae
 koreatech.teamproject_propt:attr/colorControlNormal = 0x7f0400da
 koreatech.teamproject_propt:attr/materialClockStyle = 0x7f040267
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/user_info_email = 0x7f090253
+=======
+koreatech.teamproject_propt:id/user_info_email = 0x7f09025d
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/clickAction = 0x7f0400c1
 koreatech.teamproject_propt:attr/materialCircleRadius = 0x7f040266
 koreatech.teamproject_propt:color/mtrl_chip_close_icon_tint = 0x7f0600ae
 koreatech.teamproject_propt:attr/materialCalendarTheme = 0x7f040263
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/title_template = 0x7f09023b
+=======
+koreatech.teamproject_propt:attr/materialCalendarMonthNavigationButton = 0x7f040261
+koreatech.teamproject_propt:id/title_template = 0x7f090245
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:color/accent_material_dark = 0x7f060019
 koreatech.teamproject_propt:layout/abc_list_menu_item_layout = 0x7f0c0010
 koreatech.teamproject_propt:attr/materialCalendarHeaderSelection = 0x7f04025d
@@ -3039,6 +3910,11 @@ koreatech.teamproject_propt:attr/materialCalendarHeaderLayout = 0x7f04025c
 koreatech.teamproject_propt:style/ThemeOverlay.MaterialComponents.BottomAppBar.Primary = 0x7f1101f4
 koreatech.teamproject_propt:style/Widget.AppCompat.Button.Small = 0x7f110222
 koreatech.teamproject_propt:attr/materialCalendarFullscreenTheme = 0x7f040258
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:id/editTILPostCategory = 0x7f0900e6
+koreatech.teamproject_propt:color/common_google_signin_btn_text_light_default = 0x7f060041
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/mtrl_toolbar_default_height = 0x7f070185
 koreatech.teamproject_propt:attr/materialCalendarDay = 0x7f040257
 koreatech.teamproject_propt:style/Widget.MaterialComponents.CircularProgressIndicator.Medium = 0x7f110291
@@ -3049,9 +3925,22 @@ koreatech.teamproject_propt:styleable/AppCompatSeekBar = 0x7f12000f
 koreatech.teamproject_propt:attr/materialAlertDialogTheme = 0x7f040250
 koreatech.teamproject_propt:attr/actionModeCutDrawable = 0x7f040017
 koreatech.teamproject_propt:attr/listPreferredItemPaddingEnd = 0x7f040249
+<<<<<<< HEAD
 koreatech.teamproject_propt:attr/clockIcon = 0x7f0400c4
 koreatech.teamproject_propt:attr/fabAlignmentMode = 0x7f04016c
 koreatech.teamproject_propt:attr/shapeAppearanceLargeComponent = 0x7f040306
+=======
+koreatech.teamproject_propt:attr/mock_labelColor = 0x7f040280
+koreatech.teamproject_propt:id/image = 0x7f09011e
+koreatech.teamproject_propt:attr/listPreferredItemHeightLarge = 0x7f040247
+koreatech.teamproject_propt:dimen/mtrl_navigation_rail_elevation = 0x7f070154
+koreatech.teamproject_propt:attr/listPreferredItemHeight = 0x7f040246
+koreatech.teamproject_propt:attr/clockIcon = 0x7f0400c4
+koreatech.teamproject_propt:attr/fabAlignmentMode = 0x7f04016c
+koreatech.teamproject_propt:attr/shapeAppearanceLargeComponent = 0x7f040306
+koreatech.teamproject_propt:id/month_navigation_bar = 0x7f09015a
+koreatech.teamproject_propt:id/status_bar_latest_event_content = 0x7f0901ff
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/behavior_autoShrink = 0x7f040053
 koreatech.teamproject_propt:style/Widget.AppCompat.ListView.DropDown = 0x7f110245
 koreatech.teamproject_propt:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup = 0x7f11010c
@@ -3073,9 +3962,15 @@ koreatech.teamproject_propt:attr/titleEnabled = 0x7f0403aa
 koreatech.teamproject_propt:string/mtrl_picker_text_input_day_abbr = 0x7f100075
 koreatech.teamproject_propt:attr/layout_dodgeInsetEdges = 0x7f040227
 koreatech.teamproject_propt:dimen/material_input_text_to_prefix_suffix_padding = 0x7f0700c0
+<<<<<<< HEAD
 koreatech.teamproject_propt:layout/sub_exercise_way = 0x7f0c009e
 koreatech.teamproject_propt:id/showTitle = 0x7f0901dd
 koreatech.teamproject_propt:attr/iconEndPadding = 0x7f0401b4
+=======
+koreatech.teamproject_propt:id/showTitle = 0x7f0901e3
+koreatech.teamproject_propt:attr/iconEndPadding = 0x7f0401b4
+koreatech.teamproject_propt:layout/sub_exercise_way = 0x7f0c009f
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/waveOffset = 0x7f0403df
 koreatech.teamproject_propt:attr/springStopThreshold = 0x7f040325
 koreatech.teamproject_propt:attr/flow_verticalAlign = 0x7f040188
@@ -3088,6 +3983,11 @@ koreatech.teamproject_propt:attr/checkedIconVisible = 0x7f04009e
 koreatech.teamproject_propt:style/Theme.MaterialComponents.Light.Dialog.Alert.Bridge = 0x7f1101d4
 koreatech.teamproject_propt:integer/material_motion_duration_long_2 = 0x7f0a000b
 koreatech.teamproject_propt:attr/defaultDuration = 0x7f040128
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:attr/materialCalendarYearNavigationButton = 0x7f040264
+koreatech.teamproject_propt:id/textViewPassword2 = 0x7f09022e
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:string/mtrl_chip_close_icon_content_description = 0x7f10005a
 koreatech.teamproject_propt:dimen/design_bottom_navigation_active_item_max_width = 0x7f070065
 koreatech.teamproject_propt:attr/thickness = 0x7f040395
@@ -3119,10 +4019,17 @@ koreatech.teamproject_propt:style/ShapeAppearanceOverlay.TopLeftCut = 0x7f11012c
 koreatech.teamproject_propt:attr/autoCompleteTextViewStyle = 0x7f040039
 koreatech.teamproject_propt:attr/titleTextAppearance = 0x7f0403b1
 koreatech.teamproject_propt:attr/titleMarginStart = 0x7f0403ae
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/textViewLogin = 0x7f090225
 koreatech.teamproject_propt:attr/circularflow_defaultAngle = 0x7f0400b8
 koreatech.teamproject_propt:attr/actionViewClass = 0x7f040025
 koreatech.teamproject_propt:id/textViewSignup = 0x7f090227
+=======
+koreatech.teamproject_propt:id/textViewLogin = 0x7f09022c
+koreatech.teamproject_propt:attr/actionViewClass = 0x7f040025
+koreatech.teamproject_propt:attr/circularflow_defaultAngle = 0x7f0400b8
+koreatech.teamproject_propt:id/textViewSignup = 0x7f090231
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/layoutManager = 0x7f0401f3
 koreatech.teamproject_propt:attr/titleMarginBottom = 0x7f0403ac
 koreatech.teamproject_propt:dimen/abc_action_button_min_width_material = 0x7f07000e
@@ -3130,6 +4037,13 @@ koreatech.teamproject_propt:style/Base.Widget.AppCompat.RatingBar.Small = 0x7f11
 koreatech.teamproject_propt:attr/itemStrokeWidth = 0x7f0401e3
 koreatech.teamproject_propt:attr/itemStrokeColor = 0x7f0401e2
 koreatech.teamproject_propt:attr/itemSpacing = 0x7f0401e1
+<<<<<<< HEAD
+=======
+koreatech.teamproject_propt:color/material_timepicker_button_stroke = 0x7f06009b
+koreatech.teamproject_propt:layout/questions = 0x7f0c0093
+koreatech.teamproject_propt:attr/carousel_touchUp_velocityThreshold = 0x7f040091
+koreatech.teamproject_propt:id/mtrl_anchor_parent = 0x7f090160
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/itemShapeFillColor = 0x7f0401dc
 koreatech.teamproject_propt:attr/showDividers = 0x7f04030e
 koreatech.teamproject_propt:dimen/abc_dialog_min_width_major = 0x7f070022
@@ -3144,12 +4058,21 @@ koreatech.teamproject_propt:dimen/notification_small_icon_size_as_large = 0x7f07
 koreatech.teamproject_propt:attr/searchIcon = 0x7f0402fd
 koreatech.teamproject_propt:layout/abc_screen_toolbar = 0x7f0c0017
 koreatech.teamproject_propt:attr/colorSurface = 0x7f0400e9
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/name_tv = 0x7f090173
+=======
+koreatech.teamproject_propt:id/name_tv = 0x7f090178
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:color/mtrl_chip_surface_color = 0x7f0600af
 koreatech.teamproject_propt:attr/boxCollapsedPaddingTop = 0x7f040068
 koreatech.teamproject_propt:anim/abc_fade_in = 0x7f010000
+koreatech.teamproject_propt:id/textViewTitle = 0x7f090233
 koreatech.teamproject_propt:attr/initialActivityCount = 0x7f0401cc
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/material_hour_tv = 0x7f090144
+=======
+koreatech.teamproject_propt:id/material_hour_tv = 0x7f090149
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/textOutlineColor = 0x7f04038a
 koreatech.teamproject_propt:attr/chipStyle = 0x7f0400b2
 koreatech.teamproject_propt:attr/borderRound = 0x7f04005e
@@ -3166,7 +4089,13 @@ koreatech.teamproject_propt:attr/layout_constraintWidth_default = 0x7f040223
 koreatech.teamproject_propt:anim/abc_tooltip_enter = 0x7f01000a
 koreatech.teamproject_propt:attr/imageZoom = 0x7f0401c4
 koreatech.teamproject_propt:attr/imageButtonStyle = 0x7f0401c0
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/imageViewReset = 0x7f09011d
+=======
+koreatech.teamproject_propt:id/relativeLayout2 = 0x7f0901be
+koreatech.teamproject_propt:color/whiteBodyColor = 0x7f0600f8
+koreatech.teamproject_propt:id/imageViewReset = 0x7f090122
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/mtrl_snackbar_background_corner_radius = 0x7f070176
 koreatech.teamproject_propt:attr/polarRelativeTo = 0x7f0402d1
 koreatech.teamproject_propt:attr/flow_horizontalBias = 0x7f04017f
@@ -3182,8 +4111,15 @@ koreatech.teamproject_propt:id/textView15 = 0x7f09021f
 koreatech.teamproject_propt:attr/boxCornerRadiusTopEnd = 0x7f04006b
 koreatech.teamproject_propt:style/Widget.AppCompat.RatingBar.Small = 0x7f11024e
 koreatech.teamproject_propt:dimen/notification_big_circle_margin = 0x7f070191
+<<<<<<< HEAD
 koreatech.teamproject_propt:attr/tabPaddingTop = 0x7f04035c
 koreatech.teamproject_propt:dimen/mtrl_btn_letter_spacing = 0x7f0700e6
+=======
+koreatech.teamproject_propt:id/transition_position = 0x7f090250
+koreatech.teamproject_propt:attr/tabPaddingTop = 0x7f04035c
+koreatech.teamproject_propt:dimen/mtrl_btn_letter_spacing = 0x7f0700e6
+koreatech.teamproject_propt:id/editTILPostImageLink = 0x7f0900e8
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/layoutDuringTransition = 0x7f0401f2
 koreatech.teamproject_propt:id/accessibility_custom_action_18 = 0x7f09001d
 koreatech.teamproject_propt:drawable/abc_scrubber_control_to_pressed_mtrl_000 = 0x7f08003d
@@ -3191,16 +4127,37 @@ koreatech.teamproject_propt:layout/free_talking = 0x7f0c0050
 koreatech.teamproject_propt:id/horizontal_only = 0x7f090112
 koreatech.teamproject_propt:attr/clockNumberTextColor = 0x7f0400c5
 koreatech.teamproject_propt:attr/motion_postLayoutCollision = 0x7f04029d
+<<<<<<< HEAD
 koreatech.teamproject_propt:drawable/header_image = 0x7f080083
 koreatech.teamproject_propt:array/back = 0x7f030002
 koreatech.teamproject_propt:dimen/mtrl_badge_with_text_radius = 0x7f0700d5
 koreatech.teamproject_propt:attr/homeAsUpIndicator = 0x7f0401af
 koreatech.teamproject_propt:id/jumpToEnd = 0x7f09012a
+=======
+koreatech.teamproject_propt:drawable/header_image = 0x7f080082
+koreatech.teamproject_propt:dimen/mtrl_badge_with_text_radius = 0x7f0700d5
+koreatech.teamproject_propt:attr/homeAsUpIndicator = 0x7f0401af
+koreatech.teamproject_propt:id/jumpToEnd = 0x7f09012f
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/drawableTintMode = 0x7f040141
 koreatech.teamproject_propt:color/mtrl_calendar_selected_range = 0x7f0600aa
 koreatech.teamproject_propt:dimen/abc_control_corner_material = 0x7f070018
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/spline = 0x7f0901e9
 koreatech.teamproject_propt:drawable/notification_template_icon_low_bg = 0x7f0800c0
+=======
+koreatech.teamproject_propt:id/postName = 0x7f0901af
+koreatech.teamproject_propt:style/Widget.MaterialComponents.NavigationRailView.Colored = 0x7f1102b4
+koreatech.teamproject_propt:dimen/notification_large_icon_height = 0x7f070193
+koreatech.teamproject_propt:attr/hintEnabled = 0x7f0401ac
+koreatech.teamproject_propt:id/horizontal_only = 0x7f090117
+koreatech.teamproject_propt:attr/clockNumberTextColor = 0x7f0400c5
+koreatech.teamproject_propt:style/Base.V14.Theme.MaterialComponents = 0x7f11007a
+koreatech.teamproject_propt:attr/hideOnScroll = 0x7f0401aa
+koreatech.teamproject_propt:attr/percentHeight = 0x7f0402c7
+koreatech.teamproject_propt:id/spline = 0x7f0901ef
+koreatech.teamproject_propt:drawable/notification_template_icon_low_bg = 0x7f0800be
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/material_time_picker_minimum_screen_width = 0x7f0700c7
 koreatech.teamproject_propt:drawable/ic_layout_border = 0x7f080093
 koreatech.teamproject_propt:id/recycle = 0x7f0901b4
@@ -3300,7 +4257,11 @@ koreatech.teamproject_propt:attr/clearsTag = 0x7f0400c0
 koreatech.teamproject_propt:attr/expandedTitleMarginBottom = 0x7f040164
 koreatech.teamproject_propt:attr/iconSize = 0x7f0401b7
 koreatech.teamproject_propt:dimen/highlight_alpha_material_light = 0x7f07009e
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/editPostName = 0x7f0900e2
+=======
+koreatech.teamproject_propt:id/editPostName = 0x7f0900e5
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/abc_control_padding_material = 0x7f07001a
 koreatech.teamproject_propt:attr/expandedTitleGravity = 0x7f040162
 koreatech.teamproject_propt:attr/expanded = 0x7f040160
@@ -3322,7 +4283,11 @@ koreatech.teamproject_propt:attr/cornerSizeBottomRight = 0x7f04010e
 koreatech.teamproject_propt:attr/errorContentDescription = 0x7f040158
 koreatech.teamproject_propt:style/Theme.MaterialComponents.Dialog = 0x7f1101c3
 koreatech.teamproject_propt:string/abc_action_menu_overflow_description = 0x7f100002
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/material_textinput_timepicker = 0x7f090148
+=======
+koreatech.teamproject_propt:id/material_textinput_timepicker = 0x7f09014d
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/colorSwitchThumbNormal = 0x7f0400ea
 koreatech.teamproject_propt:id/accessibility_custom_action_9 = 0x7f090032
 koreatech.teamproject_propt:attr/placeholderTextAppearance = 0x7f0402ce
@@ -3330,12 +4295,20 @@ koreatech.teamproject_propt:attr/percentWidth = 0x7f0402c8
 koreatech.teamproject_propt:color/design_dark_default_color_secondary_variant = 0x7f060058
 koreatech.teamproject_propt:attr/chipEndPadding = 0x7f0400a2
 koreatech.teamproject_propt:attr/contentPaddingTop = 0x7f040101
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/exercise_way = 0x7f0900f0
+=======
+koreatech.teamproject_propt:id/exercise_way = 0x7f0900f6
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/autoSizeMaxTextSize = 0x7f04003a
 koreatech.teamproject_propt:attr/endIconMode = 0x7f040152
 koreatech.teamproject_propt:attr/customBoolean = 0x7f04011a
 koreatech.teamproject_propt:dimen/compat_notification_large_icon_max_width = 0x7f070062
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/multiply = 0x7f090172
+=======
+koreatech.teamproject_propt:id/multiply = 0x7f090177
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:styleable/StateListDrawableItem = 0x7f12007f
 koreatech.teamproject_propt:attr/endIconCheckable = 0x7f04014f
 koreatech.teamproject_propt:dimen/mtrl_navigation_bar_item_default_icon_size = 0x7f070149
@@ -3348,27 +4321,37 @@ koreatech.teamproject_propt:id/SHOW_ALL = 0x7f090009
 koreatech.teamproject_propt:style/TextAppearance.AppCompat.Widget.PopupMenu.Header = 0x7f110165
 koreatech.teamproject_propt:attr/editTextStyle = 0x7f040149
 koreatech.teamproject_propt:dimen/abc_star_small = 0x7f07003d
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/item3 = 0x7f090127
+=======
+koreatech.teamproject_propt:id/item3 = 0x7f09012c
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:color/mtrl_btn_text_btn_bg_color_selector = 0x7f0600a4
 koreatech.teamproject_propt:attr/layout_constraintGuide_end = 0x7f040209
-koreatech.teamproject_propt:layout/test_toolbar = 0x7f0c00a6
+koreatech.teamproject_propt:layout/test_toolbar = 0x7f0c00a7
 koreatech.teamproject_propt:attr/boxStrokeWidth = 0x7f04006f
 koreatech.teamproject_propt:attr/colorScheme = 0x7f0400e6
 koreatech.teamproject_propt:attr/itemTextAppearance = 0x7f0401e4
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/textinput_counter = 0x7f09022d
+=======
+koreatech.teamproject_propt:id/textinput_counter = 0x7f090238
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/drawableSize = 0x7f04013e
 koreatech.teamproject_propt:style/Base.V21.Theme.MaterialComponents.Dialog = 0x7f11008c
 koreatech.teamproject_propt:attr/helperTextEnabled = 0x7f0401a4
 koreatech.teamproject_propt:layout/notification_template_media = 0x7f0c008e
-koreatech.teamproject_propt:style/Widget.AppCompat.ActionButton.CloseMode = 0x7f110218
-koreatech.teamproject_propt:attr/tabIndicatorAnimationMode = 0x7f04034f
 koreatech.teamproject_propt:layout/material_clock_display_divider = 0x7f0c0059
 koreatech.teamproject_propt:attr/onShow = 0x7f0402b0
 koreatech.teamproject_propt:drawable/abc_list_selector_disabled_holo_light = 0x7f080034
 koreatech.teamproject_propt:style/TextAppearance.MaterialComponents.Tooltip = 0x7f11018f
 koreatech.teamproject_propt:attr/autoSizeMinTextSize = 0x7f04003b
 koreatech.teamproject_propt:attr/circularflow_angles = 0x7f0400b7
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/user_spec = 0x7f090257
+=======
+koreatech.teamproject_propt:id/user_spec = 0x7f090261
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:interpolator/btn_radio_to_on_mtrl_animation_interpolator_0 = 0x7f0b0005
 koreatech.teamproject_propt:attr/cornerFamily = 0x7f040106
 koreatech.teamproject_propt:id/datebutton = 0x7f0900b7
@@ -3391,10 +4374,17 @@ koreatech.teamproject_propt:style/TextAppearance.MaterialComponents.TimePicker.T
 koreatech.teamproject_propt:style/Base.V28.Theme.AppCompat.Light = 0x7f110099
 koreatech.teamproject_propt:drawable/material_ic_menu_arrow_up_black_24dp = 0x7f0800aa
 koreatech.teamproject_propt:attr/borderRoundPercent = 0x7f04005f
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/editPostDesc = 0x7f0900e1
 koreatech.teamproject_propt:attr/deltaPolarRadius = 0x7f04012c
 koreatech.teamproject_propt:dimen/abc_search_view_preferred_width = 0x7f070037
 koreatech.teamproject_propt:id/triangle = 0x7f090249
+=======
+koreatech.teamproject_propt:id/editPostDesc = 0x7f0900e3
+koreatech.teamproject_propt:attr/deltaPolarRadius = 0x7f04012c
+koreatech.teamproject_propt:dimen/abc_search_view_preferred_width = 0x7f070037
+koreatech.teamproject_propt:id/triangle = 0x7f090253
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:string/material_motion_easing_accelerated = 0x7f10004b
 koreatech.teamproject_propt:integer/hide_password_duration = 0x7f0a0009
 koreatech.teamproject_propt:dimen/notification_right_side_padding_top = 0x7f070198
@@ -3418,7 +4408,11 @@ koreatech.teamproject_propt:dimen/notification_action_icon_size = 0x7f07018f
 koreatech.teamproject_propt:style/Widget.MaterialComponents.MaterialCalendar.Day.Invalid = 0x7f11029f
 koreatech.teamproject_propt:attr/layout_constrainedHeight = 0x7f0401f9
 koreatech.teamproject_propt:integer/mtrl_chip_anim_duration = 0x7f0a0019
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/item1 = 0x7f090125
+=======
+koreatech.teamproject_propt:id/item1 = 0x7f09012a
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:color/dim_foreground_material_light = 0x7f060074
 koreatech.teamproject_propt:attr/counterTextColor = 0x7f040116
 koreatech.teamproject_propt:drawable/community = 0x7f080075
@@ -3437,6 +4431,8 @@ koreatech.teamproject_propt:attr/checkedIconSize = 0x7f04009c
 koreatech.teamproject_propt:attr/allowStacking = 0x7f04002b
 koreatech.teamproject_propt:attr/daySelectedStyle = 0x7f040125
 koreatech.teamproject_propt:string/material_hour_selection = 0x7f100047
+koreatech.teamproject_propt:style/Widget.MaterialComponents.CardView = 0x7f110288
+koreatech.teamproject_propt:layout/record_dialog = 0x7f0c0097
 koreatech.teamproject_propt:attr/hintAnimationEnabled = 0x7f0401ab
 koreatech.teamproject_propt:attr/actionModeCloseDrawable = 0x7f040015
 koreatech.teamproject_propt:animator/mtrl_btn_state_list_anim = 0x7f02000d
@@ -3449,13 +4445,21 @@ koreatech.teamproject_propt:style/Widget.AppCompat.ActionBar.TabView = 0x7f11021
 koreatech.teamproject_propt:drawable/test_custom_background = 0x7f0800dd
 koreatech.teamproject_propt:attr/itemShapeInsetBottom = 0x7f0401dd
 koreatech.teamproject_propt:attr/cornerRadius = 0x7f04010b
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/mtrl_calendar_frame = 0x7f09015e
+=======
+koreatech.teamproject_propt:id/mtrl_calendar_frame = 0x7f090163
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/carousel_emptyViewsBehavior = 0x7f040089
 koreatech.teamproject_propt:id/SHOW_PROGRESS = 0x7f09000b
 koreatech.teamproject_propt:style/Theme.MaterialComponents.DayNight.Dialog = 0x7f1101b8
 koreatech.teamproject_propt:dimen/abc_list_item_padding_horizontal_material = 0x7f070033
 koreatech.teamproject_propt:attr/errorIconTint = 0x7f04015b
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/flip = 0x7f0900fb
+=======
+koreatech.teamproject_propt:id/flip = 0x7f090101
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/startIconContentDescription = 0x7f04032a
 koreatech.teamproject_propt:layout/activity_home = 0x7f0c0023
 koreatech.teamproject_propt:attr/editTextBackground = 0x7f040147
@@ -3471,7 +4475,11 @@ koreatech.teamproject_propt:style/ShapeAppearanceOverlay.MaterialComponents.Floa
 koreatech.teamproject_propt:attr/waveVariesBy = 0x7f0403e3
 koreatech.teamproject_propt:style/TextAppearance.AppCompat.Display1 = 0x7f11013f
 koreatech.teamproject_propt:layout/mtrl_calendar_days_of_week = 0x7f0c006d
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/light = 0x7f090131
+=======
+koreatech.teamproject_propt:id/light = 0x7f090136
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:drawable/abc_btn_borderless_material = 0x7f080009
 koreatech.teamproject_propt:attr/chipStrokeColor = 0x7f0400b0
 koreatech.teamproject_propt:id/test_checkbox_app_button_tint = 0x7f090211
@@ -3480,7 +4488,11 @@ koreatech.teamproject_propt:attr/gestureInsetBottomIgnored = 0x7f04019d
 koreatech.teamproject_propt:attr/tabPaddingEnd = 0x7f04035a
 koreatech.teamproject_propt:color/background_material_light = 0x7f060020
 koreatech.teamproject_propt:attr/showAsAction = 0x7f04030c
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/visible = 0x7f09025f
+=======
+koreatech.teamproject_propt:id/visible = 0x7f090269
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/contentInsetStart = 0x7f0400f9
 koreatech.teamproject_propt:id/chip2 = 0x7f090092
 koreatech.teamproject_propt:attr/layout_constraintHeight_percent = 0x7f04020f
@@ -3492,7 +4504,11 @@ koreatech.teamproject_propt:attr/contentInsetEnd = 0x7f0400f5
 koreatech.teamproject_propt:color/abc_primary_text_material_light = 0x7f06000c
 koreatech.teamproject_propt:attr/actionBarWidgetTheme = 0x7f04000c
 koreatech.teamproject_propt:attr/contentDescription = 0x7f0400f4
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/withText = 0x7f090263
+=======
+koreatech.teamproject_propt:id/withText = 0x7f09026d
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/fontProviderPackage = 0x7f040193
 koreatech.teamproject_propt:style/Base.Widget.AppCompat.ActionBar.TabText = 0x7f1100a5
 koreatech.teamproject_propt:attr/closeIcon = 0x7f0400c6
@@ -3509,7 +4525,11 @@ koreatech.teamproject_propt:layout/mtrl_picker_header_title_text = 0x7f0c007e
 koreatech.teamproject_propt:attr/textAllCaps = 0x7f040367
 koreatech.teamproject_propt:dimen/mtrl_tooltip_minHeight = 0x7f070188
 koreatech.teamproject_propt:attr/textureWidth = 0x7f040392
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/enterAlways = 0x7f0900ed
+=======
+koreatech.teamproject_propt:id/enterAlways = 0x7f0900f3
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/colorPrimaryVariant = 0x7f0400e5
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Widget.DropDownItem = 0x7f110040
 koreatech.teamproject_propt:string/material_timepicker_hour = 0x7f100054
@@ -3529,10 +4549,15 @@ koreatech.teamproject_propt:drawable/pic_back3 = 0x7f0800c9
 koreatech.teamproject_propt:styleable/PopupWindow = 0x7f12006c
 koreatech.teamproject_propt:attr/colorPrimaryDark = 0x7f0400e3
 koreatech.teamproject_propt:attr/dragScale = 0x7f040137
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/italic = 0x7f090124
+=======
+koreatech.teamproject_propt:id/italic = 0x7f090129
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:string/mtrl_picker_a11y_next_month = 0x7f10005d
 koreatech.teamproject_propt:attr/customPixelDimension = 0x7f040121
 koreatech.teamproject_propt:attr/layout_constraintGuide_begin = 0x7f040208
+koreatech.teamproject_propt:layout/timer_main = 0x7f0c00b1
 koreatech.teamproject_propt:dimen/abc_text_size_headline_material = 0x7f070047
 koreatech.teamproject_propt:style/TestStyleWithThemeLineHeightAttribute = 0x7f110136
 koreatech.teamproject_propt:attr/titleTextStyle = 0x7f0403b3
@@ -3559,7 +4584,6 @@ koreatech.teamproject_propt:attr/prefixTextColor = 0x7f0402d8
 koreatech.teamproject_propt:attr/closeItemLayout = 0x7f0400cd
 koreatech.teamproject_propt:attr/minHideDelay = 0x7f040279
 koreatech.teamproject_propt:attr/expandedTitleMarginTop = 0x7f040167
-koreatech.teamproject_propt:style/Base.Widget.AppCompat.TextView.SpinnerItem = 0x7f1100d9
 koreatech.teamproject_propt:attr/fontStyle = 0x7f040196
 koreatech.teamproject_propt:attr/barrierAllowsGoneWidgets = 0x7f04004f
 koreatech.teamproject_propt:id/chip1 = 0x7f090091
@@ -3594,7 +4618,11 @@ koreatech.teamproject_propt:dimen/mtrl_btn_text_size = 0x7f0700f2
 koreatech.teamproject_propt:attr/colorError = 0x7f0400db
 koreatech.teamproject_propt:anim/abc_tooltip_exit = 0x7f01000b
 koreatech.teamproject_propt:color/design_default_color_primary = 0x7f060061
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/endToStart = 0x7f0900eb
+=======
+koreatech.teamproject_propt:id/endToStart = 0x7f0900f1
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:drawable/$avd_show_password__2 = 0x7f080005
 koreatech.teamproject_propt:anim/design_snackbar_out = 0x7f01001b
 koreatech.teamproject_propt:style/Widget.Design.ScrimInsetsFrameLayout = 0x7f110263
@@ -3616,8 +4644,13 @@ koreatech.teamproject_propt:attr/chipCornerRadius = 0x7f0400a1
 koreatech.teamproject_propt:attr/closeIconEndPadding = 0x7f0400c8
 koreatech.teamproject_propt:animator/mtrl_extended_fab_change_size_expand_motion_spec = 0x7f020012
 koreatech.teamproject_propt:layout/design_bottom_sheet_dialog = 0x7f0c003b
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/never = 0x7f090186
 koreatech.teamproject_propt:id/material_timepicker_cancel_button = 0x7f090149
+=======
+koreatech.teamproject_propt:id/never = 0x7f09018a
+koreatech.teamproject_propt:id/material_timepicker_cancel_button = 0x7f09014e
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/abc_panel_menu_list_width = 0x7f070034
 koreatech.teamproject_propt:attr/fontProviderAuthority = 0x7f04018f
 koreatech.teamproject_propt:style/TestStyleWithoutLineHeight = 0x7f110137
@@ -3637,8 +4670,13 @@ koreatech.teamproject_propt:attr/carousel_infinite = 0x7f04008c
 koreatech.teamproject_propt:id/skipped = 0x7f0901e0
 koreatech.teamproject_propt:color/secondary_text_default_material_dark = 0x7f0600e6
 koreatech.teamproject_propt:style/Base.TextAppearance.AppCompat.Large.Inverse = 0x7f110025
+<<<<<<< HEAD
 koreatech.teamproject_propt:layout/user_info = 0x7f0c00b5
 koreatech.teamproject_propt:id/row_index_key = 0x7f0901bf
+=======
+koreatech.teamproject_propt:layout/user_info = 0x7f0c00b7
+koreatech.teamproject_propt:id/row_index_key = 0x7f0901c5
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/mtrl_calendar_selection_text_baseline_to_top = 0x7f070115
 koreatech.teamproject_propt:attr/cardForegroundColor = 0x7f040083
 koreatech.teamproject_propt:attr/behavior_overlapTop = 0x7f040059
@@ -3700,7 +4738,11 @@ koreatech.teamproject_propt:dimen/notification_large_icon_width = 0x7f070194
 koreatech.teamproject_propt:attr/selectableItemBackgroundBorderless = 0x7f040301
 koreatech.teamproject_propt:style/Platform.MaterialComponents.Dialog = 0x7f1100fd
 koreatech.teamproject_propt:style/Base.V7.Widget.AppCompat.EditText = 0x7f1100a0
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/homeAsUp = 0x7f09010f
+=======
+koreatech.teamproject_propt:id/homeAsUp = 0x7f090114
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/actionModeStyle = 0x7f04001e
 koreatech.teamproject_propt:attr/tooltipFrameBackground = 0x7f0403b8
 koreatech.teamproject_propt:attr/staggered = 0x7f040328
@@ -3711,8 +4753,9 @@ koreatech.teamproject_propt:style/RtlOverlay.Widget.AppCompat.ActionBar.TitleIte
 koreatech.teamproject_propt:attr/trackColor = 0x7f0403bf
 koreatech.teamproject_propt:attr/actionMenuTextAppearance = 0x7f040010
 koreatech.teamproject_propt:attr/backgroundInsetEnd = 0x7f040043
-koreatech.teamproject_propt:layout/support_simple_spinner_dropdown_item = 0x7f0c009f
+koreatech.teamproject_propt:layout/support_simple_spinner_dropdown_item = 0x7f0c00a0
 koreatech.teamproject_propt:integer/mtrl_btn_anim_duration_ms = 0x7f0a0013
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/x_right = 0x7f090269
 koreatech.teamproject_propt:attr/circleRadius = 0x7f0400b5
 koreatech.teamproject_propt:style/Theme.MaterialComponents.Light.DarkActionBar = 0x7f1101d0
@@ -3721,6 +4764,16 @@ koreatech.teamproject_propt:id/material_clock_period_am_button = 0x7f090140
 koreatech.teamproject_propt:style/Base.Widget.AppCompat.ActionBar.TabView = 0x7f1100a6
 koreatech.teamproject_propt:attr/motionEasingEmphasized = 0x7f04028c
 koreatech.teamproject_propt:id/west = 0x7f090261
+=======
+koreatech.teamproject_propt:id/x_right = 0x7f090273
+koreatech.teamproject_propt:attr/circleRadius = 0x7f0400b5
+koreatech.teamproject_propt:style/Theme.MaterialComponents.Light.DarkActionBar = 0x7f1101d0
+koreatech.teamproject_propt:layout/abc_activity_chooser_view_list_item = 0x7f0c0007
+koreatech.teamproject_propt:id/material_clock_period_am_button = 0x7f090145
+koreatech.teamproject_propt:style/Base.Widget.AppCompat.ActionBar.TabView = 0x7f1100a6
+koreatech.teamproject_propt:attr/motionEasingEmphasized = 0x7f04028c
+koreatech.teamproject_propt:id/west = 0x7f09026b
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/autoSizeTextType = 0x7f04003e
 koreatech.teamproject_propt:drawable/ic_mtrl_checked_circle = 0x7f08009a
 koreatech.teamproject_propt:attr/textOutlineThickness = 0x7f04038b
@@ -3756,7 +4809,11 @@ koreatech.teamproject_propt:attr/state_above_anchor = 0x7f04032e
 koreatech.teamproject_propt:style/TextAppearance.MaterialComponents.Overline = 0x7f11018b
 koreatech.teamproject_propt:attr/alertDialogCenterButtons = 0x7f040028
 koreatech.teamproject_propt:attr/materialTimePickerTheme = 0x7f04026a
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/expanded_menu = 0x7f0900f3
+=======
+koreatech.teamproject_propt:id/expanded_menu = 0x7f0900f9
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:attr/foregroundInsidePadding = 0x7f04019a
 koreatech.teamproject_propt:attr/materialCalendarMonth = 0x7f040260
 koreatech.teamproject_propt:dimen/browser_actions_context_menu_min_padding = 0x7f070056
@@ -3768,9 +4825,15 @@ koreatech.teamproject_propt:drawable/design_fab_background = 0x7f080076
 koreatech.teamproject_propt:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle = 0x7f11015c
 koreatech.teamproject_propt:drawable/common_google_signin_btn_icon_light_normal = 0x7f08006a
 koreatech.teamproject_propt:attr/actionBarSplitStyle = 0x7f040006
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/masked = 0x7f09013a
 koreatech.teamproject_propt:attr/panelMenuListTheme = 0x7f0402be
 koreatech.teamproject_propt:id/mtrl_picker_header = 0x7f090169
+=======
+koreatech.teamproject_propt:id/masked = 0x7f09013f
+koreatech.teamproject_propt:attr/panelMenuListTheme = 0x7f0402be
+koreatech.teamproject_propt:id/mtrl_picker_header = 0x7f09016e
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/design_snackbar_padding_vertical_2lines = 0x7f07008c
 koreatech.teamproject_propt:attr/region_heightMoreThan = 0x7f0402ee
 koreatech.teamproject_propt:style/TextAppearance.MaterialComponents.Chip = 0x7f110184
@@ -3786,7 +4849,7 @@ koreatech.teamproject_propt:anim/abc_slide_in_top = 0x7f010007
 koreatech.teamproject_propt:drawable/material_ic_menu_arrow_down_black_24dp = 0x7f0800a9
 koreatech.teamproject_propt:dimen/mtrl_btn_padding_right = 0x7f0700ea
 koreatech.teamproject_propt:style/Theme.AppCompat.NoActionBar = 0x7f1101a8
-koreatech.teamproject_propt:layout/test_design_radiobutton = 0x7f0c00a3
+koreatech.teamproject_propt:layout/test_design_radiobutton = 0x7f0c00a4
 koreatech.teamproject_propt:attr/cardCornerRadius = 0x7f040081
 koreatech.teamproject_propt:style/Widget.MaterialComponents.MaterialCalendar.Day.Today = 0x7f1102a1
 koreatech.teamproject_propt:attr/dayTodayStyle = 0x7f040127
@@ -3794,7 +4857,7 @@ koreatech.teamproject_propt:attr/contentPaddingLeft = 0x7f0400fe
 koreatech.teamproject_propt:style/Widget.MaterialComponents.MaterialCalendar.HeaderTitle = 0x7f1102aa
 koreatech.teamproject_propt:attr/materialCalendarHeaderToggleButton = 0x7f04025f
 koreatech.teamproject_propt:style/Base.Widget.AppCompat.DropDownItem.Spinner = 0x7f1100ba
-koreatech.teamproject_propt:layout/stimulus_picture_read = 0x7f0c009c
+koreatech.teamproject_propt:layout/stimulus_picture_read = 0x7f0c009d
 koreatech.teamproject_propt:attr/materialAlertDialogTitlePanelStyle = 0x7f040252
 koreatech.teamproject_propt:attr/chipBackgroundColor = 0x7f0400a0
 koreatech.teamproject_propt:attr/overlay = 0x7f0402b4
@@ -3820,8 +4883,13 @@ koreatech.teamproject_propt:style/Widget.MaterialComponents.Toolbar.Surface = 0x
 koreatech.teamproject_propt:attr/counterMaxLength = 0x7f040112
 koreatech.teamproject_propt:id/postCategoryTV = 0x7f0901a5
 koreatech.teamproject_propt:attr/animateCircleAngleTo = 0x7f04002f
+<<<<<<< HEAD
 koreatech.teamproject_propt:id/month_navigation_next = 0x7f090157
 koreatech.teamproject_propt:drawable/material_ic_keyboard_arrow_right_black_24dp = 0x7f0800a8
+=======
+koreatech.teamproject_propt:id/month_navigation_next = 0x7f09015c
+koreatech.teamproject_propt:drawable/material_ic_keyboard_arrow_right_black_24dp = 0x7f0800a6
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech.teamproject_propt:dimen/test_navigation_bar_active_item_min_width = 0x7f0701a4
 koreatech.teamproject_propt:attr/colorOnPrimarySurface = 0x7f0400df
 koreatech.teamproject_propt:style/Base.Theme.AppCompat.DialogWhenLarge = 0x7f110053

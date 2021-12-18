@@ -11,6 +11,7 @@ koreatech/teamproject_propt/GraphActivity.java
 koreatech/teamproject_propt/BottomNavigationViewHelper.java
  koreatech.teamproject_propt.BottomNavigationViewHelper
  koreatech.teamproject_propt.BottomNavigationViewHelper$1
+<<<<<<< HEAD
 koreatech/teamproject_propt/MainActivity.java
  koreatech.teamproject_propt.MainActivity
  koreatech.teamproject_propt.MainActivity$1
@@ -19,6 +20,23 @@ koreatech/teamproject_propt/main_exercise_report.java
 koreatech/teamproject_propt/SignUpActivity.java
  koreatech.teamproject_propt.SignUpActivity
  koreatech.teamproject_propt.SignUpActivity$1
+=======
+koreatech/teamproject_propt/PostRVAdapter.java
+ koreatech.teamproject_propt.PostRVAdapter
+ koreatech.teamproject_propt.PostRVAdapter$1
+ koreatech.teamproject_propt.PostRVAdapter$PostClickInterface
+ koreatech.teamproject_propt.PostRVAdapter$ViewHolder
+koreatech/teamproject_propt/main_exercise_report.java
+ koreatech.teamproject_propt.main_exercise_report
+ koreatech.teamproject_propt.main_exercise_report$1
+ koreatech.teamproject_propt.main_exercise_report$1$1
+ koreatech.teamproject_propt.main_exercise_report$1$2
+koreatech/teamproject_propt/PostListActivity.java
+ koreatech.teamproject_propt.PostListActivity
+ koreatech.teamproject_propt.PostListActivity$1
+ koreatech.teamproject_propt.PostListActivity$2
+ koreatech.teamproject_propt.PostListActivity$3
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech/teamproject_propt/FreeTalkingRead.java
  koreatech.teamproject_propt.FreeTalkingRead
  koreatech.teamproject_propt.FreeTalkingRead$1
@@ -40,14 +58,22 @@ koreatech/teamproject_propt/BottomNavigationBehavior.java
  koreatech.teamproject_propt.BottomNavigationBehavior
 koreatech/teamproject_propt/FreeTalkingActivity.java
  koreatech.teamproject_propt.FreeTalkingActivity
+koreatech/teamproject_propt/SpecActivity.java
+ koreatech.teamproject_propt.SpecActivity
 koreatech/teamproject_propt/BuildConfig.java
  koreatech.teamproject_propt.BuildConfig
+<<<<<<< HEAD
 koreatech/teamproject_propt/PostRVAdapter.java
  koreatech.teamproject_propt.PostRVAdapter
  koreatech.teamproject_propt.PostRVAdapter$1
  koreatech.teamproject_propt.PostRVAdapter$2
  koreatech.teamproject_propt.PostRVAdapter$PostClickInterface
  koreatech.teamproject_propt.PostRVAdapter$ViewHolder
+=======
+koreatech/teamproject_propt/CommunityActivity.java
+ koreatech.teamproject_propt.CommunityActivity
+ koreatech.teamproject_propt.CommunityActivity$1
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech/teamproject_propt/sub_exercise_way.java
  koreatech.teamproject_propt.sub_exercise_way
  koreatech.teamproject_propt.sub_exercise_way$1
@@ -65,6 +91,11 @@ koreatech/teamproject_propt/FreeTalkingWriteActivity.java
 koreatech/teamproject_propt/FindActivity.java
  koreatech.teamproject_propt.FindActivity
  koreatech.teamproject_propt.FindActivity$1
+<<<<<<< HEAD
+=======
+koreatech/teamproject_propt/RecordActivity.java
+ koreatech.teamproject_propt.RecordActivity
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech/teamproject_propt/LoginActivity.java
  koreatech.teamproject_propt.LoginActivity
  koreatech.teamproject_propt.LoginActivity$1
@@ -74,6 +105,7 @@ koreatech/teamproject_propt/PostRVModal.java
 koreatech/teamproject_propt/Test.java
  koreatech.teamproject_propt.Test
  koreatech.teamproject_propt.Test$Excercise
+<<<<<<< HEAD
 koreatech/teamproject_propt/PostListActivity.java
  koreatech.teamproject_propt.PostListActivity
  koreatech.teamproject_propt.PostListActivity$1
@@ -82,7 +114,18 @@ koreatech/teamproject_propt/PostListActivity.java
 koreatech/teamproject_propt/CommunityActivity.java
  koreatech.teamproject_propt.CommunityActivity
  koreatech.teamproject_propt.CommunityActivity$1
+=======
+koreatech/teamproject_propt/MainActivity.java
+ koreatech.teamproject_propt.MainActivity
+ koreatech.teamproject_propt.MainActivity$1
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
 koreatech/teamproject_propt/AddPostActivity.java
  koreatech.teamproject_propt.AddPostActivity
  koreatech.teamproject_propt.AddPostActivity$1
  koreatech.teamproject_propt.AddPostActivity$1$1
+<<<<<<< HEAD
+=======
+koreatech/teamproject_propt/SignUpActivity.java
+ koreatech.teamproject_propt.SignUpActivity
+ koreatech.teamproject_propt.SignUpActivity$1
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715

@@ -180,8 +180,17 @@
         "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic_arm4.jpg.flat",
         "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\pic_arm4.jpg"
+=======
+        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_timer_main.xml.flat",
+        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\timer_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash_logo.png.flat",
+        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\splash_logo.png"
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
     },
     {
         "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_community_card.xml.flat",
@@ -536,8 +545,17 @@
         "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\navigation_foreground.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_food.xml.flat",
         "source": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\food.xml"
+=======
+        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\layout_record_dialog.xml.flat",
+        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\layout\\record_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable_users.png.flat",
+        "source": "C:\\Users\\AICT\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\src\\main\\res\\drawable\\users.png"
+>>>>>>> 0bbb451de506842b8d0cc5c29c66396c54148715
     },
     {
         "merged": "C:\\Users\\wonji\\Documents\\MobileProgrammingTeamProject\\TeamProject_ProPt\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_ic_add.png.flat",

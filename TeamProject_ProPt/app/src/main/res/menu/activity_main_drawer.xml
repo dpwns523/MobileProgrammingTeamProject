@@ -2,24 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-
+    <!--        android:icon="@drawable/ic_menu_camera
+                android:icon="@drawable/ic_menu_gallery""
+                android:icon="@drawable/ic_menu_slideshow"
+                android:icon="@drawable/ic_menu_manage"-->
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+
+            android:title="Comuunity" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+
+            android:title="My Page" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+
+            android:title="Workout" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+
+            android:title="Timer" />
     </group>
 
     <item android:title="Only Toggle Theme would work">
