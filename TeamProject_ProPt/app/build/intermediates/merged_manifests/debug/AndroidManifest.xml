@@ -53,6 +53,8 @@
         <activity android:name="koreatech.teamproject_propt.AddPostActivity" />
         <activity android:name="koreatech.teamproject_propt.EditPostActivity" />
         <activity android:name="koreatech.teamproject_propt.PostListActivity" />
+        <activity android:name="koreatech.teamproject_propt.RecordActivity" />
+        <activity android:name="koreatech.teamproject_propt.SpecActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"

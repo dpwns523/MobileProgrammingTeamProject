@@ -46,24 +46,44 @@ public class PostRVAdapter extends RecyclerView.Adapter<PostRVAdapter.ViewHolder
         // recycler view item에 필요한 값
         PostRVModal postRVModal = postRVModalArrayList.get(holder.getAdapterPosition());
         holder.postNameTV.setText(postRVModal.getPostName());
-        holder.postCategoryTV.setText(postRVModal.getPostCategory());
 
-        if (holder.postImgIV == null) {
-            holder.postImgIV.setImageResource(R.drawable.community);
-        } else{
-            Picasso.get().load(postRVModal.getPostImgLink()).into(holder.postImgIV);
+        String postCategory = postRVModal.getPostCategory();
+        holder.postCategoryTV.setText(postCategory);
+
+        switch(postCategory) {
+            case "자유":
+                holder.postImgIV.setImageResource(R.drawable.goal);
+                break;
+            case "질문":
+                holder.postImgIV.setImageResource(R.drawable.ic_baseline_emoji_people_24);
+                break;
+            case "운동 팁":
+                holder.postImgIV.setImageResource(R.drawable.ic_baseline_sports_kabaddi_24);
+                break;
+            case "식단 공유":
+                holder.postImgIV.setImageResource(R.drawable.ic_baseline_no_food_24);
+                break;
         }
-
 
         // recycler view item에 애니메이션 추가
         setAnimation(holder.itemView, holder.getAdapterPosition());
+
+        // onClick 리스너 추가
         holder.postImgIV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 postClickInterface.onPostClick(holder.getAdapterPosition());
             }
         });
+
+        holder.postNameTV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                postClickInterface.onPostClick(holder.getAdapterPosition());
+            }
+        });
     }
+
 
     private void setAnimation(View itemView, int position) {
         if (position > lastPos) {

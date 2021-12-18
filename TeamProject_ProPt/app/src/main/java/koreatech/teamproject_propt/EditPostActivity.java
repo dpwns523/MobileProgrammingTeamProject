@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -20,106 +22,130 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.HashMap;
 import java.util.Map;
 
-public class EditPostActivity extends AppCompatActivity {
+/*
+    커뮤니티에 생성된 글 수정하기 위한 액티비티
+    - 게시판 글 수정
+    - 게시판 글 삭제
+ */
 
-    // creating variables for our edit text, firebase database,
-    // database reference, course rv modal,progress bar.
-    private TextInputEditText editPostName, editPostCategory, editPostDesc, editPostImgLink;
+public class EditPostActivity extends AppCompatActivity {
+    private TextInputEditText editPostName, editPostDesc;
+    private String postId;
+    private RadioButton editPostCategoryBtn;
+    PostRVModal postRVModal;
+
+    // firebase 객체 사용을 위한 firebase database, database reference 객체
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
-    PostRVModal postRVModal;
+
+    // 진행상태 나타내기 위한 ProgressBar 객체
     private ProgressBar editPBloading;
-    // creating a string for our course id.
-    private String postId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_post);
-        // initializing all our variables on below line.
+
         Button updatePostBtn = findViewById(R.id.updatePostBtn);
+        Button deletePostBtn = findViewById(R.id.deletePostBtn);
         editPostName = findViewById(R.id.editPostName);
-        editPostCategory = findViewById(R.id.editPostCategory);
         editPostDesc = findViewById(R.id.editPostDesc);
-        editPostImgLink = findViewById(R.id.editPostImageLink);
         editPBloading = findViewById(R.id.editPBLoading);
+
         firebaseDatabase = FirebaseDatabase.getInstance();
-        // on below line we are getting our modal class on which we have passed.
+
+        // 인탠트에서 'post'에 해당하는 값을 읽어옴
         postRVModal = getIntent().getParcelableExtra("post");
-        Button deleteCourseBtn = findViewById(R.id.deletePostBtn);
 
         if (postRVModal != null) {
-            // on below line we are setting data to our edit text from our modal class.
+            // Modal에 값이 있다면, Modal에서 값 추출 후 갱신
             editPostName.setText(postRVModal.getPostName());
-            editPostCategory.setText(postRVModal.getPostCategory());
-            editPostImgLink.setText(postRVModal.getPostImgLink());
             editPostDesc.setText(postRVModal.getPostDesc());
             postId = postRVModal.getPostId();
+
+            RadioGroup categoryRadioGroup = findViewById(R.id.editCategoryRadio);
+
+            // 모달에서 카테고리의 텍스트값을 읽어와 해당하는 라디오 버튼에 체크
+            switch(postRVModal.getPostCategory()) {
+                case "자유":
+                    categoryRadioGroup.check(R.id.freeRadioBtn);
+                    break;
+                case "질문":
+                    categoryRadioGroup.check(R.id.questionRadioBtn);
+                    break;
+                case "운동 팁":
+                    categoryRadioGroup.check(R.id.tipRadioBtn);
+                    break;
+                case "식단 공유":
+                    categoryRadioGroup.check(R.id.dietRadioBtn);
+                    break;
+            }
         }
 
-        // on below line we are initialing our database reference and we are adding a child as our course id.
+        // 데이터베이스 객체 초기화 및 child 생성
         databaseReference = firebaseDatabase.getReference("Posts").child(postId);
-        // on below line we are adding click listener for our add course button.
+
+        // 게시글 수정 버튼에 이벤트 리스너 등록
         updatePostBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // on below line we are making our progress bar as visible.
+                RadioGroup categoryRadioGroup = (RadioGroup) (findViewById(R.id.editCategoryRadio));
+                editPostCategoryBtn = (RadioButton) (findViewById(categoryRadioGroup.getCheckedRadioButtonId()));
+
                 editPBloading.setVisibility(View.VISIBLE);
-                // on below line we are getting data from our edit text.
                 String postName = editPostName.getText().toString();
-                String postCategory = editPostCategory.getText().toString();
+                String postCategory = editPostCategoryBtn.getText().toString();
                 String postDesc = editPostDesc.getText().toString();
-                String postImg = editPostImgLink.getText().toString();
-                // on below line we are creating a map for
-                // passing a data using key and value pair.
+
+                // 자료 전달하기 위해 map에 데이터 저장
                 Map<String, Object> map = new HashMap<>();
                 map.put("postId", postId);
                 map.put("postName", postName);
                 map.put("postCategory", postCategory);
                 map.put("postDesc", postDesc);
-                map.put("postImg", postImg);
 
-                // on below line we are calling a database reference on
-                // add value event listener and on data change method
-                databaseReference.addValueEventListener(new ValueEventListener() {
+                databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        // making progress bar visibility as gone.
                         editPBloading.setVisibility(View.GONE);
-                        // adding a map to our database.
+
+                        // 데이터베이스에 map 저장
                         databaseReference.updateChildren(map);
-                        // on below line we are displaying a toast message.
+
+                        // 게시글 수정 완료 토스트 메시지 출력
                         Toast.makeText(EditPostActivity.this, "게시글 수정 완료", Toast.LENGTH_SHORT).show();
-                        // opening a new activity after updating our coarse.
+
+                        // PostListActivity 실행
                         startActivity(new Intent(EditPostActivity.this, PostListActivity.class));
                     }
 
                     @Override
                     public void onCancelled(@NonNull DatabaseError error) {
-                        // displaying a failure message on toast.
+                        // 게시글 수정을 취소할 경우 이에 해당하는 토스트 메시지 출력
                         Toast.makeText(EditPostActivity.this, "게시글 수정 실패", Toast.LENGTH_SHORT).show();
                     }
                 });
             }
         });
 
-        // adding a click listener for our delete course button.
-        deleteCourseBtn.setOnClickListener(new View.OnClickListener() {
+        // 삭제 버튼에 이벤트 리스너 추가
+        deletePostBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // calling a method to delete a course.
-                deleteCourse();
+                // 게시글 삭제
+                deletePost();
             }
         });
 
     }
 
-    private void deleteCourse() {
-        // on below line calling a method to delete the course.
+    private void deletePost() {
         databaseReference.removeValue();
-        // displaying a toast message on below line.
-        Toast.makeText(this, "Course Deleted..", Toast.LENGTH_SHORT).show();
-        // opening a main activity on below line.
+
+        // 게시글 삭제 완료 토스트 메시지 출력
+        Toast.makeText(this, "게시글 삭제 완료", Toast.LENGTH_SHORT).show();
+
+        // PostListActivity 실행
         startActivity(new Intent(EditPostActivity.this, PostListActivity.class));
     }
 }

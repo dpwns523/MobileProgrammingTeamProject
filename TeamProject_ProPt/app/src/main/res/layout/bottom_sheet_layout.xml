@@ -6,94 +6,85 @@
     android:layout_height="wrap_content"
     android:padding="4dp">
 
-    <!--text view for displaying course name-->
+    <!--게시글 제목-->
     <TextView
         android:id="@+id/bottomSheetPostName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="3dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
         android:padding="4dp"
         android:text="게시글 제목"
         android:textColor="@color/white"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
-    <!--image view for displaying course image-->
+    <!--게시글 이미지-->
     <ImageView
         android:id="@+id/bottomSheetPostImg"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_below="@id/bottomSheetPostName"
         android:layout_centerVertical="true"
-        android:layout_margin="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
         android:padding="4dp"
-        android:src="@drawable/ic_launcher_background" />
+        android:src="@drawable/android" />
 
-    <!--text view for displaying course description-->
-    <TextView
-        android:id="@+id/bottomSheetPostDesc"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/bottomSheetPostName"
-        android:layout_margin="4dp"
-        android:layout_toEndOf="@id/bottomSheetPostImg"
-        android:layout_toRightOf="@id/bottomSheetPostImg"
-        android:padding="3dp"
-        android:text="Description"
-        android:textColor="@color/white" />
-
-<!--    &lt;!&ndash;text view for displaying course best suited for&ndash;&gt;-->
-<!--    <TextView-->
-<!--        android:id="@+id/idTVSuitedFor"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_below="@id/idTVCourseDesc"-->
-<!--        android:layout_margin="4dp"-->
-<!--        android:layout_toRightOf="@id/idIVCourse"-->
-<!--        android:padding="3dp"-->
-<!--        android:text="Suited for"-->
-<!--        android:textColor="@color/white" />-->
-
-    <!--text view for displaying course price-->
+    <!--게시글 카테고리-->
     <TextView
         android:id="@+id/bottomSheetPostCategory"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/bottomSheetPostDesc"
-        android:layout_margin="4dp"
+        android:layout_below="@id/bottomSheetPostName"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toEndOf="@id/bottomSheetPostImg"
         android:layout_toRightOf="@id/bottomSheetPostImg"
         android:padding="3dp"
-        android:text="Price"
+        android:text="Category"
         android:textColor="@color/white"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textSize="16sp" />
+
+    <!--게시글 설명-->
+    <TextView
+        android:id="@+id/bottomSheetPostDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bottomSheetPostCategory"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@id/bottomSheetPostImg"
+        android:padding="3dp"
+        android:text="Description"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/bottomSheetPostCategory"
+        android:layout_below="@id/bottomSheetPostDesc"
+        android:layout_marginTop="46dp"
         android:orientation="horizontal"
         android:weightSum="2">
 
-        <!--button for editing course-->
+        <!--게시글 수정 버튼-->
         <Button
             android:id="@+id/editPostBtn"
-            android:layout_width="0dp"
+            android:layout_width="369dp"
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
             android:layout_weight="1"
-            android:text="Edit Course"
-            android:textAllCaps="false" />
-
-        <!--button for viewing course details-->
-        <Button
-            android:id="@+id/detailPostBtn"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="6dp"
-            android:layout_weight="1"
-            android:text="View Details"
+            android:text="게시글 수정"
             android:textAllCaps="false" />
 
     </LinearLayout>
