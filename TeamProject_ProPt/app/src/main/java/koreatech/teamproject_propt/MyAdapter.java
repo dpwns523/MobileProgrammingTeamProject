@@ -66,7 +66,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>  {
         holder.cl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(context, sub_exercise_way.class);
+                Intent i = new Intent(context, SubExerciseWayActivity.class);
                 i.putExtra("title",data1[holder.getAdapterPosition()]);
                 i.putExtra("image",images[holder.getAdapterPosition()]);
                 i.putExtra("description",data2[holder.getAdapterPosition()]);

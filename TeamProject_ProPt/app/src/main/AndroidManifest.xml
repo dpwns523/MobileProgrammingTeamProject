@@ -27,10 +27,10 @@
 
 
 <!--        //운동방법에 대한 activity-->
-        <activity android:name=".main_exercise_way"/>
-        <activity android:name=".sub_exercise_way"/>
+        <activity android:name=".ExerciseWayActivity"/>
+        <activity android:name=".SubExerciseWayActivity"/>
 <!--        //일일운동목표에 대한 activity-->
-        <activity android:name=".main_exercise_report"/>
+        <activity android:name=".ExerciseReportActivity"/>
         <!-- 커뮤니티 자유게시판에 대한 activity-->
         <!--    사용자 프로필에 대한 activity      -->
         <activity android:name=".user_info"/>

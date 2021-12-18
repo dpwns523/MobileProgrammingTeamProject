@@ -104,14 +104,14 @@ public class HomeActivity extends AppCompatActivity
         );
         //운동방법 onClickListener
         exercise_way.setOnClickListener(v -> {
-                    Intent intent = new Intent(HomeActivity.this, main_exercise_way.class);
+                    Intent intent = new Intent(HomeActivity.this, ExerciseWayActivity.class);
                     startActivity(intent);
                 }
         );
 
         //일일운동목표 onClickListener
         exercise_report.setOnClickListener(v -> {
-                    Intent intent = new Intent(HomeActivity.this, main_exercise_report.class);
+                    Intent intent = new Intent(HomeActivity.this, ExerciseReportActivity.class);
                     startActivity(intent);
                 }
         );

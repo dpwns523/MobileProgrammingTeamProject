@@ -1,25 +1,15 @@
 package koreatech.teamproject_propt;
 
 import android.app.AlertDialog;
-import android.app.LauncherActivity;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.text.InputFilter;
-import android.view.KeyEvent;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.inputmethod.EditorInfo;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.CalendarView;
-import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -39,21 +29,9 @@ import java.util.List;
     부위별 운동 기록이기 때문에, 덮어쓰기.
  */
 
-public class main_exercise_report extends AppCompatActivity {
+public class ExerciseReportActivity extends AppCompatActivity {
     private Context mContext = this;
-<<<<<<< HEAD
     private static final int ACTIVITY_NUM = 2;
-=======
-<<<<<<< HEAD
-    private static final int ACTIVITY_NUM = 2;
-    private ListAdapter adapter;
-    private ListView listView;
-    private int num;
-=======
-    private static final int ACTIVITY_NUM = 4;
->>>>>>> 099d14a432efe72bacfe7321459c1e9bb0101419
->>>>>>> ac6d9ffb41e523e491815c70626b48d080dae006
-
     private ListView listView;
     private List<String> items = new ArrayList<>();
     private ArrayAdapter<String> adapter;
@@ -78,7 +56,7 @@ public class main_exercise_report extends AppCompatActivity {
                 // 선택된 year, month, dayOfMonth를 얻을 수 있음.
                 // 선택된 년-월-일을 가지고 노드 : 2021 - child가 월 - child가 일 -child가 arm,chest,back,lowerbody
                 items.clear();
-                LinearLayout dialogView = (LinearLayout) View.inflate(main_exercise_report.this, R.layout.record_dialog, null);
+                LinearLayout dialogView = (LinearLayout) View.inflate(ExerciseReportActivity.this, R.layout.record_dialog, null);
                 AlertDialog.Builder alert = new AlertDialog.Builder(mContext);
                 alert.setView(dialogView);
                 alert.setPositiveButton("확인", new DialogInterface.OnClickListener() {

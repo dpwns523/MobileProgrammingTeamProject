@@ -15,18 +15,15 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/postRV"
         android:layout_width="match_parent"
-<<<<<<< HEAD
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp" />
 
-    <ProgressBar
-        android:id="@+id/PBLoadingRV"
-        android:layout_width="wrap_content"
-=======
->>>>>>> 099d14a432efe72bacfe7321459c1e9bb0101419
-        android:layout_height="wrap_content"
-        android:stackFromBottom="true"
-        tools:listitem="@layout/post_rv_item"/>
+<!--    <ProgressBar-->
+<!--        android:id="@+id/PBLoadingRV"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:stackFromBottom="true"-->
+<!--        tools:listitem="@layout/post_rv_item"/>-->
 
     <!--제어를 위한 floating action button-->
     <TextView
@@ -57,15 +54,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-<<<<<<< HEAD
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="74dp"
-=======
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:src="@drawable/ic_add"
->>>>>>> 099d14a432efe72bacfe7321459c1e9bb0101419
         android:contentDescription="Floating Action Btn"
+        android:src="@drawable/ic_add"
         app:tint="@color/white" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -74,7 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="?android:attr/windowBackground"
-        android:foreground="?attr/selectableItemBackground"
+        android:foreground="?android:attr/selectableItemBackground"
         app:elevation="10dp"
         app:itemBackground="@color/bottomNavigationBackground"
         app:itemIconTint="@color/bottom_navigation_color"

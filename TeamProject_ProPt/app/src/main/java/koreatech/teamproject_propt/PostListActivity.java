@@ -6,6 +6,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -40,8 +42,6 @@ public class PostListActivity extends AppCompatActivity implements PostRVAdapter
     private static final int ACTIVITY_NUM = 2;
     private Button addPostBtn;
 
-
-
     // firebase의 database, auth, reference 사용
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
@@ -61,7 +61,7 @@ public class PostListActivity extends AppCompatActivity implements PostRVAdapter
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post_list);
 
-<<<<<<< HEAD
+
         BottomNavigationView bottomNavigationView = findViewById(R.id.navigation);
         BottomNavigationViewHelper.enableNavigation(mContext, bottomNavigationView);
         Menu menu = bottomNavigationView.getMenu();
@@ -69,8 +69,7 @@ public class PostListActivity extends AppCompatActivity implements PostRVAdapter
         menuItem.setChecked(true);
 
         // initializing all our variables.
-=======
->>>>>>> 099d14a432efe72bacfe7321459c1e9bb0101419
+
         postRV = findViewById(R.id.postRV);
         homeRL = findViewById(R.id.bottomSheetRL);
         addPostFAB = findViewById(R.id.addPostFAB);

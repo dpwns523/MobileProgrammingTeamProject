@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
     기능구현 :
     운동목록에서 누른 값을 액티비티로 출력하게 됨
  */
-public class sub_exercise_way extends AppCompatActivity {
+public class SubExerciseWayActivity extends AppCompatActivity {
     ImageView img;
     Button btn;
     TextView title_tv,description,part_tv;

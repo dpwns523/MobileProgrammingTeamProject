@@ -17,7 +17,7 @@ import com.google.android.material.tabs.TabLayout;
     3.tabview의 tab목록을 누르게되면 그에 맞는 cardview를 생성하게됨
  */
 
-public class main_exercise_way extends AppCompatActivity {
+public class ExerciseWayActivity extends AppCompatActivity {
     //변수들을 선언해줍니다.
     RecyclerView recyclerView;
     String s1[],s2[];

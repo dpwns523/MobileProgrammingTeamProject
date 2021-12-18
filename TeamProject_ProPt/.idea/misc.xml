@@ -5,10 +5,12 @@
       <map>
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/activity_add_post.xml" value="0.10625" />
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/activity_find.xml" value="0.18034447821681865" />
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/activity_home.xml" value="0.12689969604863222" />
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/activity_login.xml" value="0.18034447821681865" />
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/activity_main.xml" value="0.18034447821681865" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/activity_post_list.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/activity_signup.xml" value="0.18034447821681865" />
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/app_bar_main.xml" value="0.12689969604863222" />
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/community_card.xml" value="0.12689969604863222" />
@@ -16,6 +18,7 @@
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/exercise_report.xml" value="0.12689969604863222" />
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/exercise_way.xml" value="0.12689969604863222" />
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/main_exercise_report.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/post_rv_item.xml" value="0.10625" />
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/profile_dialog.xml" value="0.10625" />
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/record_dialog.xml" value="0.10625" />
         <entry key="..\:/Users/BIN/AndroidStudioProjects/Project/TeamProject_ProPt/app/src/main/res/layout/timer.xml" value="0.12689969604863222" />

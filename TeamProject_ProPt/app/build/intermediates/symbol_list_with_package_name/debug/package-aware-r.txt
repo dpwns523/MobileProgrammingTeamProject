@@ -2239,11 +2239,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
-<<<<<<< HEAD
-=======
 id freeRadioBtn
-id free_talking
->>>>>>> 099d14a432efe72bacfe7321459c1e9bb0101419
 id frost
 id ghost_view
 id ghost_view_holder
@@ -2417,11 +2413,7 @@ id profileCircleImageView
 id progressBarCircle
 id progress_circular
 id progress_horizontal
-<<<<<<< HEAD
-=======
 id questionRadioBtn
-id questions
->>>>>>> 099d14a432efe72bacfe7321459c1e9bb0101419
 id radio
 id ratio
 id rectangles
@@ -2557,11 +2549,7 @@ id textinput_suffix_text
 id textviewMessage
 id time
 id timer
-<<<<<<< HEAD
-=======
 id tipRadioBtn
-id tips
->>>>>>> 099d14a432efe72bacfe7321459c1e9bb0101419
 id title
 id titleDividerNoCustom
 id title_template
@@ -2780,18 +2768,8 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout post_rv_item
-<<<<<<< HEAD
 layout profile_dialog
-=======
-<<<<<<< HEAD
-=======
->>>>>>> ac6d9ffb41e523e491815c70626b48d080dae006
-layout questions
-layout questions_comment
-layout questions_read
-layout questions_write
 layout record_dialog
->>>>>>> 099d14a432efe72bacfe7321459c1e9bb0101419
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
