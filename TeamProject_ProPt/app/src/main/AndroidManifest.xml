@@ -24,8 +24,6 @@
         <activity android:name=".FindActivity" />
         <activity android:name=".HomeActivity"/>
         <activity android:name=".TimerActivity"/>
-
-
 <!--        //운동방법에 대한 activity-->
         <activity android:name=".ExerciseWayActivity"/>
         <activity android:name=".SubExerciseWayActivity"/>
