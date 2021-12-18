@@ -23,26 +23,6 @@
             android:layout_height="match_parent"
             tools:context=".RecordActivity">
 
-            <com.google.android.material.bottomnavigation.BottomNavigationView
-                android:id="@+id/navigation"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:background="?android:attr/windowBackground"
-                android:foreground="?android:attr/selectableItemBackground"
-                app:elevation="10dp"
-                app:itemBackground="@color/bottomNavigationBackground"
-                app:itemIconTint="@color/bottom_navigation_color"
-                app:itemTextColor="@color/bottom_navigation_color"
-                app:labelVisibilityMode="labeled"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1.0"
-                app:menu="@menu/master_bottom_navigation" />
-
             <TextView
                 android:id="@+id/textViewUser"
                 style="@style/viewParent.headerText"
@@ -80,12 +60,10 @@
                 android:onClick="onClick"
                 android:text="날짜 선택"
                 android:textSize="10sp"
-                app:layout_constraintBottom_toTopOf="@+id/navigation"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.047"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.155" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/datefill"
@@ -94,12 +72,10 @@
                 android:layout_marginEnd="232dp"
                 android:text=""
 
-                app:layout_constraintBottom_toTopOf="@+id/navigation"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toEndOf="@+id/datebutton"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.156" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <com.github.mikephil.charting.charts.PieChart
                 android:id="@+id/piechart"

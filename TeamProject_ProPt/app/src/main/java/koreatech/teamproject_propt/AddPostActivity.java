@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -35,6 +36,9 @@ public class AddPostActivity extends AppCompatActivity {
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
 
+    // 인증을 위해 FirebaseAuth 객체 생성
+    FirebaseAuth firebaseAuth;
+
     // 진행상태 나타내기 위한 ProgressBar 객체
     private ProgressBar loadingPB;
 
@@ -48,9 +52,12 @@ public class AddPostActivity extends AppCompatActivity {
         postDesc = findViewById(R.id.editPostDesc);
         loadingPB = findViewById(R.id.PBLoading);
 
+        // firebaseAuth에서 유저 id 가져옴
+        String uid = FirebaseAuth.getInstance().getUid();
+
         // firebase 객체 사용을 위한 firebase database, database reference 객체 초기화
         firebaseDatabase = FirebaseDatabase.getInstance();
-        databaseReference = firebaseDatabase.getReference("Posts");
+        databaseReference = firebaseDatabase.getReference("Users").child(uid).child("Posts");
 
         registerPostBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,7 +84,7 @@ public class AddPostActivity extends AppCompatActivity {
                         postRVModal.setPostId(postID);
 
                         // 모달 객체 전달해 데이터베이스에 값 저장
-                        databaseReference.child(postID).setValue(postRVModal);
+                        databaseReference.child("postNo : " + postID).setValue(postRVModal);
 
                         // 게시글 등록 완료 토스트 메시지 출력
                         Toast.makeText(AddPostActivity.this, "게시글 등록 완료", Toast.LENGTH_SHORT).show();

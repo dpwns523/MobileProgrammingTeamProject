@@ -114,6 +114,7 @@
                             android:textColor="#FFFFFF"
                             android:textSize="8sp"
                             android:textStyle="bold"
+                            android:onClick="onClick"
                             tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
                         <ListView

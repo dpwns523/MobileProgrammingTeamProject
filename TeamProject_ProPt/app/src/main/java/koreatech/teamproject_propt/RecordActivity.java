@@ -3,6 +3,7 @@ package koreatech.teamproject_propt;
 import android.app.DatePickerDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -24,9 +25,18 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 
+import com.github.mikephil.charting.animation.Easing;
+import com.github.mikephil.charting.charts.PieChart;
+import com.github.mikephil.charting.components.Description;
+import com.github.mikephil.charting.data.PieData;
+import com.github.mikephil.charting.data.PieDataSet;
+import com.github.mikephil.charting.data.PieEntry;
+import com.github.mikephil.charting.utils.ColorTemplate;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
+
+import java.util.ArrayList;
 
 /*
     자신이 기록한 데이터를 가지고 그래프로 구현
@@ -87,6 +97,41 @@ public class RecordActivity extends AppCompatActivity implements NavigationView.
 
         bottomNavigationView = findViewById(R.id.navigation2);
         bottomNavigationView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        PieChart pieChart = (PieChart) findViewById(R.id.piechart);
+
+        pieChart.setUsePercentValues(true);
+        pieChart.getDescription().setEnabled(false);
+        pieChart.setExtraOffsets(5, 10, 5, 5);
+
+        pieChart.setDragDecelerationFrictionCoef(0.95f);
+
+        pieChart.setDrawHoleEnabled(false);
+        pieChart.setHoleColor(Color.WHITE);
+        pieChart.setTransparentCircleRadius(61f);
+
+        ArrayList<PieEntry> yValues = new ArrayList<PieEntry>();
+
+        yValues.add(new PieEntry(35f, "Back"));
+        yValues.add(new PieEntry(30f, "Arm"));
+        yValues.add(new PieEntry(45f, "Chest"));
+        yValues.add(new PieEntry(25f, "lowerBody"));
+
+        Description description = new Description();
+        description.setText("운동 비율"); //라벨
+        description.setTextSize(15);
+        pieChart.setDescription(description);
+
+        pieChart.animateY(1000, Easing.EaseInOutCubic); //애니메이션
+
+        PieDataSet dataSet = new PieDataSet(yValues, "Part");
+        dataSet.setSliceSpace(3f);
+        dataSet.setSelectionShift(5f);
+        dataSet.setColors(ColorTemplate.JOYFUL_COLORS);
+
+        PieData data = new PieData((dataSet));
+        data.setValueTextSize(10f);
+        data.setValueTextColor(Color.YELLOW);
+        pieChart.setData(data);
     }
 
     public void onClick(View v) {
@@ -140,4 +185,48 @@ public class RecordActivity extends AppCompatActivity implements NavigationView.
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+//    public void onClickButton(View v){
+//        switch(v.getId()){
+//            case R.id.specButton:
+//                break;
+//            case R.id.exerciseButton:
+//                PieChart pieChart = (PieChart) findViewById(R.id.piechart);
+//
+//                pieChart.setUsePercentValues(true);
+//                pieChart.getDescription().setEnabled(false);
+//                pieChart.setExtraOffsets(5, 10, 5, 5);
+//
+//                pieChart.setDragDecelerationFrictionCoef(0.95f);
+//
+//                pieChart.setDrawHoleEnabled(false);
+//                pieChart.setHoleColor(Color.WHITE);
+//                pieChart.setTransparentCircleRadius(61f);
+//
+//                ArrayList<PieEntry> yValues = new ArrayList<PieEntry>();
+//
+//                yValues.add(new PieEntry(34f, "Back"));
+//                yValues.add(new PieEntry(23f, "Arm"));
+//                yValues.add(new PieEntry(45f, "Chest"));
+//                yValues.add(new PieEntry(10f, "lowerBody"));
+//
+//                Description description = new Description();
+//                description.setText("운동 비율"); //라벨
+//                description.setTextSize(15);
+//                pieChart.setDescription(description);
+//
+//                pieChart.animateY(1000, Easing.EaseInOutCubic); //애니메이션
+//
+//                PieDataSet dataSet = new PieDataSet(yValues, "Part");
+//                dataSet.setSliceSpace(3f);
+//                dataSet.setSelectionShift(5f);
+//                dataSet.setColors(ColorTemplate.JOYFUL_COLORS);
+//
+//                PieData data = new PieData((dataSet));
+//                data.setValueTextSize(10f);
+//                data.setValueTextColor(Color.YELLOW);
+//                pieChart.setData(data);
+//                break;
+//
+//        }
+//    }
 }

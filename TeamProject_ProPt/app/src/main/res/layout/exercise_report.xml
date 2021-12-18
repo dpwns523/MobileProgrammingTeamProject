@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="일일 운동 목표 설정"
+            android:text="일일 운동 기록"
             android:textColor="@color/miniTitle"
             android:textSize="20sp"
             android:textStyle="bold" />

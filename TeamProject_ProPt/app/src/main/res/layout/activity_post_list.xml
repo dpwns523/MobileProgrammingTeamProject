@@ -50,7 +50,7 @@
                 android:layout_marginLeft="17dp"
                 android:layout_marginTop="13dp"
                 android:maxLines="2"
-                android:text="팁 게시판" />
+                android:text="게시판" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/profileCircleImageView"
